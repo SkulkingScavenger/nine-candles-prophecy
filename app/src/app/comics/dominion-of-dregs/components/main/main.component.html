@@ -1,0 +1,19 @@
+<div class="container">
+	<div class="header">
+		<h1 class="title">Dominion of Dregs</h1>
+	</div>
+	<div class="main">
+		<div class="comic-container">
+			<img src="{{imageUrl}}" height="1000px">
+		</div>
+	</div>
+	<div class="footer">
+		<div class="button-holder">
+		<button (click)="goToFirstPage()" class="back-button" [ngClass]="{'disabled': currentPage==0}"><<< First</button>
+			<button (click)="goToPreviousPage()" class="back-button" [ngClass]="{'disabled': currentPage==0}">< Previous</button>
+			<button (click)="goToIndex()">Index</button>
+			<button (click)="goToNextPage()" class="next-button" [ngClass]="{'disabled': currentPage==mostRecentPage}">Next ></button>
+			<button (click)="goToLastPage()" class="next-button" [ngClass]="{'disabled': currentPage==mostRecentPage}">Latest >>></button>
+		</div>
+	</div>
+</div>

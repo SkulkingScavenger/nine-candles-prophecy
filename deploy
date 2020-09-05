@@ -1,0 +1,4 @@
+#!/bin/bash
+cd app
+ng build --prod --base-href "https://SkulkingScavenger.github.io/nine-candles-prophecy/"
+npx angular-cli-ghpages --dir=dist/app

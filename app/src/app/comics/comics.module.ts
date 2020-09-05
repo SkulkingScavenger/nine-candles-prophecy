@@ -1,6 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ComicsRoutingModule } from './comics-routing.module';
+import { NavigationModule } from './../navigation/navigation.module';
 
 import { ComicsComponent } from './components/comics.component';
 
@@ -9,7 +10,9 @@ import { ComicsComponent } from './components/comics.component';
     ComicsComponent
   ],
   imports: [
-    BrowserModule
+    CommonModule,
+    ComicsRoutingModule,
+    NavigationModule
   ],
   providers: [],
   bootstrap: [ComicsComponent]

@@ -1,3 +1,35 @@
-<div>
-	<h1>Stuff</h1>
+<div class="navigation-header-container">
+	<div class="navigation-header">
+		<div class="logo"></div>
+		<ul>
+			<li>
+				<a [routerLink]="['/home']" class="navigation-button-holder" [ngClass]="{'active':currentTab=='home'}">
+					<span>Home</span>
+				</a>
+			</li>
+			<li>
+				<a [routerLink]="['/comics']" class="navigation-button-holder" [ngClass]="{'active':currentTab=='comics'}">
+					<span>Comics</span>
+				</a>
+			</li>
+			<li>
+				<a [routerLink]="['/stories']" class="navigation-button-holder" [ngClass]="{'active':currentTab=='stories'}">
+					<span>Stories</span>
+				</a>
+			</li>
+			<li>
+				<a [routerLink]="['/prophecies']" class="navigation-button-holder" [ngClass]="{'active':currentTab=='prophecies'}">
+					<span>Prophecies</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://github.com/SkulkingScavenger/dark-starve/wiki" class="navigation-button-holder" [ngClass]="{'active':currentTab=='wiki'}">
+					<span>Wiki</span>
+				</a>
+			</li>
+		</ul>
+		<div class="right-section">
+			
+		</div>
+	</div>
 </div>
