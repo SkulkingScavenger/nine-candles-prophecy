@@ -10,6 +10,8 @@ MIT
 @angular/router
 MIT
 
+app
+
 css-loader
 MIT
 Copyright JS Foundation and other contributors

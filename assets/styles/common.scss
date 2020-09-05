@@ -1,3 +1,7 @@
+@import './variables';
+@import './text';
+@import './buttons';
+
 @mixin col-md-x($attr-count:12) {
   $unit: '%';
   @for $i from 1 through $attr-count {
@@ -277,7 +281,37 @@ hr {
 
 .card-holder {
   min-height: 100vh;
-  background-color: #F4F4F4;
+  background-color: $black;
+    .card{
+    width: 154px;
+    height: 230px; 
+    display: block;
+    margin: 5px;
+    float: left;
+    .title{
+      font-weight: $font-bold;
+      margin:auto;
+      display: flex;
+      text-align: center;
+      height: 45px;
+      margin-bottom: 5px;
+    }
+    img{
+      border: 2px solid $dark-gray;
+      width: 150px;
+      height:150px;
+    }
+    a:hover img{
+      border-color: #222;
+    }
+    a:active img{
+      border-color: $black;
+    }
+    p{
+      font-size: 10px;
+
+    }
+  }
 }
 
 .bg-white {
@@ -317,59 +351,7 @@ section{
     margin-left: auto;
 }
 
-.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.btn-group>.btn:not(:first-child) {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-.btn-group>.btn:not(:first-child) {
-    margin-left: -1px;
-}
 
-.btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
-}
-.btn-outline-info {
-
-  &:not(:disabled):active{
-    border-color: #17a2b8;
-  }
-}
-.btn-group-toggle>.btn, .btn-group-toggle>.btn-group>.btn {
-    margin-bottom: 0;
-}
-.btn-group>.btn {
-    position: relative;
-    flex: 1 1 auto;
-}
-.btn {
-    display: block;
-    font-weight: 400;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.btn-group, .btn-group-vertical {
-    position: relative;
-    display: inline-flex;
-    vertical-align: middle;
-}
 
 .col {
     flex-basis: 0;
@@ -390,6 +372,28 @@ a:not([href]):not([tabindex]) {
   display: block;
   clear: both;
   content: "";
+}
+
+.main{
+  .content-container{
+    
+    .content{
+      .content-header{
+        display: flex;
+        width: 100%;
+        padding: 30px 0px;
+        .content-title{
+          float: left;
+          margin-left: 10%;
+          font-size: 5vh;
+          font-family: roboto, helvetica;
+        }
+      }
+      .content-body{
+        margin: 20px 10%;
+      }
+    }
+  }
 }
 
 @include col-md-x();
