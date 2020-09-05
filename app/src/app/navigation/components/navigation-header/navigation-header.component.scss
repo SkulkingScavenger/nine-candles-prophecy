@@ -64,6 +64,11 @@
 					}
 					&:focus{
 						outline: none;
+						span {
+							background-color: #222;
+						}
+					}
+					&:active{
 						font-size: 16px;
 						span{
 							background-color: #000;

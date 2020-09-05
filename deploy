@@ -1,4 +1,9 @@
 #!/bin/bash
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/skulkingscavenger_rsa
+git add .
+git commit -m "new release"
+git push
 cd app
 ng build --prod --base-href "https://SkulkingScavenger.github.io/nine-candles-prophecy/"
 npx angular-cli-ghpages --dir=dist/app

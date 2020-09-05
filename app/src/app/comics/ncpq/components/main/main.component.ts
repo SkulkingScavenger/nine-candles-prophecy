@@ -15,7 +15,7 @@ export class MainComponent {
 	}
 
 	currentPage = 0;
-	mostRecentPage = 0;
+	mostRecentPage = 1;
 	imageUrl = "";
 
 	ngOnInit(){
