@@ -33,19 +33,43 @@
     flex: 1 1 auto;
 }
 .btn {
-    display: block;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: roboto, helvetica;
+    font-weight: $font-bold;
+    color: $white;
+    background-color: $darker-gray;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    &:hover{
+        background-color: $dark-gray
+    }
+    &:active{
+        background-color: $black;
+        color: $blood-red;
+        font-family: schreibmaschine;
+        font-weight: $font-medium;
+        font-size: 16px;
+        padding: 4px 10px;
+    }
+    &.disabled{
+        background-color: $dark-gray;
+        color: $light-gray;
+        &:active{
+            background-color: $dark-gray;
+            color: $light-gray;
+            font-family: roboto, helvetica;
+            font-weight: $font-bold;
+            font-size: 13px;
+            padding: 10px 10px;
+        }
+    }
 }
 
 .btn-group, .btn-group-vertical {

@@ -24,42 +24,22 @@
 			margin:auto;
 			button{
 				margin: 10px 12px;
-				padding: 10px 10px;
 				width: 110px;
-				border-radius: 3px;
-				font-family: roboto, helvetica;
-				font-weight: $font-bold;
-				color: $white;
-				background-color: $darker-gray;
-				border: none;
-				&:hover{
-					background-color: $dark-gray
-				}
-				&:active{
-					background-color: $black;
-					color: $blood-red;
-					font-family: schreibmaschine;
-					font-weight: $font-medium;
-					font-size: 16px;
-					padding: 4px 10px;
-				}
-				&.disabled{
-					background-color: $dark-gray;
-					color: $light-gray;
-					&:active{
-						background-color: $dark-gray;
-						color: $light-gray;
-						font-family: roboto, helvetica;
-						font-weight: $font-bold;
-						font-size: 13px;
-						padding: 10px 10px;
-					}
-				}
 				&.back-button{
 					border-radius: 3px 3px 3px 20px;
 				}
 				&.next-button{
 					border-radius: 3px 3px 20px 3px;
+				}
+			}
+		}
+		.button-holder-small{
+			margin:auto;
+			button {
+				margin: 10px 6px;
+				&.back-button, &.next-button{
+					border-radius: 5px;
+					width: 40px;
 				}
 			}
 		}

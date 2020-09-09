@@ -74,4 +74,8 @@ export class MainComponent {
 		 this.stringify(this.currentPage) +
 		".png";
 	}
+
+	getWindowWidth(){
+		return window.innerWidth;
+	}
 }

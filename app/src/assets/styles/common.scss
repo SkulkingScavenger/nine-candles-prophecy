@@ -384,13 +384,18 @@ a:not([href]):not([tabindex]) {
         padding: 30px 0px;
         .content-title{
           float: left;
-          margin-left: 10%;
+          margin: auto;
           font-size: 5vh;
           font-family: roboto, helvetica;
         }
       }
       .content-body{
         margin: 20px 10%;
+        .centered {
+          display: block;
+          margin: auto;
+          text-align: center;
+        }
       }
     }
   }
