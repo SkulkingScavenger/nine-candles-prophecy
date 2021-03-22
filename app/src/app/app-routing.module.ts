@@ -20,6 +20,9 @@ const routes: Routes = [
   },{
     path: 'prophecies',
     loadChildren: () => import('./prophecies/prophecies.module').then(m => m.PropheciesModule)
+  },{
+    path: 'wiki',
+    loadChildren: () => import('./wiki/wiki.module').then(m => m.WikiModule)
   }
 
 ];

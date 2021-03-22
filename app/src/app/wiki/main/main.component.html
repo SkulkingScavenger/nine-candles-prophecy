@@ -1,0 +1,8 @@
+<div class="main" id="main">
+	<div class="content-container">
+		<div class="content" *ngIf="isLoaded">
+			<wiki-category *ngIf="isCategory && !pageNotFound" [data]="data"></wiki-category>
+			<wiki-page *ngIf="!isCategory && !pageNotFound" [data]="data"></wiki-page>
+		</div>
+	</div>
+</div>
