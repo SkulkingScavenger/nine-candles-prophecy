@@ -2,29 +2,9 @@
 	<div class="navigation-header">
 		<div class="logo"></div>
 		<ul>
-			<li>
-				<a [routerLink]="['/home']" class="navigation-button-holder" [ngClass]="{'active':currentTab=='home'}">
-					<span>Home</span>
-				</a>
-			</li>
-			<li>
-				<a [routerLink]="['/comics']" class="navigation-button-holder" [ngClass]="{'active':currentTab=='comics'}">
-					<span>Comics</span>
-				</a>
-			</li>
-			<li>
-				<a [routerLink]="['/stories']" class="navigation-button-holder" [ngClass]="{'active':currentTab=='stories'}">
-					<span>Stories</span>
-				</a>
-			</li>
-			<li>
-				<a [routerLink]="['/prophecies']" class="navigation-button-holder" [ngClass]="{'active':currentTab=='prophecies'}">
-					<span>Prophecies</span>
-				</a>
-			</li>
-			<li>
-				<a [routerLink]="['/wiki']" class="navigation-button-holder" [ngClass]="{'active':currentTab=='wiki'}">
-					<span>Wiki</span>
+			<li *ngFor="let tab of navigationTabs">
+				<a [routerLink]="[tab.link]" [ngClass]="{'active':currentTab==tab.id}">
+					<span>{{tab.title}}</span>
 				</a>
 			</li>
 		</ul>

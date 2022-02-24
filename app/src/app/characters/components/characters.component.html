@@ -1,0 +1,29 @@
+<div class="main" id="main">
+	<div class="content-container">
+		<div class="content">
+			<div class="content-header">
+				<h1 class="content-title">Dudes</h1>
+			</div>
+			<div class="content-body">
+				<p>
+				The various guys, in all their majesty<br><br>
+				You seen one, you seen em all, but if you see them all, have you seen more than one?<br>
+				Boy this setting gets deep sometimes...
+				</p>
+
+				<br>
+				<div class="card-holder">
+					<div class="card" *ngFor="let page of pages">
+						<a  routerLink="../{{page.url}}">
+							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
+							<span class="title">{{page.title}}</span>
+						</a>
+						<p>{{page.description}}</p>
+					</div>
+
+					<div style="clear:both"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

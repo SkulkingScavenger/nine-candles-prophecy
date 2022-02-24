@@ -1,1 +1,15 @@
-@import "src/assets/styles/common.scss"
+@import "src/assets/styles/common.scss";
+:host-context(.green-button) button{
+color : green
+}
+::ng-deep .rotfang{
+	color: green;
+}
+
+::ng-deep .epigraph{
+	font-style: italic;
+	text-align: center;
+	.attribution{
+		text-align: right;
+	}
+}

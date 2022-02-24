@@ -1,0 +1,12 @@
+<div class="navigation-sidebar-container">
+	<div class="navigation-header">
+		<div class="logo"></div>
+		<ul>
+			<li *ngFor="let tab of navigationTabs">
+				<a [routerLink]="[tab.link]" [ngClass]="{'active':currentTab==tab.id}">
+					<span>{{tab.title}}</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>

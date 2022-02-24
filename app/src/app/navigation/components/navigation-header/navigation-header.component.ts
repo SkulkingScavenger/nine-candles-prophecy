@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { Router, ActivatedRoute, NavigationEnd} from '@angular/router';
 import { Location } from '@angular/common';
 
@@ -22,4 +22,50 @@ export class NavigationHeaderComponent {
 		});
 	}
 	currentTab = "";
+
+	navigationTabs = [
+		{
+			"id": "home",
+			"link": "/home",
+			"title": "Home"
+		},{
+			"id": "mechanics",
+			"link": "/mechanics",
+			"title": "The World"
+		},{
+			"id": "locations",
+			"link": "/locations",
+			"title": "Geography"
+		},{
+			"id": "characters",
+			"link": "/characters",
+			"title": "Characters"
+		},{
+			"id": "races",
+			"link": "/races",
+			"title": "Races"
+		},{
+			"id": "monsters",
+			"link": "/monsters",
+			"title": "Monsters"
+		},{
+			"id": "resources",
+			"link": "/resources",
+			"title": "Resources"
+		},{
+			"id": "artifacts",
+			"link": "/artifacts",
+			"title": "Artifacts"
+		},{
+			"id": "stories",
+			"link": "/stories",
+			"title": "Stories"
+		},{
+			"id": "wiki",
+			"link": "/wiki",
+			"title": "Wiki"
+		}
+	];
+
+
 }

@@ -1,3 +1,11 @@
-<div>{{data.title}}</div>
-<div [innerHTML]=data.content></div>
-page
+<div class="main">
+	<div class="content-container">
+		<div class="content">
+			<div class="content-header">
+				<h1 class="content-title">{{data.title}}</h1>
+			</div>	
+		<div class="content-body">
+			<div [innerHTML]=data.content></div>
+		</div>
+	</div>
+</div>

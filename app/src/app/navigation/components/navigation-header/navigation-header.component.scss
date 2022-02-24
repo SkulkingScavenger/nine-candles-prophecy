@@ -24,10 +24,10 @@
 			li {
 				float: left;
 				display: inline-block;
-				height: 40px;
+				height: 50px;
 				list-style-type: none;
-				margin: 0px 4px;
-				padding-top: 17px;
+				margin: 0px 3px;
+				padding-top: 15px;
 				&:first-child{
 					a{
 						
@@ -35,20 +35,24 @@
 				}
 				a{
 					height: 45px;
+					font-size: 11px;
+					white-space: nowrap;
+					padding-left: auto;
+					padding-right: auto;
 					&.active {
 						&:focus{
 							span{
-								background-color: #222;
+								background-color: #000;
 								color: $white;
 								font-weight: $font-bold;
 								font-family: inherit;
 								border: none;
-								padding-bottom: 8px;
-								padding-top: 8px;
+								padding-bottom: 16px;
+								padding-top: 16px;
 							}
 						}
 						span{
-							background-color: #222;
+							background-color: #000;
 						}
 					}
 					&:link{
@@ -69,26 +73,29 @@
 						}
 					}
 					&:active{
-						font-size: 16px;
+						font-size: 12px;
 						span{
 							background-color: #000;
 							color: $blood-red;
 							font-weight: $font-medium;
 							font-family: schreibmaschine;
-							border: 2px solid #222;
-							padding-bottom: 4px;
-							padding-top: 9px;
+							// border: 2px solid #222;
+							//padding-bottom: 4px;
+							//padding-top: 9px;
 						}
 					}
 					span{
 						font: sans;
 						font-weight: $font-bold;
-						padding: 8px 16px;
-						border-radius: 6px;
+						padding: 16px 12px;
+						border-radius: 6px 6px 0  0;
 						border: none;
 						cursor: pointer;
-						background-color: #000;
+						background-color: #111;
 						text-transform: uppercase;
+						text-align: center;
+						display: inline-block;
+						width: 65px;
 					}
 				}
 			}
@@ -100,3 +107,4 @@
 		}
 	}
 }
+
