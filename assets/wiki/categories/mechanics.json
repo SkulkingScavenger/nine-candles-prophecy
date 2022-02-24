@@ -1,0 +1,45 @@
+{
+	"title":"Characters",
+	"pages":[
+		{
+			"title" : "Rotfang",
+			"tags" : ["gremlin"],
+			"url" : "rotfang"
+		},
+		{
+			"title" : "Kirith, Witchknight of Tharas",
+			"tags" : ["human","knight","witch","tharas"],
+			"url" : "kirith"
+		},
+		{
+			"title" : "Regulus, Knight of Lanternvale",
+			"tags" : ["human", "knight"],
+			"url" : "regulus"
+		},
+		{
+			"title" : "Gnawfinger",
+			"tags" : ["gremlin","gravekeeper"],
+			"url" : "gnawfinger"
+		},
+		{
+			"title" : "Kyrioth, Parasite God",
+			"tags" : ["warden","sherab"],
+			"url" : "kyrioth"
+		},
+		{
+			"title" : "Shiriel, Harbinger of Endings",
+			"tags" : ["Warden","Sherab"],
+			"url" : "shiriel"
+		},
+		{
+			"title" : "Shiragazira, the Black Devourer",
+			"tags" : ["warden","archwarden","tharas"],
+			"url" : "shiragazira"
+		},
+		{
+			"title" : "Xavier Phineas Alladocius M.D.",
+			"tags" : ["gremlin"],
+			"url" : "hazirak"
+		}
+	]
+}

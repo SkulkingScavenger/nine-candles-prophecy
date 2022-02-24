@@ -282,18 +282,26 @@ hr {
 .card-holder {
   min-height: 100vh;
   background-color: $black;
+    .card-section-header{
+
+    }
+    .card-section-division{
+      border-bottom: 2px solid orange;
+      margin-bottom: 35px;
+      display: flex;
+    }
     .card{
     width: 154px;
-    height: 230px; 
-    display: block;
+    //height: 230px; 
+    display: inline-grid;
     margin: 5px;
-    float: left;
+   // float: left;
     .title{
       font-weight: $font-bold;
       margin:auto;
       display: flex;
       text-align: center;
-      height: 45px;
+      //height: 45px;
       margin-bottom: 5px;
     }
     img{
@@ -310,6 +318,12 @@ hr {
     p{
       font-size: 10px;
 
+    }
+    &.card-large{
+      width: 304px;
+      img{
+        width: 300px;
+      }
     }
   }
 }
