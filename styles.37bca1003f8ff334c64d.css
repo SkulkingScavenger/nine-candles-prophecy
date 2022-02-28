@@ -1,0 +1,1 @@
+@font-face{font-family:schreibmaschine;src:url(Schreibmaschine.7fece41cfe37fd2d87e9.ttf) format("woff")}@keyframes ripple{to{transform:scale(4);opacity:0}}span.ripple{position:absolute;border-radius:50%;transform:scale(0);animation:ripple .6s linear;background-color:hsla(0,0%,100%,.7)}
