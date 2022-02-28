@@ -1,9 +1,26 @@
 {
 	"categories": [
 		{
+			"id": "mechanics",
+			"navtab": "mechanics",
+			"title": "Concepts",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"title": "Concepts",
+					"categories": [
+						{
+							"title": "Concepts",
+							"category": "mechanics"
+						}
+					]
+				}
+			]
+		},{
 			"id": "locations",
 			"navtab": "locations",
 			"title": "Geography",
+			"selector" : "category",
 			"navigation-footers": [
 				{
 					"title": "Locations",
@@ -11,11 +28,13 @@
 						{
 							"title": "The Nine Dominions",
 							"category": "locations",
-							"tag": "dominion"
+							"tag": "dominion",
+							"url": "dominion"
 						},{
 							"title": "Forsaken Villages",
 							"category": "locations",
-							"tag": "village"
+							"tag": "village",
+							"url": "village"
 						}
 					]
 				}
@@ -24,6 +43,7 @@
 			"id": "characters",
 			"navtab": "characters",
 			"title": "characters",
+			"selector" : "category",
 			"navigation-footers": [
 				{
 					"title": "Characters",
@@ -56,6 +76,7 @@
 			"id": "races",
 			"navtab": "races",
 			"title": "Races",
+			"selector" : "category",
 			"navigation-footers": [
 				{
 					"title": "Races of the Oubliette",
@@ -76,6 +97,7 @@
 			"id": "monsters",
 			"navtab": "monsters",
 			"title": "Monsters",
+			"selector" : "category",
 			"navigation-footers": [
 				{
 					"title": "Creatures of the Oubliette",
@@ -93,9 +115,56 @@
 				}
 			]
 		},{
+			"id": "resources",
+			"navtab": "resources",
+			"title": "Resources",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"title": "Resources of the Oubliette",
+					"categories": [
+						{
+							"title": "Resources",
+							"category": "resources"
+						}
+					]
+				}
+			]
+		},{
+			"id": "artifacts",
+			"navtab": "artifacts",
+			"title": "Artifacts",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"title": "Artifacts of the Oubliette",
+					"categories": [
+						{
+							"title": "Artifacts",
+							"category": "artifacts"
+						}
+					]
+				}
+			]
+		},{
+			"id": "dominion",
+			"navtab": "wiki",
+			"title": "Dominions",
+			"selector" : "tag",
+			"navigation-footers": [
+			]
+		},{
+			"id": "village",
+			"navtab": "wiki",
+			"title": "Villages of the Forsaken",
+			"selector" : "tag",
+			"navigation-footers": [
+			]
+		},{
 			"id": "knight",
 			"navtab": "wiki",
 			"title": "Knights",
+			"selector" : "tag",
 			"navigation-footers": [
 				{
 					"title": "Knights of the Oubliette",
@@ -112,6 +181,7 @@
 			"id": "witch",
 			"navtab": "wiki",
 			"title": "Witches",
+			"selector" : "tag",
 			"navigation-footers": [
 				{
 					"title": "Witches of the Oubliette",
@@ -128,6 +198,7 @@
 			"id": "shademarked",
 			"navtab": "wiki",
 			"title": "Shademarked",
+			"selector" : "tag",
 			"navigation-footers": [
 				{
 					"title": "Shademarked Navigators",
@@ -144,6 +215,7 @@
 			"id": "undead",
 			"navtab": "wiki",
 			"title": "Undead",
+			"selector" : "tag",
 			"navigation-footers": [
 				{
 					"title": "Undead Characters",

@@ -14,10 +14,13 @@
 			</tr>
 			<tr *ngFor="let category of categories" class="category-row" [ngClass]="{hidden: !isVisible || category.items.length == 0}">
 				<th *ngIf="categories.length > 1" class="navbox-group">
-					<a>{{category.title}}</a>
+					<a *ngIf="category.url" routerLink="/wiki/category:{{category.url}}">{{category.title}}</a>
+					<span *ngIf="!category.url">{{category.title}}</span>
 				</th>
 				<td>
-					<div class="compact-title">{{category.title}}</div>
+					<div class="compact-title" [ngClass]="{hidden: categories.length <= 1}">
+						<a routerLink="/wiki/category:{{category.url}}">{{category.title}}</a>
+					</div>
 					<ul>
 						<li *ngFor="let item of category.items">
 							<a routerLink="../{{item.url}}">{{item.title}}</a>

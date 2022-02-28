@@ -1,20 +1,21 @@
 <div class="main">
-<div class="content-container">
-<div class="content">
-	<div class="content-header">
-		<h1 class="content-title">{{data.title}}</h1>
-	</div>
-	
-	
-	<div class="content-body">
-		<div class="list-container">
-			<ul *ngFor="let letter of letterList" style="break-inside:avoid-column;display:table">
-				<div style="width:300px;bottom-border:1px solid white;font-size:28px;display:inline-block">{{letter}}</div>
-				<li *ngFor="let page of alphabeticalPageList[letter]" style="">
-					<a routerLink="../{{page.url}}">{{page.title}}</a>
-				</li>
-			</ul>
+	<div class="content-container">
+		<div class="content">
+			<div class="content-header">
+				<h1 class="content-title">{{category.title}}</h1>
+			</div>
+			
+			
+			<div class="content-body">
+				<div class="list-container">
+					<ul *ngFor="let letter of letterList">
+						<div class="letter">{{letter}}</div>
+						<li *ngFor="let page of alphabeticalPageList[letter]">
+							<a routerLink="../{{page.url}}">{{page.title}}</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
 </div>

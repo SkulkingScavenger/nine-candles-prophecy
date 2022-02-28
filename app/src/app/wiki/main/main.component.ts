@@ -63,15 +63,15 @@ export class MainComponent {
 		let sub = this.http.get(path).pipe(
 			switchMap((response: any) => {
 				this.allPages = response;
-				if(this.isCategory){
-					var category = pageName.split("category:")[1];
-					this.data = [];
-					for(var i=0;i<response.pages.length;i++){
-						if(response.pages[i].category == category){
-							this.data.push(response.pages[i]);
-						}
-					}
-					this.OnLoad();				
+				if(this.isCategory && false){
+					// var category = pageName.split("category:")[1];
+					// this.data = [];
+					// for(var i=0;i<response.pages.length;i++){
+					// 	if(response.pages[i].category == category){
+					// 		this.data.push(response.pages[i]);
+					// 	}
+					// }
+					//this.isLoaded = true;			
 					return EMPTY;
 				}else{
 					var pages = response.pages;
@@ -118,6 +118,8 @@ export class MainComponent {
 		this.isLoaded = true;
 		if(!this.isCategory){
 			this.data.content = this.InjectHyperlinkPrefixes(this.data.content);
+		}else{
+			this.pageNotFound = false;
 		}
 	}
 

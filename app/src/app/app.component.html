@@ -3,11 +3,10 @@
 	
 
 	<div class="page-header">
-		<navigation-header *ngIf="isWideScreen"></navigation-header>
+		<navigation-header></navigation-header>
 	</div>
 
 	<div class="page-body" [ngStyle]="{width: contentWidth}">
-		<!-- <navigation-sidebar *ngIf="isWideScreen"></navigation-sidebar> -->
 		<div>
 			<router-outlet></router-outlet>	
 		</div>

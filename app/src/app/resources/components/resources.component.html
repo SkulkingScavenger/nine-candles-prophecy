@@ -4,103 +4,26 @@
 			<div class="content-header">
 				<h1 class="content-title">Resources</h1>
 			</div>
+
 			<div class="content-body">
 				<p>
 				Everybody loves resources!<br>
-				The more you got, the better. At least that's my opinion...
-				<br><br> Don't be the one left missing out!
+				The more you got, the better
+				<br><br> At least, that's my opinion...
 				</p>
 				<br>
 
-				<div class="subsection">
-					<h3>Fungus</h3>
-					<div class="subsection-body">
-						An ubiquitous substance, various species of fungus are found in the oubliette, both wild and cultivated.  In more humid regions, it is more plentiful than darkroot and grows much faster. Many are edible, though somewhat bland, and the stalks of the larger species can be cut and dried to make building materials in a pinch, though the result is not particularly strong and susceptible to rot.
-						<br>
-						While there are an a bewildering variety of molds, mushrooms lichens and other growths here, to the population at large (excluding healers, apothecaries, alchemists and farmers), these are really only interesting for their edibility or lack thereof. Two classes are outstanding:<br>
-						Firstly, the giant mushrooms that grow in huge forests, where the climate is damp and organic material is available in large quantities. The most common species is edible, if not palatable. 
-						<br>
-						Secondly, the vibrantly glowing mushrooms, the most brilliant of which can be found in the legendary forest of lights. Though individual chunks of mushroom flesh soon lose their phosphorescence, smaller  growths can be transplanted whole to serve as living candles, which are highly prized both for their exotic beauty and utility as a clean and long-lasting light-source.
+				<div class="page-content">
+					<div class="subsection" *ngFor="let page of pages">
+						<div class="subsection-header">
+							<h3 class="subsection-title">{{page.title}}</h3>
+						</div>
+						<div class="subsection-body">
+							<div [innerHTML]="page.content"></div>
+						</div>
 					</div>
 				</div>
-				<div class="subsection">
-					<h3>Spider Silk</h3>
-					<div class="subsection-body">
-						The silk of giant spiders is a basic commodity in the Oubliette. It is far lighter and more flexible than darkroot fiber or fungal hyphae, and much easier to work with. The most prized fabrics are spun from the black silk of the Murkweavers, which makes no sound and is as light as air.
-					</div>
-				</div>
-				<div class="subsection">
-					<h3>Darkroot</h3>
-					<div class="subsection-body">
-						The dark, twisted roots that grow through the caves of the oubliette is the foundation of most of the oubliette's strange ecology.<br>
-						Darkroot grows in many shapes and kinds, sometimes occurring as an undergrowth of scraggly vines, sometimes in great forests that rise out of the cavern floor, other times forming impassable, thorny thickets that choke entire tunnels. There are rumors that deep in the oubliette the darkroot grows so vast and malevolent that the vines grow teeth and move of their own accord, devouring anything that comes too close<br>
-						When they grow thin and long, draping from cavern roofs like vines or growing up from the ground like leafless saplings, they are pliable, almost elastic, and easily woven. Thicker boles can be processed into boards which, once dried, make for sturdy, rot-resistant boards. <br>
-						Darkroot logs burn readily, particularly when fresh, for the sap is highly flammable and burns with a hot, ruddy flame. Indeed, if the sap is drained and bottled (a somewhat involved process) it can be used in lanterns or torches for a light-source more portable (and often better smelling) than candles.
-						When dried, the logs glow with with a more ordinary yellower light, similar to Surface Wood.
-					</div>
-				</div>
-				<div class="subsection">
-					<h3>Candles</h3>
-					<div class="subsection-body">
-						A fairly mundane resource, but one so common and so universally useful that it can be traded like cash (although obviously impractical for large transactions).<br>
-						Candles in the oubliette can be made of many things, from the products of wax-beetles or the fruit of candle-trees, but most commonly they are of tallow. Of course, there are different sorts of tallow here. Monster tallow carries some of the bitter melancholy or fierce anger of the beasts from which it came. There are dark rumors about the origin of the sickly “Tharasi Candles” sold in New Tharas and by certain underworld merchants, which glow with a ghostly pallor and last many times longer than a candle ought. <br>
-						Wicks are made from darkroot fiber, fungal hyphae, or twine of spider silk.<br><br>
-						The greatest of all candles are those of the Gravekeepers, who craft them from the memories of the dead whose graves they guard. They burn with a clean white light and give off neither heat nor scent nor smoke, and will burn for many days, leaving not even a trace.
-					</div>
-				</div>
-				<div class="subsection">
-					<h3>Blood</h3>
-					<div class="subsection-body">
-						The hidden fire, the warmth of the living... It lies in the blood. Blood is a chain, blood is an anchor. by blood we inherit and by blood are we bound. <br><br>
-						Human blood is a basic ingredient for many esoteric rituals, and is one of the substances in which the burning sigils can be scribed. Many monsters feed on the luminosity therein, and some will trade for it if that is easier than force.<br>
-						While theoretically an infinitely renewable resource, collection and storage poses logistical difficulties<br><br>
-						Not all blood is of the same kind or quality, and for stronger spells, not just any blood will do. Some call for the blood of a particular sort of person, or has been spilled in a particular way. And while there is a niche market for stale blood, it is generally wanted fresh, ideally before it loses its original warmth. <br><br>
 
-						The blood of other creatures have their own properties, but that of humans tends to dominate underworld markets, being both in reliably high demand and abundant supply.
-					</div>
-				</div>
-				<div class="subsection">
-					<h3>Dregs</h3>
-					<div class="subsection-body">
-						A viscous, black, flammable substance that, when burned, gives off a fierce red light and surprising heat. Though the illumination it gives off is disappointingly dim, the dregs themselves never seem to be consumed (they will, however, burn through almost any container, in time) which confers a certain utility where candles are scarce.<br><br>
-						It is vaguely sinister. Many report that it ripples even when still, that it whispers faintly in dead silence, that tortured figures can be seen in its flame. It seems safe enough to cook with though (as a heat source; dregs are not ordinarily eaten, on account of their high value, and a perhaps justified fear of other effects).<br><br>
-						Dregs are also important in witchcraft, where they are used, among other things, for the creation of the Black Candles used in summoning circles
-					</div>
-				</div>
-				<div class="subsection">
-					<h3>Silver Laudanum</h3>
-					<div class="subsection-body">
-						Liquid atonement, the tears of the Sorrow Worms who eternally mourn for the fate of the oubliette and those trapped within it. It is a potent substance of safety and healing, one of the only reliable remedies for the blight. Certainly the most readily available. <br><br>
-						It is not without it's own dangers, however. The respite from sorrow and fear can be addictive, and in large quantities it causes forgetfulness as memories corrode. 
-						It is a poison to the wardens and other creatures of nightmare, who are themselves little more than memories, and thus an important component in warding circles.
-					</div>
-				</div>
-				<div class="subsection">
-					<h3>Incandescent Ash</h3>
-					<div class="subsection-body">
-						A powdery, phosphorescent residue that weeps from incandescent cores. Gremlin hunting parties use it to mark paths when moving in unfamiliar territories (more reliable than string, and easier to use), and have taught the practice to navigators and other adventurers who they sell it to.<br><br>
-						In the hands of a wizard or alchemist, it is a core ingredient in many explosive substances.
-					</div>
-				</div>
-				<div class="subsection">
-					<h3>Hexsteel</h3>
-					<div class="subsection-body">
-						The cursed black metal of the wardens: wrought in hellfire and quenched in living blood, infused inside and out with burning sigils. <br><br>
-						Hexsteel is supernaturally resilient, far stronger than steel, though also heavier. It is impervious to any form of mundane heat and most of the time it keeps oddly cold, as if siphoning the warmth from the area around it. It is also one of the few substances that shades cannot pass through<br>
-						Hexsteel tools are used commonly in witchcraft: it is one of the only materials that can safely contain burning dregs, among other things, and hexsteel chains and anchors are used extensively in necromancy. Theoretically, one could exploit its thermal properties to preserve food, but due mainly to human squeamishness towards cursed artifacts, the practice remains limited to eccentric gremlins.<br><br>
-						It is, of course, ruinously expensive. The secret of its forging is carefully guarded, and it's wielders (wardens and their servants, generally) are seldom slain. Nevertheless, second-hand hexsteel goods (particularly weapons) can often be purchased in New Tharas, or from The Peddler and his ilk. <br>
-						For custom work, these days one does not necessarily have to sell one's soul. A few gremlin smiths have figured out the trick, though they will require a source of crimson fire and a large quantity of decently fresh human blood in addition to their already exorbitant fees
-					</div>
-				</div>
-				<div class="subsection">
-					<h3>Starbone</h3>
-					<div class="subsection-body">
-						Starbone, or treasonsteel as it is enigmatically called by gremlin smiths, is a luminous, almost glass-like metal prized chiefly by the gremlins. It is incredibly light for its strength, which is greater than steel, and likely has other uses<br><br>
-						It is extracted by a secret process from the strange metallic substance found in Skyfall deposits. Gremlins are oddly hesitant to trade it to outsiders (which is to say, their prices are absolutely unreasonable), and guard the knowledge of its working jealously. Most starbone items in human possession are weapons acquired as loot from dead gremlins. <br><br>
-						It is said that a sorrow worm can only be slain by a weapon of Starbone, and certainly, neither Seshek nor Sorrow Worms have any friendship for those who carry this material.
-					</div>
-				</div>
-				
 			</div>
 		</div>
 	</div>

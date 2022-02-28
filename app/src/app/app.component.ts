@@ -9,7 +9,7 @@ export class AppComponent {
 	title = 'app';
 
 	contentWidth = "400px";
-	isWideScreen = true;
+
 
 	@HostListener('window:resize', ['$event'])
 	onResize(event) {
@@ -21,12 +21,6 @@ export class AppComponent {
 	}
 
 	CheckScreenWidth(){
-		
-		this.isWideScreen = true;//window.innerWidth > 1000;
-		if(this.isWideScreen){
-			this.contentWidth = (window.innerWidth)+"px";
-		}else{
-			 this.contentWidth = (window.innerWidth - 170 - 16)+"px";
-		}
+		this.contentWidth = (window.innerWidth)+"px";
 	}
 }

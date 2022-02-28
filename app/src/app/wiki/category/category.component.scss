@@ -4,6 +4,17 @@
 	.list-container{
 		column-count: 2; 
 		column-gap: 28px;
+		ul{
+			break-inside: avoid-column;
+			display: table;
+			.letter{
+				font-size: 28px;
+				display: inline-block;
+			}
+			li{
+				padding-bottom: 3px;
+			}
+		}
 	}
 }
 

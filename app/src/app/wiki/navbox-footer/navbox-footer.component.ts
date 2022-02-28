@@ -17,7 +17,7 @@ export class NavboxFooterComponent {
 
 	ngOnInit(){
 		for(var i=0;i<this.data.categories.length;i++){
-			this.categories[i] = {"title": this.data.categories[i].title, "items": []};
+			this.categories[i] = {"title": this.data.categories[i].title,"url": this.data.categories[i].url, "items": []};
 
 			for(var j=0;j<this.allPages.pages.length;j++){
 				

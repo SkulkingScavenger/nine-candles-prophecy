@@ -224,84 +224,84 @@
 			"url": "sadamon"
 		},{
 			"title":"The Blight",
-			"contentPath": "blight",
+			"contentPath": "mechanics/blight",
 			"category": "mechanics",
 			"description": "Of Darkness",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "the-blight"
 		},{
 			"title":"The Putrefaction",
-			"contentPath": "putrefaction",
+			"contentPath": "mechanics/putrefaction",
 			"category": "mechanics",
 			"description": "Of Decay",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "putrefaction"
 		},{
 			"title":"Oubliette \"Weather\"",
-			"contentPath": "weather",
+			"contentPath": "mechanics/weather",
 			"category": "mechanics",
 			"description": "Of Winds",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "weather"
 		},{
 			"title":"Luminosity",
-			"contentPath": "luminosity",
+			"contentPath": "mechanics/luminosity",
 			"category": "mechanics",
 			"description": "Of Light",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "luminosity"
 		},{
 			"title":"Dreams, Nightmares, and what lies beyond",
-			"contentPath": "otherworld",
+			"contentPath": "mechanics/otherworld",
 			"category": "mechanics",
 			"description": "Of Dreams",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "otherworld"
 		},{
 			"title":"Death, or a Lack Thereof",
-			"contentPath": "death",
+			"contentPath": "mechanics/death",
 			"category": "mechanics",
 			"description": "Of Death",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "death"
 		},{
 			"title":"The Dark Roots",
-			"contentPath": "dark-roots",
+			"contentPath": "mechanics/dark-roots",
 			"category": "mechanics",
 			"description": "Of Roots",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "dark-roots"
 		},{
 			"title":"Burning Sigils",
-			"contentPath": "burning-sigils",
+			"contentPath": "mechanics/burning-sigils",
 			"category": "mechanics",
 			"description": "Of Truth",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "burning-sigils"
 		},{
 			"title":"Dominion",
-			"contentPath": "dominion",
+			"contentPath": "mechanics/dominion",
 			"category": "mechanics",
 			"description": "Of Chains",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "dominion"
 		},{
 			"title":"Witchcraft",
-			"contentPath": "witchcraft",
+			"contentPath": "mechanics/witchcraft",
 			"category": "mechanics",
 			"description": "Of Power",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "witchcraft"
 		},{
 			"title":"The Shademark",
-			"contentPath": "shademark",
+			"contentPath": "mechanics/shademark",
 			"category": "mechanics",
 			"description": "Of Sacrifice",
 			"imagePath": "thumbnails/candle-thumbnail.png",
 			"url": "shademark"
 		},{
 			"title":"The Shifting",
-			"contentPath": "the-shifting",
+			"contentPath": "mechanics/the-shifting",
 			"category": "mechanics",
 			"description": "Of Deception",
 			"imagePath": "thumbnails/candle-thumbnail.png",
@@ -432,6 +432,76 @@
 			"imagePath": "thumbnails/rosewall-thumbnail.png",
 			"contentPath" : "locations/rosewall",
 			"url": "rosewall"
+		},{
+			"title" : "Fungus",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/fungus",
+			"url": "fungus"
+		},{
+			"title" : "Darkroot",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/darkroot",
+			"url": "darkroot"
+		},{
+			"title" : "Candles",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/candles",
+			"url": "candles"
+		},{
+			"title" : "Spider Silk",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/silk",
+			"url": "silk"
+		},{
+			"title" : "Blood",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/blood",
+			"url": "blood"
+		},{
+			"title" : "Dregs",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/dregs",
+			"url": "dregs"
+		},{
+			"title" : "Silver Laudanum",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/laudanum",
+			"url": "laudanum"
+		},{
+			"title" : "Incandescent Ash",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/incandescent-ash",
+			"url": "incandescent-ash"
+		},{
+			"title" : "Hexsteel",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/hexsteel",
+			"url": "hexsteel"
+		},{
+			"title" : "Starbone",
+			"category": "resources",
+			"tags" : ["resource"],
+			"imagePath": "thumbnails/prisoner-thorn-thumbnail.png",
+			"contentPath" : "resources/starbone",
+			"url": "starbone"
 		},{
 			"title" : "Prisoner's Thorns",
 			"category": "artifacts",
