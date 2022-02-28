@@ -8,4 +8,7 @@ import { Component, Input } from '@angular/core';
 export class PageComponent {
 
 	@Input() data;
+  @Input() allPages;
+  @Input() allCategories;
+
 }

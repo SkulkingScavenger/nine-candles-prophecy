@@ -1,4 +1,4 @@
 <div *ngIf="isLoaded">
 	<wiki-category *ngIf="isCategory && !pageNotFound" [data]="data"></wiki-category>
-	<wiki-page *ngIf="!isCategory && !pageNotFound" [data]="data"></wiki-page>
+	<wiki-page *ngIf="!isCategory && !pageNotFound" [data]="data" [allPages]="allPages" [allCategories]="allCategories"></wiki-page>
 </div>

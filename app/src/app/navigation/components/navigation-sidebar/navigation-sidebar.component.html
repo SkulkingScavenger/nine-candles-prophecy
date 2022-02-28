@@ -1,6 +1,6 @@
-<div class="navigation-sidebar-container">
-	<div class="navigation-header">
-		<div class="logo"></div>
+<div class="navigation-sidebar-container" [ngClass]="{'collapsed':isShown==false}">
+	<div class="backdrop"></div>
+	<div class="navigation-sidebar">
 		<ul>
 			<li *ngFor="let tab of navigationTabs">
 				<a [routerLink]="[tab.link]" [ngClass]="{'active':currentTab==tab.id}">

@@ -1,20 +1,18 @@
-<navigation-sidebar *ngIf="!isWideScreen"></navigation-sidebar>
-<navigation-header *ngIf="isWideScreen"></navigation-header>
-
-<div style="
-min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto -120px;
-float: left;
-"
-[ngStyle]="{width: contentWidth}"
->
+<div class="page">
 	
-	<div>
-		<router-outlet></router-outlet>	
-	</div>
-	<div style="height:120px"></div>
-</div>
+	
 
-<navigation-footer></navigation-footer>
+	<div class="page-header">
+		<navigation-header *ngIf="isWideScreen"></navigation-header>
+	</div>
+
+	<div class="page-body" [ngStyle]="{width: contentWidth}">
+		<!-- <navigation-sidebar *ngIf="isWideScreen"></navigation-sidebar> -->
+		<div>
+			<router-outlet></router-outlet>	
+		</div>
+		<div style="height:120px"></div>
+	</div>
+
+	<navigation-footer></navigation-footer>
+</div>

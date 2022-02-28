@@ -1,0 +1,161 @@
+{
+	"categories": [
+		{
+			"id": "locations",
+			"navtab": "locations",
+			"title": "Geography",
+			"navigation-footers": [
+				{
+					"title": "Locations",
+					"categories": [
+						{
+							"title": "The Nine Dominions",
+							"category": "locations",
+							"tag": "dominion"
+						},{
+							"title": "Forsaken Villages",
+							"category": "locations",
+							"tag": "village"
+						}
+					]
+				}
+			]
+		},{
+			"id": "characters",
+			"navtab": "characters",
+			"title": "characters",
+			"navigation-footers": [
+				{
+					"title": "Characters",
+					"categories": [
+						{
+							"title": "Human Characters",
+							"category": "characters",
+							"tag": "human"
+						},{
+							"title": "Gremlin Characters",
+							"category": "characters",
+							"tag": "gremlin"
+						},{
+							"title": "Warden Characters",
+							"category": "characters",
+							"tag": "warden"
+						},{
+							"title": "Seshek Characters",
+							"category": "characters",
+							"tag": "seshek"
+						},{
+							"title": "Other Characters",
+							"category": "characters",
+							"excludeTags": ["human", "gremlin", "warden", "seshek"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "races",
+			"navtab": "races",
+			"title": "Races",
+			"navigation-footers": [
+				{
+					"title": "Races of the Oubliette",
+					"categories": [
+						{
+							"title": "Major Races",
+							"category": "races",
+							"tag": "major race"
+						},{
+							"title": "Minor Races",
+							"category": "races",
+							"tag": "minor race"
+						}
+					]
+				}
+			]
+		},{
+			"id": "monsters",
+			"navtab": "monsters",
+			"title": "Monsters",
+			"navigation-footers": [
+				{
+					"title": "Creatures of the Oubliette",
+					"categories": [
+						{
+							"title": "Monsters",
+							"category": "monsters",
+							"tag": "monster"
+						},{
+							"title": "Animals",
+							"category": "monsters",
+							"tag": "animal"
+						}
+					]
+				}
+			]
+		},{
+			"id": "knight",
+			"navtab": "wiki",
+			"title": "Knights",
+			"navigation-footers": [
+				{
+					"title": "Knights of the Oubliette",
+					"categories": [
+						{
+							"title": "Knight Characters",
+							"category": "characters",
+							"tag": "knight"
+						}
+					]
+				}
+			]
+		},{
+			"id": "witch",
+			"navtab": "wiki",
+			"title": "Witches",
+			"navigation-footers": [
+				{
+					"title": "Witches of the Oubliette",
+					"categories": [
+						{
+							"title": "Witch Characters",
+							"category": "characters",
+							"tag": "witch"
+						}
+					]
+				}
+			]
+		},{
+			"id": "shademarked",
+			"navtab": "wiki",
+			"title": "Shademarked",
+			"navigation-footers": [
+				{
+					"title": "Shademarked Navigators",
+					"categories": [
+						{
+							"title": "Shademarked Characters",
+							"category": "characters",
+							"tag": "shademarked"
+						}
+					]
+				}
+			]
+		},{
+			"id": "undead",
+			"navtab": "wiki",
+			"title": "Undead",
+			"navigation-footers": [
+				{
+					"title": "Undead Characters",
+					"categories": [
+						{
+							"title": "Undead Characters",
+							"category": "characters",
+							"tag": "undead"
+						}
+					]
+				}
+			]
+		}
+	]
+}

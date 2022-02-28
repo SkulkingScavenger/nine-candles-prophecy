@@ -1,109 +1,133 @@
 @import 'src/assets/styles/common';
 
 .navigation-sidebar-container {
-	width: 170px;
-	height: 100%;
-	float: left;
-	.navigation-sidebar {
-		background-color: $dark-gray;
-		width: 100%;
-		.logo {
-			padding-left: 30px;
-			padding-right: 30px;
-			img{
-
-			}
+	width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	margin: 0;
+	transform: none;
+	position: absolute;
+	z-index: 1;
+	box-sizing: border-box;
+	display: block;
+	&.collapsed{
+		width: 0px;
+		.backdrop{
+			background-color: rgba(0,0,0,0);
+			visibility: hidden;
 		}
+		.navigation-sidebar {
+			left: -260px;
+		}
+	}
+	.backdrop{
+		transition-duration: .4s;
+		transition-timing-function: cubic-bezier(.25,.8,.25,1);
+		transitition-property: background-color, visibility;
+		background-color: rgba(0,0,0,.6);
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		position: absolute;
+		display: block;
+		z-index: 3;
+	}
+	.navigation-sidebar {
+		position: absolute;
+		background-color: $actually-darkest-gray;
+		box-shadow: 6px 0 6px rgba(0,0,0,0.1);
+		width: 260px;
+		height: 100%;
+		z-index: 3;
+		left: 0;
+		transition-duration: .4s;
+		transition-timing-function: cubic-bezier(.25,.8,.25,1);
+		transitition-property: left;
 		ul {
 			margin: 0px;
-			height: 60px;
+			padding: 0 0px 0 20px;
 			display: flex;
-			flex-direction: row;
-			align-items: center;
+			flex-direction: column;
+			align-items: left;
 			list-style-position: inside;
+			border-bottom: 1px solid $darker-gray;
 			li {
 				float: left;
 				display: inline-block;
-				height: 50px;
+				height: 36px;
 				list-style-type: none;
-				margin: 0px 3px;
-				padding-top: 15px;
-				&:first-child{
-					a{
-						
-					}
-				}
 				a{
-					height: 45px;
+					height: 36px;
 					font-size: 11px;
 					white-space: nowrap;
 					padding-left: auto;
 					padding-right: auto;
 					&.active {
+						
 						&:focus{
 							span{
-								background-color: #000;
-								color: $white;
+								background-color: $actually-darkest-gray;
+								color: $blood-red;
 								font-weight: $font-bold;
 								font-family: inherit;
 								border: none;
-								padding-bottom: 16px;
-								padding-top: 16px;
+							}
+						}
+						&:hover span{
+							background-color: $black;
+						}
+						&:active {
+							font-size: 11px;
+							font-weight: $font-bold;
+							span{
+								color: $blood-red;
 							}
 						}
 						span{
-							background-color: #000;
+							color: $blood-red;
 						}
 					}
 					&:link{
-						color: #fff;
+						color: $lightest-gray;
 						text-decoration-color: transparent;
 					}
 					&:visited{
-						color: #fff;
+						color: $lightest-gray;
 						text-decoration-color: transparent;
 					}
 					&:hover span{
-						background-color: #222;
+						background-color: $black;
 					}
 					&:focus{
 						outline: none;
 						span {
-							background-color: #222;
+							background-color: $actually-darkest-gray;
 						}
 					}
 					&:active{
 						font-size: 12px;
 						span{
-							background-color: #000;
+							background-color: $black;
 							color: $blood-red;
 							font-weight: $font-medium;
 							font-family: schreibmaschine;
-							// border: 2px solid #222;
-							//padding-bottom: 4px;
-							//padding-top: 9px;
 						}
 					}
 					span{
 						font: sans;
 						font-weight: $font-bold;
-						padding: 16px 12px;
-						border-radius: 6px 6px 0  0;
+						padding: 10px 12px 11px;
 						border: none;
 						cursor: pointer;
-						background-color: #111;
+						background-color: $actually-darkest-gray;
 						text-transform: uppercase;
-						text-align: center;
+						text-align: left;
 						display: inline-block;
-						width: 65px;
+						width: 210px;
 					}
 				}
 			}
-		}
-		.right-section{
-			float: right;
-			min-width: 200px;
-			max-width: 250px;
 		}
 	}
 }

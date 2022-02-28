@@ -1,0 +1,24 @@
+<div class="searchbar-container">
+	<input class="searchbar" type="search" aria-label="search" [(ngModel)]="searchString" placeholder="Search" (keyup)="OnTypeCharacter()" id="searchbar" (blur)="OnBlur($event)">
+	<div class="dropdown-container" *ngIf="showDropdown">
+		<div class="dropdown" id="dropdown">
+			<div class="dropdown-body">
+				<ul *ngIf="searchResults.length > 0">
+					<li *ngFor="let item of searchResults">
+						<a routerLink="../{{item.category}}/{{item.url}}" (click)="HideDropdown()">
+							<span>{{item.title}}</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="dropdown-footer">
+				<div *ngIf="searchResults.length > 0">
+					<span>{{searchResults.length}}</span> results found
+				</div>
+				<div *ngIf="searchResults.length == 0">
+					No results found for <span>{{searchString}}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -7,6 +7,10 @@ import { WikiComponent } from './components/wiki.component';
 import { MainComponent } from './main/main.component';
 import { CategoryComponent } from './category/category.component';
 import { PageComponent } from './page/page.component';
+import { NavboxFooterComponent } from './navbox-footer/navbox-footer.component';
+import { FooterComponent } from './footer/footer.component';
+
+import { NoSanitizePipe } from './pipes/nosanitizerpipe';
 
 @NgModule({
   declarations: [
@@ -14,6 +18,9 @@ import { PageComponent } from './page/page.component';
     MainComponent,
     CategoryComponent,
     PageComponent,
+    NoSanitizePipe,
+    NavboxFooterComponent,
+    FooterComponent,
   ],
   imports: [
     CommonModule,

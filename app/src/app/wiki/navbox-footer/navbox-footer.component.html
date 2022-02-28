@@ -1,0 +1,29 @@
+<div class="navbox">
+	<table>
+		<tbody>
+			<tr class="navbox-header">
+				<th colspan="3">
+					<span class="collapsible-toggle" role="button">
+						[
+						<a *ngIf="isVisible" (click)="ToggleVisibility()" href="javascript:void(0)">hide</a>
+						<a *ngIf="!isVisible" (click)="ToggleVisibility()" href="javascript:void(0)">expand</a>
+						]
+					</span>
+					<div class="navbox-title">{{data.title}}</div>
+				</th>
+			</tr>
+			<tr *ngFor="let category of categories" [ngClass]="{hidden: !isVisible || category.items.length == 0}">
+				<th *ngIf="categories.length > 1" class="navbox-group">
+					<a>{{category.title}}</a>
+				</th>
+				<td>
+					<ul>
+						<li *ngFor="let item of category.items">
+							<a routerLink="../{{item.url}}">{{item.title}}</a>
+						</li>
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

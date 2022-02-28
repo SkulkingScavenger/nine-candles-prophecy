@@ -1,15 +1,42 @@
 <div class="navigation-header-container">
-	<div class="navigation-header">
-		<div class="logo"></div>
-		<ul>
-			<li *ngFor="let tab of navigationTabs">
-				<a [routerLink]="[tab.link]" [ngClass]="{'active':currentTab==tab.id}">
-					<span>{{tab.title}}</span>
-				</a>
-			</li>
-		</ul>
-		<div class="right-section">
-			
+	<div class="navigation-header" [ngClass]="{'small-screen':isWideScreen==false}">
+		<div class="top-bar">
+			<div class="left-section">
+				
+			</div>
+			<div class="logo">
+				<!-- <img src="assets/images/thumbnails/ncpq-icon.png"> -->
+				<h1>NINE CANDLES PROPHECY</h1>
+
+			</div>
+			<div class="right-section">
+				<searchbar></searchbar>
+			</div>
 		</div>
+		
+		<div class="tab-holder">
+			<div class="left-section" [ngClass]="{'hidden':isWideScreen==true}">
+				<button class="hamburger" (click)="ToggleSidebar($event)">
+					<span class="icon-holder">
+						<svg focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+						</svg>
+					</span>
+					<span class="ripple"></span>
+				</button>
+			</div>
+			<ul [ngClass]="{'hidden':isWideScreen==false}">
+				<li *ngFor="let tab of navigationTabs">
+					<a [routerLink]="[tab.link]" [ngClass]="{'active':currentTab==tab.id}">
+						<span>{{tab.title}}</span>
+					</a>
+				</li>
+			</ul>
+			<div class="right-section">
+			
+			</div>
+		</div>
+		
 	</div>
 </div>
+<navigation-sidebar [isShown]="showSidebar"></navigation-sidebar>

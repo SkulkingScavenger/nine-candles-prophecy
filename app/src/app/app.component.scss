@@ -1,0 +1,10 @@
+@import 'src/assets/styles/variables';
+.page{
+	.page-body{
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -120px;
+		float: left;
+	}
+}

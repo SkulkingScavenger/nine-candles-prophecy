@@ -16,7 +16,7 @@ export class MechanicsComponent {
   allPages;
 
   ngOnInit(){
-    var path = "assets/wiki/pages/pages.json";
+    var path = "assets/data/pages/pages.json";
     this.http.get(path).subscribe(response => {
       this.allPages = response["pages"];
       for(var i=0;i<this.allPages.length;i++){

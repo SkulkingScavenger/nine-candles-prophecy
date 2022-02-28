@@ -3,108 +3,211 @@
 .navigation-header-container {
 	display: flex;
 	width: 100%;
-	height: 60px;
 	.navigation-header {
 		background-color: $dark-gray;
 		width: 100%;
-		.logo {
-			padding-left: 30px;
-			padding-right: 30px;
-			img{
-
+		min-width: 500px;
+		.top-bar{
+			height: 80px;
+			.logo {
+				padding-top: 2px;
+				width: 250px;
+				text-align: center;
+				position: absolute;
+				left: 50%;
+				right: 50%;
+				transform: translate(-50%, 0);
+				img{
+					width:160px;
+					height:70px;
+				}
+			}
+			::ng-deep .right-section {
+				width: 250px;
+				float: right;
+				padding-top: 22px;
+				.searchbar-container{
+					float: right;
+					margin-right: 20px;
+				}
 			}
 		}
-		ul {
-			margin: 0px;
-			height: 60px;
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			list-style-position: inside;
-			li {
-				float: left;
-				display: inline-block;
-				height: 50px;
-				list-style-type: none;
-				margin: 0px 3px;
-				padding-top: 15px;
-				&:first-child{
-					a{
-						
+		&.small-screen {
+			.top-bar {
+				.logo {
+					position: relative;
+					margin-left: 0px;
+					float: left;
+					right: unset;
+					left: unset;
+					transform: none;
+					h1{
+						margin-bottom: 0px;
 					}
 				}
-				a{
-					height: 45px;
-					font-size: 11px;
-					white-space: nowrap;
-					padding-left: auto;
-					padding-right: auto;
-					&.active {
-						&:focus{
+			}
+		}
+		
+		.tab-holder{
+			height: 47px;
+			border-bottom: 2px solid $darker-gray;
+			background-color: $darkest-gray;
+			ul {
+				margin: 0px;
+				float: left;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				list-style-position: inside;
+				padding-left: 30px;
+				li {
+					float: left;
+					display: inline-block;
+					// height: 50px;
+					list-style-type: none;
+					// padding-top: 15px;
+					&:first-child{
+						a{
+							
+						}
+					}
+					a{
+						// height: 50px;
+						font-size: 11px;
+						white-space: nowrap;
+						padding-left: auto;
+						padding-right: auto;
+						&.active {
+							&:focus{
+								span{
+									background-color: #000;
+									color: $lightest-gray;
+									font-weight: $font-bold;
+									font-family: inherit;
+									border: none;
+								}
+							}
+							&:active {
+								font-size: 11px;
+								font-weight: $font-bold;
+								span{
+									color: $lighter-gray;
+									padding: 16px 12px;
+								}
+							}
 							span{
 								background-color: #000;
-								color: $white;
-								font-weight: $font-bold;
-								font-family: inherit;
-								border: none;
-								padding-bottom: 16px;
-								padding-top: 16px;
+							}
+						}
+						&:link{
+							color: #fff;
+							text-decoration-color: transparent;
+						}
+						&:visited{
+							color: #fff;
+							text-decoration-color: transparent;
+						}
+						&:hover span{
+							background-color: #222;
+						}
+						&:focus{
+							outline: none;
+							span {
+								background-color: #222;
+							}
+						}
+						&:active{
+							font-size: 12px;
+							span{
+								background-color: #000;
+								color: $blood-red;
+								font-weight: $font-medium;
+								font-family: schreibmaschine;
+								// border: 2px solid #222;
+								padding-bottom: 13px;
+								padding-top: 13px;
 							}
 						}
 						span{
-							background-color: #000;
+							font: sans;
+							font-weight: $font-bold;
+							padding: 16px 12px;
+							border: none;
+							cursor: pointer;
+							background-color: #111;
+							text-transform: uppercase;
+							text-align: center;
+							display: inline-block;
 						}
-					}
-					&:link{
-						color: #fff;
-						text-decoration-color: transparent;
-					}
-					&:visited{
-						color: #fff;
-						text-decoration-color: transparent;
-					}
-					&:hover span{
-						background-color: #222;
-					}
-					&:focus{
-						outline: none;
-						span {
-							background-color: #222;
-						}
-					}
-					&:active{
-						font-size: 12px;
-						span{
-							background-color: #000;
-							color: $blood-red;
-							font-weight: $font-medium;
-							font-family: schreibmaschine;
-							// border: 2px solid #222;
-							//padding-bottom: 4px;
-							//padding-top: 9px;
-						}
-					}
-					span{
-						font: sans;
-						font-weight: $font-bold;
-						padding: 16px 12px;
-						border-radius: 6px 6px 0  0;
-						border: none;
-						cursor: pointer;
-						background-color: #111;
-						text-transform: uppercase;
-						text-align: center;
-						display: inline-block;
-						width: 65px;
 					}
 				}
 			}
-		}
-		.right-section{
-			float: right;
-			min-width: 200px;
-			max-width: 250px;
+			.left-section{
+				button.hamburger{
+					width: 48px;
+					height: 47px;
+					border-radius: 0;
+					background-color: $darkest-gray;
+					outline: none;
+					border: none;
+					padding: 0 0 0 0;
+					overflow: hidden;
+					position: relative;
+
+					// transition-duration: .4s;
+					// transition-property: background-color, color, margin;
+					// transition-timing-function: cubic-bezier(.25,.8,.25,1);
+					cursor: pointer;
+					&:hover{
+						//background-color: $actually-darkest-gray;
+						.icon-holder{
+							svg{
+								fill: $lighter-gray;
+							}
+						}
+					}
+					&:active{
+						//background-color: $black;
+						.icon-holder{
+							svg{
+								fill: $dark-gray;
+							}
+						}
+					}
+					.icon-holder{
+						display: block;
+						width: 24px;
+						height: 24px;
+						//margin-left: 12px;
+						left: 12px;
+						top: 12px;
+						position: absolute;
+						z-index: 3;
+						svg{
+							height: 24px;
+							width: 24px;
+							fill: $lightest-gray;
+							transition-duration: .2s;
+							transition-property: fill;
+							transition-timing-function: cubic-bezier(.25,.8,.25,1);
+						}
+					}
+					::ng-deep.ripple{
+						background-color: rgba(0, 0, 0, 0.7);
+					}
+				}
+			}
+			.right-section{
+				float: right;
+				min-width: 200px;
+				max-width: 250px;
+			}
 		}
 	}
 }
 
+// navigation-sidebar{
+// 	position: absolute;
+// 	width: 100%;
+// 	height: 100%;
+// }

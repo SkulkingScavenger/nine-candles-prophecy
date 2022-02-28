@@ -54,7 +54,7 @@ export class CategoryComponent {
 			var requests = [];
 			for(var i=0;i<this.data.subcategories.length;i++){
 				this.data.subcategories[i].data = {};
-				var path = "assets/wiki/categories/" + this.data.subcategories[i].url + ".json";
+				var path = "assets/data/categories/" + this.data.subcategories[i].url + ".json";
 				requests[i] = this.http.get(path, {responseType: 'json'});
 			}
 			forkJoin(requests).subscribe(responses =>{

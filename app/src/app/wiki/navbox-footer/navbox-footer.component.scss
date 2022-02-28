@@ -1,0 +1,79 @@
+@import "src/assets/styles/common.scss";
+
+.navbox{
+	background-color: $black;
+	border: 1px solid $light-gray;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+	margin: 20px 10%;
+	padding: 3px;
+	table{
+		width: 100%;
+		tbody{
+			tr{
+				&.navbox-header{
+					height: 26px;
+					th {
+						border: none;
+						background-color: $darkest-gray;
+						padding: 0 12px;
+						padding-bottom: 2px;
+					}
+					background-color: $darker-gray;
+					.collapsible-toggle{
+						float: right;
+					}
+					.navbox-title{
+						margin-left: 100px;
+						margin-right: 100px;
+					}
+				}
+				
+				th {
+					vertical-align: middle;
+					border-top: 2px solid $black;
+					&.navbox-group{
+						padding: 3px 12px;
+						background-color: $darkest-gray;
+					}
+				}
+				td{
+					border-left: 2px solid $black;
+					border-top: 2px solid $black;
+					ul{
+						text-align: left;
+						direction: ltr;
+						padding: 2px 0;
+						line-height: 1.5em;
+						border-spacing: 0;
+						display: inline;
+						li {
+							float: left;
+							text-align: left;
+							border-spacing: 0;
+							line-height: 1.5em;
+							list-style: none;
+							&:last-child{
+								list-style: none;
+								&::after{
+									content: none;
+								}
+							}
+							&::after{
+								content: url('/assets/images/bullet.svg');
+								padding: 5px;
+							}
+							a {
+								white-space: nowrap;
+								color: $bright-orange;
+								text-decoration: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
