@@ -41,6 +41,9 @@
 				td{
 					border-left: 2px solid $black;
 					border-top: 2px solid $black;
+					.compact-title{
+						display: none;
+					}
 					ul{
 						text-align: left;
 						direction: ltr;
@@ -77,3 +80,49 @@
 	}
 }
 
+@media (max-width: 500px){
+	.navbox{
+		background-color: $black;
+		border: 1px solid $light-gray;
+		clear: both;
+		font-size: 14px;
+		text-align: center;
+		margin: 20px 10%;
+		padding: 3px;
+		table{
+			width: 100%;
+			tbody{
+				tr.navbox-header{
+					.navbox-title{
+						text-align: left;
+						margin-left: 0px;
+					}
+				}
+				tr.category-row{
+					th{
+						display: none;	
+					}
+					td{
+						padding: 0;
+						border: none;
+						.compact-title{
+							padding: 2px 0px 3px 0px;
+							display: block;
+							background-color: $actually-darkest-gray;
+							color: $lighter-gray;
+						}
+						ul{
+							display: inline-block;
+							margin: 0px 0px 0px 6px;
+							li{
+								a{
+									white-space: break-spaces;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

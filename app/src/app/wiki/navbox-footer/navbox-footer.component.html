@@ -12,11 +12,12 @@
 					<div class="navbox-title">{{data.title}}</div>
 				</th>
 			</tr>
-			<tr *ngFor="let category of categories" [ngClass]="{hidden: !isVisible || category.items.length == 0}">
+			<tr *ngFor="let category of categories" class="category-row" [ngClass]="{hidden: !isVisible || category.items.length == 0}">
 				<th *ngIf="categories.length > 1" class="navbox-group">
 					<a>{{category.title}}</a>
 				</th>
 				<td>
+					<div class="compact-title">{{category.title}}</div>
 					<ul>
 						<li *ngFor="let item of category.items">
 							<a routerLink="../{{item.url}}">{{item.title}}</a>
