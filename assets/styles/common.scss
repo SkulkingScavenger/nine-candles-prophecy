@@ -416,6 +416,25 @@ a:not([href]):not([tabindex]) {
 	}
 }
 
+@media (max-width: 500px){
+	.main{
+		.content-container{
+			.content{
+				min-width: 0px;
+				.content-header{
+					margin: 0px 5%;
+					.content-title{
+
+					}
+				}
+				.content-body{
+					margin: 20px 5%;
+				}
+			}
+		}
+	}
+}
+
 .hidden {
 	display: none!important;
 }
