@@ -7,7 +7,7 @@
 	
 	
 	<div class="content-body">
-		<div style="column-count:2; column-gap:28px">
+		<div class="list-container">
 			<ul *ngFor="let letter of letterList" style="break-inside:avoid-column;display:table">
 				<div style="width:300px;bottom-border:1px solid white;font-size:28px;display:inline-block">{{letter}}</div>
 				<li *ngFor="let page of alphabeticalPageList[letter]" style="">

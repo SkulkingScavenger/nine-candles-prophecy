@@ -1,1 +1,17 @@
-@import "src/assets/styles/common.scss"
+@import "src/assets/styles/common.scss";
+
+.content-body{
+	.list-container{
+		column-count: 2; 
+		column-gap: 28px;
+	}
+}
+
+@media (max-width: 500px){
+	.content-body{
+		.list-container{
+			column-count: 1; 
+			column-gap: 28px;
+		}
+	}
+}

@@ -30,7 +30,7 @@ export class NavigationHeaderComponent {
 			}
 		})
 	}
-	isWideScreen;
+	screenSize = 3;
 	currentTab = "";
 	navigationTabs = [];
 	showSidebar = false;
@@ -51,8 +51,14 @@ export class NavigationHeaderComponent {
 	}
 
 	CheckScreenWidth(){
-		this.isWideScreen = window.innerWidth > 800;
-		if(this.isWideScreen){
+		if(window.innerWidth > 800){
+			this.screenSize = 3;
+		}else if(window.innerWidth > 500){
+			this.screenSize = 2;
+		}else{
+			this.screenSize = 1;
+		}
+		if(this.screenSize == 3){
 			this.showSidebar = false;
 		}
 	}

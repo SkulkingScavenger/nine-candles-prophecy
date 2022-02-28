@@ -1,5 +1,5 @@
 <div class="navigation-header-container">
-	<div class="navigation-header" [ngClass]="{'small-screen':isWideScreen==false}">
+	<div class="navigation-header" [ngClass]="{'small-screen':screenSize==2,'tiny-screen':screenSize==1}">
 		<div class="top-bar">
 			<div class="left-section">
 				
@@ -15,7 +15,7 @@
 		</div>
 		
 		<div class="tab-holder">
-			<div class="left-section" [ngClass]="{'hidden':isWideScreen==true}">
+			<div class="left-section" [ngClass]="{'hidden':screenSize==3}">
 				<button class="hamburger" (click)="ToggleSidebar($event)">
 					<span class="icon-holder">
 						<svg focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@
 					<span class="ripple"></span>
 				</button>
 			</div>
-			<ul [ngClass]="{'hidden':isWideScreen==false}">
+			<ul [ngClass]="{'hidden':screenSize!=3}">
 				<li *ngFor="let tab of navigationTabs">
 					<a [routerLink]="[tab.link]" [ngClass]="{'active':currentTab==tab.id}">
 						<span>{{tab.title}}</span>

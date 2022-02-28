@@ -6,7 +6,6 @@
 	.navigation-header {
 		background-color: $dark-gray;
 		width: 100%;
-		min-width: 500px;
 		.top-bar{
 			height: 80px;
 			.logo {
@@ -43,6 +42,32 @@
 					transform: none;
 					h1{
 						margin-bottom: 0px;
+					}
+				}
+				
+			}
+		}
+		&.tiny-screen {
+			.top-bar {
+				height: 100px;
+				.logo {
+					width: 100%;
+					position: relative;
+					margin-left: 0px;
+					float: left;
+					right: unset;
+					left: unset;
+					transform: none;
+					h1{
+						font-size: 28px;
+						padding-top: 10px;
+						margin-bottom: 0px;
+					}
+				}
+				::ng-deep .right-section {
+					padding-top: 10px;
+					.searchbar-container{
+						margin-right: 6px;
 					}
 				}
 			}
