@@ -53,7 +53,7 @@ export class NavigationHeaderComponent {
 	CheckScreenWidth(){
 		if(window.innerWidth > 800){
 			this.screenSize = 3;
-		}else if(window.innerWidth > 500){
+		}else if(window.innerWidth > 516){
 			this.screenSize = 2;
 		}else{
 			this.screenSize = 1;
