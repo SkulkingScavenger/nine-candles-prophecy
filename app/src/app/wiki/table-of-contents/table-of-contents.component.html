@@ -1,0 +1,19 @@
+<div class="table-of-contents-container">
+	<div class="table-of-contents">
+		<div class="header">
+			<b>Contents</b>
+			<span class="collapsible-toggle" role="button">
+				<span>[</span>
+				<a *ngIf="isVisible" (click)="ToggleVisibility()" href="javascript:void(0)">hide</a>
+				<a *ngIf="!isVisible" (click)="ToggleVisibility()" href="javascript:void(0)">show</a>
+				<span>]</span>
+			</span>
+		</div>
+		<ul [ngClass]="{hidden:isVisible==false}">
+			<li *ngFor="let header of headers">
+				<span>{{header.index}}&nbsp;&nbsp;</span>
+				<a href="javascript:void(0)" (click)="ScrollToHeader(header.element)">{{header.title}}</a>
+			</li>
+		</ul>
+	</div>
+</div>

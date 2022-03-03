@@ -5,6 +5,7 @@
 				<h1 class="content-title">{{data.title}}</h1>
 			</div>	
 		<div class="content-body">
+			<table-of-contents [headers]="headers" *ngIf="showTableOfContents"></table-of-contents>
 			<div *ngIf="data.content" class="page-content" [innerHTML]="data.content | noSanitize"></div>
 		</div>
 		<wiki-footer [data]="data" [allPages]="allPages" [allCategories]="allCategories"></wiki-footer>

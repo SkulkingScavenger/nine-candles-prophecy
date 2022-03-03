@@ -6,15 +6,15 @@ import { NavigationModule } from './../navigation/navigation.module';
 import { StoriesComponent } from './components/stories.component';
 
 @NgModule({
-  declarations: [
-    StoriesComponent
-  ],
-  imports: [
-    CommonModule,
-    StoriesRoutingModule,
-    NavigationModule
-  ],
-  providers: [],
-  bootstrap: [StoriesComponent]
+	declarations: [
+		StoriesComponent
+	],
+	imports: [
+		CommonModule,
+		StoriesRoutingModule,
+		NavigationModule
+	],
+	providers: [],
+	bootstrap: [StoriesComponent]
 })
 export class StoriesModule { }

@@ -63,6 +63,38 @@ color : green
 			color: $lightest-gray;
 		}
 	}
+	
+	.thumbnail-container{
+		width: auto;
+		margin-top: 6px;
+		margin-bottom: 20px;
+		&.right{
+			margin-left: 20px;
+			float: right;
+			clear: right;
+		}
+		&.left{
+			float: left;
+			clear: left;
+			margin-right: 20px;
+		}
+		&.center{
+
+		}
+		.thumbnail{
+			padding: 3px;
+			border: 1px solid $dark-gray;
+			background-color: $darkest-gray;
+			img{
+				display: block;
+			}
+			.caption{
+				padding: 3px;
+				font-size: 12px;
+			}
+
+		}
+	}
 
 	.sidebar-container{
 		.sidebar{

@@ -11,7 +11,7 @@
 					<ul *ngFor="let letter of letterList">
 						<div class="letter">{{letter}}</div>
 						<li *ngFor="let page of alphabeticalPageList[letter]">
-							<a routerLink="../{{page.url}}">{{page.title}}</a>
+							<a routerLink="../../{{page.category}}/{{page.url}}">{{page.title}}</a>
 						</li>
 					</ul>
 				</div>

@@ -227,49 +227,49 @@
 			"contentPath": "mechanics/blight",
 			"category": "mechanics",
 			"description": "Of Darkness",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/darkness-icon.png",
 			"url": "the-blight"
 		},{
 			"title":"The Putrefaction",
 			"contentPath": "mechanics/putrefaction",
 			"category": "mechanics",
 			"description": "Of Decay",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/decay-icon.png",
 			"url": "putrefaction"
 		},{
 			"title":"Oubliette \"Weather\"",
 			"contentPath": "mechanics/weather",
 			"category": "mechanics",
 			"description": "Of Winds",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/black-rain-icon.png",
 			"url": "weather"
 		},{
 			"title":"Luminosity",
 			"contentPath": "mechanics/luminosity",
 			"category": "mechanics",
 			"description": "Of Light",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/illumination-icon.png",
 			"url": "luminosity"
 		},{
 			"title":"Dreams, Nightmares, and what lies beyond",
 			"contentPath": "mechanics/otherworld",
 			"category": "mechanics",
 			"description": "Of Dreams",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/nightmare-icon.png",
 			"url": "otherworld"
 		},{
 			"title":"Death, or a Lack Thereof",
 			"contentPath": "mechanics/death",
 			"category": "mechanics",
 			"description": "Of Death",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/death-icon.png",
 			"url": "death"
 		},{
 			"title":"The Dark Roots",
 			"contentPath": "mechanics/dark-roots",
 			"category": "mechanics",
 			"description": "Of Roots",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/darkroot2-icon.png",
 			"url": "dark-roots"
 		},{
 			"title":"Burning Sigils",
@@ -283,14 +283,14 @@
 			"contentPath": "mechanics/dominion",
 			"category": "mechanics",
 			"description": "Of Chains",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/anchor-icon.png",
 			"url": "dominion"
 		},{
 			"title":"Witchcraft",
 			"contentPath": "mechanics/witchcraft",
 			"category": "mechanics",
 			"description": "Of Power",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/mirror-icon.png",
 			"url": "witchcraft"
 		},{
 			"title":"The Shademark",

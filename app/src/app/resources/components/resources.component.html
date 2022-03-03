@@ -19,7 +19,8 @@
 							<h3 class="subsection-title">{{page.title}}</h3>
 						</div>
 						<div class="subsection-body">
-							<div [innerHTML]="page.content"></div>
+							<div [innerHTML]="page.content | noSanitize"></div>
+							<div style="clear:both"></div>
 						</div>
 					</div>
 				</div>
