@@ -18,14 +18,12 @@ export class PageComponent {
 		setTimeout(()=>{
 			this.AssembleTableOfContents();
 		});
-		
 	}
 
 	AssembleTableOfContents(){
 		var headerSizes = {"H3": 3, "H4": 4, "H5": 5}
 		var pageElements = document.getElementsByClassName("subsection-title");
 		pageElements = Array.prototype.map.call(pageElements, function(el){return el});
-		//console.log(pageElements);
 		for(var i=0;i<pageElements.length;i++){
 			this.headers[i] = {
 				"title": pageElements[i]["innerText"],
@@ -33,7 +31,6 @@ export class PageComponent {
 				"element": pageElements[i],
 				"size": headerSizes[pageElements[i]["nodeName"]]
 			};
-			console.log(this.headers[i]);
 		}
 		if(this.headers.length > 0){
 			this.showTableOfContents = true;

@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { Subscription, EMPTY, forkJoin } from 'rxjs';
 import { switchMap, map, catchError } from 'rxjs/operators';
 
-import { NoSanitizePipe } from '../../wiki/pipes/nosanitizerpipe';
 
 @Component({
 	selector: 'app-root',

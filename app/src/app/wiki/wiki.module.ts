@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { WikiRoutingModule } from './wiki-routing.module';
 import { NavigationModule } from './../navigation/navigation.module';
+import { UtilitiesModule } from './../utilities/utilities.module';
 
 import { WikiComponent } from './components/wiki.component';
 import { MainComponent } from './main/main.component';
@@ -11,15 +12,12 @@ import { NavboxFooterComponent } from './navbox-footer/navbox-footer.component';
 import { FooterComponent } from './footer/footer.component';
 import { TableOfContentsComponent } from './table-of-contents/table-of-contents.component';
 
-// import { NoSanitizePipe } from './pipes/nosanitizerpipe';
-
 @NgModule({
 	declarations: [
 		WikiComponent,
 		MainComponent,
 		CategoryComponent,
 		PageComponent,
-		//NoSanitizePipe,
 		NavboxFooterComponent,
 		FooterComponent,
 		TableOfContentsComponent,
@@ -27,7 +25,8 @@ import { TableOfContentsComponent } from './table-of-contents/table-of-contents.
 	imports: [
 		CommonModule,
 		WikiRoutingModule,
-		NavigationModule
+		NavigationModule,
+		UtilitiesModule
 	],
 	providers: [],
 	bootstrap: [WikiComponent]
