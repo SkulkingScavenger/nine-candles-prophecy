@@ -276,7 +276,7 @@
 			"contentPath": "mechanics/burning-sigils",
 			"category": "mechanics",
 			"description": "Of Truth",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/burning-sigils-icon.png",
 			"url": "burning-sigils"
 		},{
 			"title":"Dominion",
@@ -297,14 +297,14 @@
 			"contentPath": "mechanics/shademark",
 			"category": "mechanics",
 			"description": "Of Sacrifice",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/shademark-icon.png",
 			"url": "shademark"
 		},{
 			"title":"The Shifting",
 			"contentPath": "mechanics/the-shifting",
 			"category": "mechanics",
 			"description": "Of Deception",
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/stairs-icon.png",
 			"url": "the-shifting"
 		},{
 			"title" : "Sherab, Dominion of Worms",
