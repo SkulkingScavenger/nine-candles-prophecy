@@ -731,7 +731,7 @@
 			"title" : "The Krizzle",
 			"category": "monsters",
 			"tags" : ["monster"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/the-krizzle-thumbnail.png",
 			"contentPath" : "monsters/the-krizzle",
 			"url": "the-krizzle"
 		},{
