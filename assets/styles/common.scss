@@ -292,16 +292,13 @@ hr {
 		}
 		.card{
 		width: 154px;
-		//height: 230px; 
 		display: inline-grid;
 		margin: 5px;
-	 // float: left;
 		.title{
 			font-weight: $font-bold;
 			margin:auto;
 			display: flex;
 			text-align: center;
-			//height: 45px;
 			margin-bottom: 5px;
 		}
 		img{
@@ -310,7 +307,7 @@ hr {
 			height:150px;
 		}
 		a:hover img{
-			border-color: #222;
+			border-color: $darker-gray;
 		}
 		a:active img{
 			border-color: $black;

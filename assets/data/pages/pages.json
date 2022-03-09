@@ -71,6 +71,13 @@
 			"imagePath": "thumbnails/shiza-thumbnail.png",
 			"url": "shiza"
 		},{
+			"title":"The Peddler",
+			"contentPath": "characters/the-peddler",
+			"category": "characters",
+			"tags" : ["human","shademarked"],
+			"imagePath": "thumbnails/the-peddler-thumbnail.png",
+			"url": "the-peddler"
+		},{
 			"title":"Ghoul King Akat",
 			"contentPath": "characters/akat",
 			"category": "characters",
@@ -307,6 +314,337 @@
 			"imagePath": "thumbnails/stairs-icon.png",
 			"url": "the-shifting"
 		},{
+			"title" : "Vastcavern",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/vastcavern",
+			"url": "vastcavern",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Ruins",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/ruins",
+			"url": "ruins",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Fungal Forest",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/fungal-forest",
+			"url": "fungal-forest",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Darkroot Grove",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/zaramon-thumbnail.png",
+			"contentPath" : "biomes/darkroot-grove",
+			"url": "darkroot-grove",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Underground Rivers and Lakes",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/underground-water",
+			"url": "underground-water",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Spider Hollow",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/spider-hollow",
+			"url": "spider-hollow",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Stalactite Forest",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/stalactite-forest",
+			"url": "stalactitie-forest",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Chasms",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/chasms",
+			"url": "chasms",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Glowing Mushroom Cavern",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/glowing-mushroom-cavern",
+			"url": "glowing-mushroom-cavern",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Monster Graveyard",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/monster-graveyard",
+			"url": "monster-graveyard",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Candle Cave",
+			"category": "biomes",
+			"tags" : ["biome","common biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/candle-cave",
+			"url": "candle-cave",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Skyfall Crater",
+			"category": "biomes",
+			"tags" : ["biome","rare biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/skyfall-crater",
+			"url": "skyfall-crater",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Candlerest",
+			"category": "biomes",
+			"tags" : ["biome","rare biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/candlerest",
+			"url": "candlerest",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Silvermist Cavern",
+			"category": "biomes",
+			"tags" : ["biome","rare biome"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "biomes/silvermist-cavern",
+			"url": "silvermist-cavern",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Upper Oubliette",
+			"category": "locations",
+			"tags" : ["region"],
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"contentPath" : "locations/upper-oubliette",
+			"url": "upper-oubliette",
+			"subcategories": [{
+				"title": "Locations",
+				"category": "locations",
+				"requiredTags": ["upper-oubliette"],
+				"excludeTags": ["dominion"]
+			}]
+		},{
+			"title" : "Middle Oubliette",
+			"category": "locations",
+			"tags" : ["region"],
+			"imagePath": "thumbnails/middle-caverns-thumbnail.png",
+			"contentPath" : "locations/middle-oubliette",
+			"url": "middle-oubliette",
+			"subcategories": [{
+				"category": "locations",
+				"requiredTags": ["middle-oubliette"],
+				"excludeTags": ["dominion"]
+			}]
+		},{
+			"title" : "Lower Oubliette",
+			"category": "locations",
+			"tags" : ["region"],
+			"imagePath": "locations/cave05.png",
+			"contentPath" : "locations/lower-oubliette",
+			"url": "lower-oubliette",
+			"subcategories": [{
+				"category": "locations",
+				"requiredTags": ["lower-oubliette"],
+				"excludeTags": ["dominion"]
+			}]
+		},{
 			"title" : "Sherab, Dominion of Worms",
 			"category": "locations",
 			"tags" : ["sherab", "dominion"],
@@ -433,6 +771,96 @@
 			"contentPath" : "locations/rosewall",
 			"url": "rosewall"
 		},{
+			"title" : "Giants' Courtyard",
+			"category": "locations",
+			"tags" : ["upper-oubliette"],
+			"imagePath": "thumbnails/rosewall-thumbnail.png",
+			"contentPath" : "locations/giants-courtyard",
+			"url": "giants-courtyard",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Locations",
+					"categories": [
+						{
+							"title": "Upper Oubliette",
+							"category": "locations",
+							"requiredTags": ["upper-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Middle Oubliette",
+							"category": "locations",
+							"requiredTags": ["middle-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Lower Oubliette",
+							"category": "locations",
+							"requiredTags": ["lower-oubliette"],
+							"excludeTags": ["dominion"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Forest of Lights",
+			"category": "locations",
+			"tags" : ["middle-oubliette"],
+			"imagePath": "thumbnails/rosewall-thumbnail.png",
+			"contentPath" : "locations/forest-of-lights",
+			"url": "forest-of-lights",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Locations",
+					"categories": [
+						{
+							"title": "Upper Oubliette",
+							"category": "locations",
+							"requiredTags": ["upper-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Middle Oubliette",
+							"category": "locations",
+							"requiredTags": ["middle-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Lower Oubliette",
+							"category": "locations",
+							"requiredTags": ["lower-oubliette"],
+							"excludeTags": ["dominion"]
+						}
+					]
+				}
+			]
+		},{
+			"title" : "Lake of the Krakanak",
+			"category": "locations",
+			"tags" : ["lower-oubliette"],
+			"imagePath": "thumbnails/rosewall-thumbnail.png",
+			"contentPath" : "locations/lake-of-the-krakanak",
+			"url": "lake-of-the-krakanak",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Locations",
+					"categories": [
+						{
+							"title": "Upper Oubliette",
+							"category": "locations",
+							"requiredTags": ["upper-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Middle Oubliette",
+							"category": "locations",
+							"requiredTags": ["middle-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Lower Oubliette",
+							"category": "locations",
+							"requiredTags": ["lower-oubliette"],
+							"excludeTags": ["dominion"]
+						}
+					]
+				}
+			]
+		},{
 			"title" : "Fungus",
 			"category": "resources",
 			"tags" : ["resource"],
@@ -530,7 +958,7 @@
 						{
 							"title": "Forsaken Characters",
 							"category": "characters",
-							"tag": "human"
+							"requiredTags": ["human"]
 						}
 					]
 				}
@@ -549,7 +977,7 @@
 						{
 							"title": "Gremlin Characters",
 							"category": "characters",
-							"tag": "gremlin"
+							"requiredTags": ["gremlin"]
 						}
 					]
 				}
@@ -568,7 +996,7 @@
 						{
 							"title": "Warden Characters",
 							"category": "characters",
-							"tag": "warden"
+							"requiredTags": ["warden"]
 						}
 					]
 				}
@@ -668,7 +1096,7 @@
 			"title" : "Blackwings",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/blackwing-thumbnail.png",
 			"contentPath" : "monsters/blackwings",
 			"url": "blackwings"
 		},{
@@ -735,6 +1163,13 @@
 			"contentPath" : "monsters/the-krizzle",
 			"url": "the-krizzle"
 		},{
+			"title" : "The Gogohra",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/the-gogohra",
+			"url": "the-gogohra"
+		},{
 			"title" : "The Snakkering Beast",
 			"category": "monsters",
 			"tags" : ["monster"],
@@ -759,7 +1194,7 @@
 			"title" : "The Skincrawler",
 			"category": "monsters",
 			"tags" : ["monster"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/skincrawler-thumbnail.png",
 			"contentPath" : "monsters/the-skincrawler",
 			"url": "the-skincrawler"
 		}
