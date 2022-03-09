@@ -1,0 +1,20 @@
+<div class="card-holder">
+	<br><br>
+	<div class="card-section-division"></div>
+	<div style="clear:both"></div>
+	<div *ngFor="let subcategory of data.subcategories" class="card-section">
+		<div class="card-section-header">
+			<h3>{{subcategory.title}}</h3>
+			{{subcategory.description}}
+		</div>
+		<div *ngFor="let page of subcategory.cards" class="card">
+			<a routerLink="../{{page.url}}">
+				<img src="assets/images/{{page.imagePath}}" class="thumbnail">
+				<span class="title">{{page.title}}</span>
+			</a>
+			<p>{{page.description}}</p>
+		</div>
+		<div class="card-section-division"></div>
+		<div style="clear:both"></div>
+	</div>
+</div>

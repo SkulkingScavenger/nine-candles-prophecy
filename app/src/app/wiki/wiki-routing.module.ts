@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { WikiComponent } from "./components/wiki.component";
 import { MainComponent } from "./main/main.component";
+import { DisambiguationComponent } from './disambiguation/disambiguation.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,8 @@ const routes: Routes = [
 		},{
 			path: ':page',
 			component: MainComponent
+		},{
+			path: 'disambiguation/:page'
 		}
 ];
 

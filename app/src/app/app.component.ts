@@ -21,6 +21,6 @@ export class AppComponent {
 	}
 
 	CheckScreenWidth(){
-		this.contentWidth = (window.innerWidth)+"px";
+		this.contentWidth = (window.innerWidth - 16)+"px";
 	}
 }

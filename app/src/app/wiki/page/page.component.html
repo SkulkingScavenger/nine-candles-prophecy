@@ -4,9 +4,13 @@
 			<div class="content-header">
 				<h1 class="content-title">{{data.title}}</h1>
 			</div>	
-		<div class="content-body">
+		<div class="content-body" id="page-container">
+			<div *ngIf="data.introContent" style="margin-bottom:10px" class="page-content hidden-when-big" [innerHTML]="data.introContent | noSanitize"></div>
+			<div *ngIf="data.infoboxContent" class="infobox" [innerHTML]="data.infoboxContent | noSanitize"></div>
+			<div *ngIf="data.introContent" style="margin-bottom:10px" class="page-content hidden-when-small" [innerHTML]="data.introContent | noSanitize"></div>
 			<table-of-contents [headers]="headers" *ngIf="showTableOfContents"></table-of-contents>
 			<div *ngIf="data.content" class="page-content" [innerHTML]="data.content | noSanitize"></div>
+			<wiki-subcategory *ngIf="data.subcategories" [data]="data" [allPages]="allPages.pages" [allCategories]="allCategories"></wiki-subcategory>
 		</div>
 		<wiki-footer [data]="data" [allPages]="allPages" [allCategories]="allCategories"></wiki-footer>
 	</div>

@@ -11,6 +11,10 @@ import { PageComponent } from './page/page.component';
 import { NavboxFooterComponent } from './navbox-footer/navbox-footer.component';
 import { FooterComponent } from './footer/footer.component';
 import { TableOfContentsComponent } from './table-of-contents/table-of-contents.component';
+import { DisambiguationComponent } from './disambiguation/disambiguation.component';
+import { SearchComponent } from './search/search.component';
+import { ImageViewerComponent } from './image-viewer/image-viewer.component';
+import { SubcategoryComponent } from './subcategory/subcategory.component';
 
 @NgModule({
 	declarations: [
@@ -21,6 +25,10 @@ import { TableOfContentsComponent } from './table-of-contents/table-of-contents.
 		NavboxFooterComponent,
 		FooterComponent,
 		TableOfContentsComponent,
+		DisambiguationComponent,
+		SearchComponent,
+		ImageViewerComponent,
+		SubcategoryComponent,
 	],
 	imports: [
 		CommonModule,

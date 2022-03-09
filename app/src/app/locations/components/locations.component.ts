@@ -16,6 +16,7 @@ export class LocationsComponent {
 	regionPages = [];
 	villagePages = [];
 	locationPages = [];
+	biomePages = [];
 	allPages;
 
 	ngOnInit(){
@@ -28,7 +29,13 @@ export class LocationsComponent {
 						this.dominionPages.push(this.allPages[i]);
 					}else if(this.HasTag(this.allPages[i], "village")){
 						this.villagePages.push(this.allPages[i]);
+					}else if(this.HasTag(this.allPages[i], "region")){
+						this.regionPages.push(this.allPages[i]);
+					}else{
+						this.locationPages.push(this.allPages[i]);
 					}
+				}else if(this.allPages[i].category == "biomes"){
+					this.biomePages.push(this.allPages[i]);
 				}
 			}
 		});
@@ -45,6 +52,10 @@ export class LocationsComponent {
 			}
 		}
 		 return hasTag;
+	}
+
+	UpperOnClick(){
+		console.log("beep!");
 	}
 
 

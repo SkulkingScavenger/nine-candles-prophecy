@@ -36,6 +36,7 @@
 					&.navbox-group{
 						padding: 3px 12px;
 						background-color: $darkest-gray;
+						width: 80px;
 					}
 				}
 				td{
@@ -71,6 +72,9 @@
 								white-space: nowrap;
 								color: $bright-orange;
 								text-decoration: none;
+								&:hover{
+									color: $orange;
+								}
 							}
 						}
 					}

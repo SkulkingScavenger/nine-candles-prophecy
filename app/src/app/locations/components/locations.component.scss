@@ -1,1 +1,174 @@
-@import "src/assets/styles/common.scss"
+@import "src/assets/styles/common.scss";
+
+.location-tree-container{
+	.location-tree-header{
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.location-tree{
+		padding-top: 32px;
+		.connections-container{
+			width: 750px;
+			position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			.connections{
+				position: absolute;
+				top: 50px;
+				z-index: 1;
+			}
+		}
+		
+		.region-box{
+			position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			width: 750px;
+			height: 300px;
+			border: 2px solid $darker-gray;
+			background-color: $actually-darkest-gray;
+			background-image: url("/assets/images/locations/division-background-00.png");
+			margin-bottom: 50px;
+			&.middle-region{
+				background-image: url("/assets/images/locations/division-background-01.png");
+			}
+			&.lower-region{
+				background-image: url("/assets/images/locations/division-background-02.png");
+			}
+			a.region-anchor{
+				&:hover{
+					.region-label{
+						border: 2px solid $darkest-gray;
+					}
+					 & > img{
+						position: absolute;
+						top: -2px;
+						left: -2px;
+						border: 2px solid $darkest-gray;
+					}
+				}
+				&:active{
+					.region-label{
+						//border: 2px solid $black;
+						background-color: $black;
+						font-family: schreibmaschine;
+						color: $blood-red;
+					}
+					img{
+						opacity: 0;
+					}
+				}
+			}
+			img{
+				display: inline-block;
+				width: 750px;
+				height: 300px;
+			}
+			.region-label{
+				position: absolute;
+				left: 275px;
+				top: -34px;
+				width: 200px;
+				height: 24px;
+				padding: 12px 0px;
+				text-align: center;
+				border: 2px solid $darker-gray;
+				border-radius: 6px;
+				background-color: $actually-darkest-gray;
+				font-weight: bold;
+				z-index: 2;
+				&.reverse{
+					bottom: -14px;
+				}
+			}
+			.dominion-box{
+				position: absolute;
+				width: 154px;
+				height: 154px;
+				z-index: 2;
+				background-image: url("/assets/images/locations/division-background-00.png");
+				border-radius: 100%;
+				a{
+					&:hover{
+						.dominion-label{
+							border: 2px solid $darkest-gray;
+						}
+						img{
+							border: 2px solid $darkest-gray;
+						}
+					}
+					&:active{
+						.dominion-label{
+							background-color: $black;
+							border: 2px solid $darkest-gray;
+							font-family: schreibmaschine;
+							color: $blood-red;
+							line-height: 18px;
+							span{
+								font-family: schreibmaschine;
+							}
+						}
+						img{
+							opacity: 0;
+							//border: 2px solid $black;
+						}
+					}
+				}
+				.dominion-label{
+					position: absolute;
+					//top: -46px;
+					top: -54px;
+					text-align: center;
+					width: 150px;
+					height: 38px;
+					background-color: $actually-darkest-gray;
+					padding: 3px 0px;
+					border: 2px solid $darker-gray;
+					font-size: 13px;
+					font-weight: bold;
+					&.reverse{
+						//top: 152px;
+						top: 160px;
+					}
+					span{
+						font-size: 12px;
+					}
+				}
+				img{
+					display: inline-block;
+					width: 150px;
+					height: 150px;
+					border: 2px solid $darker-gray;
+					border-radius: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width:800px){
+	.main{
+		.content-container{
+			.content{
+				.content-body{
+					margin-left: 5%;
+					margin-right: 5%;
+				}
+			}
+		}
+	}
+
+	.hidden-when-big{
+		display: none !important;
+	}
+	
+}
+
+@media (max-width: 800px){
+	.location-tree-container{
+		display: none;
+	}
+}

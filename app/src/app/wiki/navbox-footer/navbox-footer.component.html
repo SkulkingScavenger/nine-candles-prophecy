@@ -9,7 +9,8 @@
 						<a *ngIf="!isVisible" (click)="ToggleVisibility()" href="javascript:void(0)">expand</a>
 						]
 					</span>
-					<div class="navbox-title">{{data.title}}</div>
+					<div *ngIf="!mainCategory" class="navbox-title">{{data.title}}</div>
+					<div *ngIf="mainCategory" class="navbox-title"><a routerLink="/{{mainCategory}}">{{data.title}}</a></div>
 				</th>
 			</tr>
 			<tr *ngFor="let category of categories" class="category-row" [ngClass]="{hidden: !isVisible || category.items.length == 0}">

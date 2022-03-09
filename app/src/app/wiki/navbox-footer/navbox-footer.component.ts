@@ -14,8 +14,10 @@ export class NavboxFooterComponent {
 	title = "";
 	categories = [];
 	isVisible = true;
+	mainCategory = null;
 
 	ngOnInit(){
+		this.mainCategory = this.data.mainCategory;
 		for(var i=0;i<this.data.categories.length;i++){
 			this.categories[i] = {"title": this.data.categories[i].title,"url": this.data.categories[i].url, "items": []};
 
@@ -29,43 +31,74 @@ export class NavboxFooterComponent {
 	}
 
 	PageMatchesCriteria(page, category){
-		var matchFound = true;
-		
-		if(category.category && !page.category.includes(category.category)){
-			matchFound = false;
+		var hasAllRequiredTags = this.HasAllRequiredTags(page, category.requiredTags);
+		var hasNoExcludedTags = this.HasNoExcludedTags(page, category.excludeTags);;
+		var hasRequiredCategory = this.HasRequiredCategory(page, category.category);;
 
-		}else if(category.tag){
-			var tagMatched = false;
-			if(page.tags){
-				for(var i=0;i<page.tags.length;i++){
-					if(page.tags[i] == category.tag){
-						tagMatched = true;
-						break;
-					}
-				}
-			}
-			if(!tagMatched){
-				matchFound = false;
-			}
-		}
-		if(category.excludeTags){
-			for(var i=0;i<category.excludeTags.length;i++){
-				if(page.tags){
-					for(var j=0;j<page.tags.length;j++){
-						if(page.tags[j] == category.excludeTags[i]){
-							matchFound = false;
-							break;
-						}
-					}
-				}
-			}
-		}
 
-		return matchFound;
+		return hasAllRequiredTags && hasNoExcludedTags && hasRequiredCategory;
 	}
 
 	ToggleVisibility(){
 		this.isVisible = !this.isVisible;
+	}
+
+	HasAllRequiredTags(page, requiredTags){
+		var isRequired = true;
+		var allMatch = true;
+		var hasTag;
+		if(requiredTags && Array.isArray(requiredTags) && requiredTags.length > 0){
+			if(page.tags){
+				for(var i=0;i<requiredTags.length;i++){
+					hasTag = false;
+					for(var j=0;j<page.tags.length;j++){
+						if(page.tags[j] == requiredTags[i]){
+							hasTag = true;
+							break;
+						}
+					}
+					if(!hasTag){
+						allMatch = false;
+						break;
+					}
+				}
+			}else{
+				allMatch = false;
+			}
+		}else{
+			isRequired = false;
+		}
+
+		return !isRequired || allMatch;
+	}
+
+	HasNoExcludedTags(page, excludeTags){
+		var hasAnyExcludedTag = false;
+		if(excludeTags && Array.isArray(excludeTags) && excludeTags.length > 0){
+			if(page.tags){
+				for(var i=0;i<excludeTags.length;i++){
+					for(var j=0;j<page.tags.length;j++){
+						if(page.tags[j] == excludeTags[i]){
+							hasAnyExcludedTag = true;
+							break;
+						}
+					}
+					if(hasAnyExcludedTag){
+						break;
+					}
+				}
+			}
+		}
+
+		return !hasAnyExcludedTag;
+	}
+
+	HasRequiredCategory(page, category){
+		var flag = true;
+		if(typeof(category) === "string" && category){
+			flag = page.category == category;
+		}
+		return flag;
 	}
 
 }

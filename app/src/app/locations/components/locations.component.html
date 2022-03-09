@@ -2,7 +2,7 @@
 	<div class="content-container">
 		<div class="content">
 			<div class="content-header">
-				<h1 class="content-title">Locations</h1>
+				<h1 class="content-title">The Oubliette</h1>
 			</div>
 			<div class="content-body">
 				<p>
@@ -11,13 +11,132 @@
 				</p>
 
 				<br>
-				<div class="card-holder">
 
-					<div class="card-section-header">
+				
+
+				<div class="location-tree-container">
+					<div class="location-tree-header">
 						<h3>The Nine Dominions</h3>
 						The Nine lost kingdoms swallowed by darkness, the seats of the wardens' power
 					</div>
-					<div class="card" *ngFor="let page of dominionPages">
+					<div class="location-tree">
+						<div class="connections-container hidden">
+							<img class="connections" src="assets/images/dominion-connections.png">
+						</div>
+						<div class="region-box">
+							<a class="region-anchor" routerLink="../upper-oubliette" (click)="UpperOnClick()">
+								<div class="region-label">
+									UPPER OUBLIETTE
+								</div>
+								<img src="assets/images/thumbnails/lower-oubliette-thumbnail.png">
+							</a>
+							<div class="dominion-box" style="bottom:18px; left:92px">
+								<a routerLink="../korhazar">
+									<div class="dominion-label">Korhazar<br><span> Dominion of Dust</span></div>
+									<img src="assets/images/thumbnails/korhazar-thumbnail.png">
+								</a>
+							</div>
+							<div class="dominion-box" style="top:48px; left:298px">
+								<a routerLink="../sherab">
+									<div class="dominion-label reverse">Sherab<br><span> Dominion of Worms</span></div>
+									<img src="assets/images/thumbnails/sherab-thumbnail.png">
+								</a>
+							</div>
+							<div class="dominion-box" style="bottom:18px; left:504px">
+								<a routerLink="../raishabar">
+									<div class="dominion-label">Raishabar<br><span> Dominion of Ash</span></div>
+									<img src="assets/images/thumbnails/raishabar-thumbnail.png">
+								</a>
+							</div>
+						</div>
+
+						<div class="region-box middle-region">
+							<a class="region-anchor" routerLink="../middle-oubliette">
+								<div class="region-label">
+									MIDDLE OUBLIETTE
+								</div>
+								<img src="assets/images/thumbnails/middle-caverns-thumbnail.png">
+							</a>
+							<div class="dominion-box" style="top:38px; left:92px">
+								<a routerLink="../maelech">
+								<div class="dominion-label reverse">Maelech<br><span>Dominion of Chains</span></div>
+								
+									<img src="assets/images/thumbnails/maelech-thumbnail.png">
+								</a>
+							</div>
+							
+							<div class="dominion-box" style="bottom:28px; left:298px">
+								<a routerLink="../tharas">
+									<div class="dominion-label">
+										Tharas<br>
+										<span>Dominion of Dregs</span>
+									</div>
+									<img src="assets/images/thumbnails/tharas-thumbnail.png">
+								</a>	
+							</div>
+							
+							<div class="dominion-box" style="top:38px; left:504px">
+								<a routerLink="../zaramon">
+									<div class="dominion-label reverse">
+											Zaramon<br>
+											<span>Dominion of Thorns</span>
+									</div>
+									<img src="assets/images/thumbnails/zaramon-thumbnail.png">
+								</a>
+							</div>
+						</div>
+
+						<div class="region-box lower-region">
+							<a class="region-anchor" routerLink="../lower-oubliette">
+								<div class="region-label">
+									LOWER OUBLIETTE
+								</div>
+								<img src="assets/images/locations/cave05.png">
+							</a>
+							<div class="dominion-box" style="top:18px; left:92px">
+								<a routerLink="../sinra">
+									<div class="dominion-label reverse">Sinra<br><span>Dominion of Glass</span></div>
+									<img src="assets/images/thumbnails/sinra-thumbnail.png">
+								</a>
+							</div>
+							<div class="dominion-box" style="bottom:18px; left:298px">
+								<a routerLink="../ahoth">
+									<div class="dominion-label">Ahoth<br><span>Dominion of Sacrifice</span></div>
+									<img src="assets/images/thumbnails/ahoth-thumbnail.png">
+								</a>
+							</div>
+							<div class="dominion-box" style="top:18px; left:504px">
+								<a routerLink="../hekkath">
+									<div class="dominion-label reverse">Hekkath<br><span>Dominion of Tombs</span></div>
+									<img src="assets/images/thumbnails/hekkath-thumbnail.png">
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="card-holder">
+
+					<div class="card-section-header hidden-when-big">
+						<h3>Divisions of the Oubliette</h3>
+					</div>
+					<div class="card card-large hidden-when-big" *ngFor="let page of regionPages">
+						<a routerLink="../{{page.url}}">
+							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
+							<span class="title">{{page.title}}</span>
+						</a>
+						<p>{{page.description}}</p>
+					</div>
+
+					<div class="card-section-division hidden-when-big"></div>
+					<div style="clear:both"></div>
+
+					<div class="card-section-header hidden-when-big">
+						<h3>The Nine Dominions</h3>
+						The Nine lost kingdoms swallowed by darkness, the seats of the wardens' power
+					</div>
+					<div class="card hidden-when-big" *ngFor="let page of dominionPages">
 						<a routerLink="../{{page.url}}">
 							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
 							<span class="title">{{page.title}}</span>
@@ -40,7 +159,23 @@
 						<p>{{page.description}}</p>
 					</div>
 
+					<div class="card-section-division"></div>
 					<div style="clear:both"></div>
+
+					<div class="card-section-header">
+						<h3>Biomes</h3>
+					</div>
+
+					<div class="card" *ngFor="let page of biomePages">
+						<a  routerLink="../{{page.url}}">
+							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
+							<span class="title">{{page.title}}</span>
+						</a>
+						<p>{{page.description}}</p>
+					</div>
+
+					<div style="clear:both"></div>
+
 				</div>
 			</div>
 		</div>

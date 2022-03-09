@@ -4,7 +4,6 @@ import { Subscription, EMPTY, forkJoin } from 'rxjs';
 import { switchMap, map, catchError } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 import { CategoryComponent } from '../category/category.component';
-import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -117,24 +116,10 @@ export class MainComponent {
 	OnLoad(){
 		this.isLoaded = true;
 		if(!this.isCategory){
-			this.data.content = this.InjectHyperlinkPrefixes(this.data.content);
+			//this.data.content = this.InjectHyperlinkPrefixes(this.data.content);
 		}else{
 			this.pageNotFound = false;
 		}
 	}
 
-	ngAfterViewChecked(){
-
-	}
-
-	InjectHyperlinkPrefixes(str){
-		var prefix;
-		if(environment.production){
-			prefix = "https://skulkingscavenger.github.io/nine-candles-prophecy";
-		}else{
-			prefix = "http://localhost:4200";
-		}
-		
-		return str.replace(/HYPERLINK_PREFIX/g,prefix);
-	}
 }
