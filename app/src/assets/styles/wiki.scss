@@ -149,6 +149,9 @@ color : green
 	a{
 		color: $bright-orange;
 		text-decoration: none;
+		&:hover{
+			color: $orange;
+		}
 	}
 }
 
@@ -238,6 +241,9 @@ color : green
 	a{
 		color: $bright-orange;
 		text-decoration: none;
+		&:hover{
+			color: $orange;
+		}
 	}
 }
 
