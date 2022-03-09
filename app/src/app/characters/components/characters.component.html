@@ -19,6 +19,38 @@
 						<p>{{page.description}}</p>
 					</div>
 
+					<div class="card-section-division"></div>
+					<div style="clear:both"></div>
+
+					<div class="card-section-header">
+						<h3>Monster Characters</h3>
+						They're kinda scary but they're not <i>all</i> bad
+					</div>
+
+					<div class="card" *ngFor="let page of monsterPages">
+						<a  routerLink="../{{page.url}}">
+							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
+							<span class="title">{{page.title}}</span>
+						</a>
+						<p>{{page.description}}</p>
+					</div>
+
+					<div class="card-section-division"></div>
+					<div style="clear:both"></div>
+
+					<div class="card-section-header">
+						<h3>Warden Characters</h3>
+						They do sometimes meddle in the affairs of mortals...
+					</div>
+
+					<div class="card" *ngFor="let page of wardenPages">
+						<a  routerLink="../{{page.url}}">
+							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
+							<span class="title">{{page.title}}</span>
+						</a>
+						<p>{{page.description}}</p>
+					</div>
+
 					<div style="clear:both"></div>
 				</div>
 			</div>

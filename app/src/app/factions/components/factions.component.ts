@@ -4,10 +4,10 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
 	selector: 'app-root',
-	templateUrl: './races.component.html',
-	styleUrls: ['./races.component.scss']
+	templateUrl: './factions.component.html',
+	styleUrls: ['./factions.component.scss']
 })
-export class RacesComponent {
+export class FactionsComponent {
 	constructor(
 		private http: HttpClient,
 		private route: ActivatedRoute
@@ -21,12 +21,8 @@ export class RacesComponent {
 		this.http.get(path).subscribe(response => {
 			this.allPages = response["pages"];
 			for(var i=0;i<this.allPages.length;i++){
-				if(this.allPages[i].category == "races"){
-					if(this.HasTag(this.allPages[i], "major race")){
-						this.majorPages.push(this.allPages[i]);
-					}else if(this.HasTag(this.allPages[i], "minor race")){
-						this.minorPages.push(this.allPages[i]);
-					}
+				if(this.allPages[i].category == "factions"){
+					this.majorPages.push(this.allPages[i]);
 				}
 			}
 		});

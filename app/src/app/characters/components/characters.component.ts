@@ -14,6 +14,8 @@ export class CharactersComponent {
 	){}
 	pages = [];
 	allPages;
+	monsterPages = [];
+	wardenPages = [];
 
 	ngOnInit(){
 		var path = "assets/data/pages/pages.json";
@@ -22,9 +24,26 @@ export class CharactersComponent {
 			for(var i=0;i<this.allPages.length;i++){
 				if(this.allPages[i].category == "characters"){
 					this.pages.push(this.allPages[i]);
+				}else if(this.allPages[i].category == "monsters" && this.HasTag(this.allPages[i], "character")){
+					this.monsterPages.push(this.allPages[i]);
+				}else if(this.allPages[i].category == "wardens" && this.HasTag(this.allPages[i], "character")){
+					this.wardenPages.push(this.allPages[i]);
 				}
 			}
 		});
+	}
+
+	HasTag(page, tag){
+		var hasTag = false;
+		if(page.tags){
+			for(var i=0;i<page.tags.length;i++){
+				if(page.tags[i] == tag){
+					hasTag = true;
+					break;
+				}
+			}
+		}
+		return hasTag;
 	}
 
 }

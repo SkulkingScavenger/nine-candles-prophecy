@@ -1,20 +1,20 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MechanicsRoutingModule } from './mechanics-routing.module';
+import { WardensRoutingModule } from './wardens-routing.module';
 import { NavigationModule } from './../navigation/navigation.module';
 
-import { MechanicsComponent } from './components/mechanics.component';
+import { WardensComponent } from './components/wardens.component';
 
 @NgModule({
 	declarations: [
-		MechanicsComponent
+		WardensComponent
 	],
 	imports: [
 		CommonModule,
-		MechanicsRoutingModule,
+		WardensRoutingModule,
 		NavigationModule
 	],
 	providers: [],
-	bootstrap: [MechanicsComponent]
+	bootstrap: [WardensComponent]
 })
-export class MechanicsModule { }
+export class WardensModule { }

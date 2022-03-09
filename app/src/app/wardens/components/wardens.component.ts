@@ -4,10 +4,10 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
 	selector: 'app-root',
-	templateUrl: './mechanics.component.html',
-	styleUrls: ['./mechanics.component.scss']
+	templateUrl: './wardens.component.html',
+	styleUrls: ['./wardens.component.scss']
 })
-export class MechanicsComponent {
+export class WardensComponent {
 	constructor(
 		private http: HttpClient,
 		private route: ActivatedRoute
@@ -20,7 +20,7 @@ export class MechanicsComponent {
 		this.http.get(path).subscribe(response => {
 			this.allPages = response["pages"];
 			for(var i=0;i<this.allPages.length;i++){
-				if(this.allPages[i].category == "mechanics"){
+				if(this.allPages[i].category == "wardens"){
 					this.pages.push(this.allPages[i]);
 				}
 			}

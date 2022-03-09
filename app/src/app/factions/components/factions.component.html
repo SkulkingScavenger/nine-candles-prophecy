@@ -2,23 +2,20 @@
 	<div class="content-container">
 		<div class="content">
 			<div class="content-header">
-				<h1 class="content-title">You've heard of horse races...</h1>
+				<h1 class="content-title">Factions</h1>
 			</div>
 			<div class="content-body">
 				<p>
-				...but how about regular ones?
-				<br><br>
-				No?<br>
-				Oh bud, you're in for a treat.<br> These guys, they're pretty great. Nifty, even
+				The different types
 
 				</p>
 
 				<br>
 				<div class="card-holder">
 
-					<div class="card-section-header">
-						<h3>Major Races</h3>
-					</div>
+<!-- 					<div class="card-section-header">
+						<h3>Major Factions</h3>
+					</div> -->
 					<div class="card card-large" *ngFor="let page of majorPages">
 						<a  routerLink="../{{page.url}}">
 							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
@@ -28,11 +25,11 @@
 					</div>
 
 
-					<div class="card-section-division"></div>
+<!-- 					<div class="card-section-division"></div>
 					<div style="clear:both"></div>
 
 					<div class="card-section-header">
-						<h3>Minor Races</h3>
+						<h3>Minor Factions</h3>
 					</div>
 
 					<div class="card" *ngFor="let page of minorPages">
@@ -41,7 +38,7 @@
 							<span class="title">{{page.title}}</span>
 						</a>
 						<p>{{page.description}}</p>
-					</div>
+					</div> -->
 
 					<div style="clear:both"></div>
 				</div>

@@ -13,6 +13,8 @@ export class MonstersComponent {
 		private route: ActivatedRoute
 	){}
 	monsterPages = [];
+	undeadPages = [];
+	primordialPages = [];
 	animalPages = [];
 	allPages;
 
@@ -24,6 +26,10 @@ export class MonstersComponent {
 				if(this.allPages[i].category == "monsters"){
 					if(this.HasTag(this.allPages[i], "monster")){
 						this.monsterPages.push(this.allPages[i]);
+					}else if(this.HasTag(this.allPages[i], "undead")){
+						this.undeadPages.push(this.allPages[i]);
+					}else if(this.HasTag(this.allPages[i], "primordial")){
+						this.primordialPages.push(this.allPages[i]);
 					}else if(this.HasTag(this.allPages[i], "animal")){
 						this.animalPages.push(this.allPages[i]);
 					}

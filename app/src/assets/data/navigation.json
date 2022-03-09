@@ -16,13 +16,17 @@
 			"link": "/characters",
 			"title": "Characters"
 		},{
-			"id": "races",
-			"link": "/races",
-			"title": "Races"
+			"id": "factions",
+			"link": "/factions",
+			"title": "Factions"
 		},{
 			"id": "monsters",
 			"link": "/monsters",
 			"title": "Creatures"
+		},{
+			"id": "wardens",
+			"link": "/wardens",
+			"title": "Wardens"
 		},{
 			"id": "resources",
 			"link": "/resources",
