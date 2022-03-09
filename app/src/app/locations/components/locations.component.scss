@@ -30,13 +30,13 @@
 			height: 300px;
 			border: 2px solid $darker-gray;
 			background-color: $actually-darkest-gray;
-			background-image: url("/assets/images/locations/division-background-00.png");
+			background-image: url("../../../assets/images/locations/division-background-00.png");
 			margin-bottom: 50px;
 			&.middle-region{
-				background-image: url("/assets/images/locations/division-background-01.png");
+				background-image: url("../../../assets/images/locations/division-background-01.png");
 			}
 			&.lower-region{
-				background-image: url("/assets/images/locations/division-background-02.png");
+				background-image: url("../../../assets/images/locations/division-background-02.png");
 			}
 			a.region-anchor{
 				&:hover{
@@ -89,7 +89,7 @@
 				width: 154px;
 				height: 154px;
 				z-index: 2;
-				background-image: url("/assets/images/locations/division-background-00.png");
+				background-image: url("../../../assets/images/locations/division-background-00.png");
 				border-radius: 100%;
 				a{
 					&:hover{
