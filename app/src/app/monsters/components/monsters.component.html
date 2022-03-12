@@ -45,10 +45,10 @@
 					<div style="clear:both"></div>
 
 					<div class="card-section-header">
-						<h3>Animals</h3>
+						<h3>Legends</h3>
 					</div>
 
-					<div class="card" *ngFor="let page of animalPages">
+					<div class="card" *ngFor="let page of primordialPages">
 						<a  routerLink="../{{page.url}}">
 							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
 							<span class="title">{{page.title}}</span>
@@ -60,16 +60,18 @@
 					<div style="clear:both"></div>
 
 					<div class="card-section-header">
-						<h3>Primordials</h3>
+						<h3>Animals</h3>
 					</div>
 
-					<div class="card" *ngFor="let page of primordialPages">
+					<div class="card" *ngFor="let page of animalPages">
 						<a  routerLink="../{{page.url}}">
 							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
 							<span class="title">{{page.title}}</span>
 						</a>
 						<p>{{page.description}}</p>
 					</div>
+
+					
 
 					<div style="clear:both"></div>
 				</div>

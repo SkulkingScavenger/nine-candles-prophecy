@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { environment } from '../../../environments/environment';
+import { WikiService } from '../services/wiki.service';
 
 @Component({
 	selector: 'wiki-page',
@@ -10,13 +11,16 @@ import { environment } from '../../../environments/environment';
 export class PageComponent {
 	constructor(
 		private route: ActivatedRoute,
+		private wiki: WikiService,
 	){}
 	@Input() data;
 	@Input() allPages;
 	@Input() allCategories;
+	@Input() disambiguations;
 
 	headers = [];
 	showTableOfContents = false;
+	disambiguation;
 
 	ngOnInit(){
 		this.PreprocessHTML();
@@ -25,6 +29,7 @@ export class PageComponent {
 	ngAfterViewInit(){
 		setTimeout(()=>{
 			this.AssembleTableOfContents();
+			this.GetDisambiguations();
 			this.ScrollToFragment();
 		});
 	}
@@ -81,6 +86,16 @@ export class PageComponent {
 		var prefix;
 		prefix = environment.base_url;
 		return str.replace(/HYPERLINK_PREFIX/g,prefix);
+	}
+
+	GetDisambiguations(){
+		for(var i=0;i<this.disambiguations.length;i++){
+			if(this.wiki.HasPhraseInTitle(this.data, this.disambiguations[i].phrases)){
+				this.disambiguation = this.disambiguations[i];
+				break;
+			}
+		}
+		
 	}
 
 	// ProcessHyperlinks(){

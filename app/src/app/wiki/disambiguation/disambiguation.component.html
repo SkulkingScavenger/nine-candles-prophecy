@@ -1,3 +1,20 @@
-<div>
-	
+<div class="main">
+	<div class="content-container">
+		<div class="content"*ngIf="isLoaded">
+			<div class="content-header">
+				<h1 class="content-title">{{data.title}} (Disambiguation)</h1>
+			</div>	
+			<div class="content-body">
+				The phrase "{{data.title}}" can refer to the following pages
+				<ul *ngFor="let page of pages">
+					<li *ngIf="!page.disambiguationText">
+						<a routerLink="../../../{{page.category}}/{{page.url}}">{{page.title}}</a> in <b style="text-transform: Capitalize">{{page.category}}</b>
+					</li>
+					<li *ngIf="page.disambiguationText">
+						<a routerLink="../../../{{page.category}}/{{page.url}}">{{page.title}}</a>, {{page.disambiguationText}}
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>

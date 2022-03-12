@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { NavigationModule } from './navigation/navigation.module';
 import { UtilitiesModule } from './utilities/utilities.module';
-
+import { WikiService } from './wiki/services/wiki.service';
 
 import { AppComponent } from './app.component';
 
@@ -22,7 +22,7 @@ import { AppComponent } from './app.component';
 		NavigationModule,
 		FormsModule
 	],
-	providers: [],
+	providers: [WikiService],
 	bootstrap: [AppComponent]
 })
 export class AppModule { }

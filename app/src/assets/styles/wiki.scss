@@ -29,7 +29,12 @@ color : green
 			.content-body{
 				margin: 20px 4%;
 				margin-bottom: 40px;
-
+				.disambiguation{
+					font-size: 13px;
+					font-style: italic;
+					margin-top: -10px;
+					margin-bottom: 20px;
+				}
 			}
 		}
 	}

@@ -74,6 +74,31 @@
 				}
 			]
 		},{
+			"id": "biomes2",
+			"navtab": "wiki",
+			"title": "Biomes",
+			"selector" : "tag",
+			"appliesTo": [
+				{
+					"category": "biomes",
+					"tag": "biome"
+				}
+			],
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
 			"id": "characters",
 			"navtab": "characters",
 			"title": "characters",
@@ -177,6 +202,10 @@
 							"title": "Greater Wardens",
 							"category": "wardens",
 							"requiredTags": ["greater warden"]
+						},{
+							"title": "Lesser Wardens",
+							"category": "wardens",
+							"requiredTags": ["lesser warden"]
 						}
 					]
 				}
@@ -293,6 +322,40 @@
 							"title": "Undead Characters",
 							"category": "characters",
 							"requiredTags": ["undead"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "location",
+			"navtab": "wiki",
+			"title": "Oubliette Locations",
+			"selector": "tag",
+			"appliesTo": [
+				{
+					"category": "locations",
+					"excludeTags": ["dominion", "biome"]
+				}
+			],
+			"navigation-footers": [
+				{
+					"title": "Oubliette Locations",
+					"categories": [
+						{
+							"title": "Upper Oubliette",
+							"category": "locations",
+							"requiredTags": ["upper-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Middle Oubliette",
+							"category": "locations",
+							"requiredTags": ["middle-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Lower Oubliette",
+							"category": "locations",
+							"requiredTags": ["lower-oubliette"],
+							"excludeTags": ["dominion"]
 						}
 					]
 				}

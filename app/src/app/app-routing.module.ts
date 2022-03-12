@@ -18,6 +18,9 @@ const routes: Routes = [
 		path: 'locations',
 		loadChildren: () => import('./locations/locations.module').then(m => m.LocationsModule)
 	},{
+		path: 'biomes',
+		loadChildren: () => import('./biomes/biomes.module').then(m => m.BiomesModule)
+	},{
 		path: 'characters',
 		loadChildren: () => import('./characters/characters.module').then(m => m.CharactersModule)
 	},{

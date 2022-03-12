@@ -41,6 +41,7 @@ export class MainComponent {
 	urlPrevious = "";
 	initialized = false;
 	allCategories;
+	disambiguations;
 
 	ngOnInit(){
 		this.route.paramMap.subscribe(params => {
@@ -102,8 +103,9 @@ export class MainComponent {
 			}),
 			
 		);
-		forkJoin(sub, this.http.get("assets/data/pages/categories.json")).subscribe(result => {
+		forkJoin([sub, this.http.get("assets/data/pages/categories.json"), this.http.get("assets/data/pages/disambiguations.json")]).subscribe(result => {
 			this.allCategories = result[1]["categories"];
+			this.disambiguations = result[2]["disambiguations"];
 			if (error){
 				this.data.content = result[0];
 			}
