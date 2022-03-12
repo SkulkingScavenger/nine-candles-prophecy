@@ -1,21 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MechanicsComponent } from "./components/mechanics.component";
+import { BiomesComponent } from "./components/biomes.component";
 import { MainComponent } from "../wiki/main/main.component";
 
 const routes: Routes = [
-	{
-		path: '',
-		redirectTo: 'home',
-		pathMatch: 'full',
-	},
-	{
-		path: 'home',
-		component: MechanicsComponent
-	},{
-		path: ':page',
-		component: MainComponent
-	},
+		{
+			path: '',
+			redirectTo: 'home',
+			pathMatch: 'full',
+		},{
+			path: 'home',
+			component: BiomesComponent,
+		},{
+			path: ':page',
+			component: MainComponent
+		}
 ];
 
 @NgModule({
@@ -24,6 +23,6 @@ const routes: Routes = [
 	],
 	exports: [RouterModule]
 })
-export class MechanicsRoutingModule {
+export class BiomesRoutingModule {
 
 }

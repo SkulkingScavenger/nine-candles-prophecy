@@ -93,12 +93,16 @@
 							"requiredTags": ["gremlin"]
 						},{
 							"title": "Warden Characters",
-							"category": "characters",
-							"requiredTags": ["warden"]
+							"category": "wardens",
+							"requiredTags": ["character"]
 						},{
 							"title": "Seshek Characters",
 							"category": "characters",
 							"requiredTags": ["seshek"]
+						},{
+							"title": "Monster Characters",
+							"category": "monsters",
+							"requiredTags": ["character"]
 						},{
 							"title": "Other Characters",
 							"category": "characters",
@@ -108,23 +112,19 @@
 				}
 			]
 		},{
-			"id": "races",
-			"navtab": "races",
-			"title": "Races",
+			"id": "factions",
+			"navtab": "factions",
+			"title": "Factions",
 			"selector" : "category",
 			"navigation-footers": [
 				{
-					"mainCategory": "races",
-					"title": "Races of the Oubliette",
+					"mainCategory": "factions",
+					"title": "Factions of the Oubliette",
 					"categories": [
 						{
-							"title": "Major Races",
-							"category": "races",
-							"requiredTags": ["major race"]
-						},{
-							"title": "Minor Races",
-							"category": "races",
-							"requiredTags": ["minor race"]
+							"title": "Major Factions",
+							"category": "factions",
+							"requiredTags": []
 						}
 					]
 				}
@@ -144,9 +144,39 @@
 							"category": "monsters",
 							"requiredTags": ["monster"]
 						},{
+							"title": "Undead",
+							"category": "monsters",
+							"requiredTags": ["undead"]
+						},{
 							"title": "Animals",
 							"category": "monsters",
 							"requiredTags": ["animal"]
+						},{
+							"title": "Primordial Denizens",
+							"category": "monsters",
+							"requiredTags": ["primordial"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "wardens",
+			"navtab": "wardens",
+			"title": "Wardens",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "wardens",
+					"title": "Wardens",
+					"categories": [
+						{
+							"title": "Archwardens",
+							"category": "wardens",
+							"requiredTags": ["archwarden"]
+						},{
+							"title": "Greater Wardens",
+							"category": "wardens",
+							"requiredTags": ["greater warden"]
 						}
 					]
 				}

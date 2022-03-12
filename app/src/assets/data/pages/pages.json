@@ -113,12 +113,6 @@
 			"imagePath": "thumbnails/hazirak-thumbnail.png",
 			"url": "hazirak"
 		},{
-			"title":"Frajalis",
-			"contentPath": "characters/frajalis",
-			"category": "characters",
-			"imagePath": "thumbnails/frajalis-thumbnail.png",
-			"url": "frajalis"
-		},{
 			"title":"Klaus von Nachtstein, Count Westcavern",
 			"contentPath": "characters/klaus-von-nachtstein",
 			"category": "characters",
@@ -126,109 +120,109 @@
 			"imagePath": "thumbnails/von-nachtstein-thumbnail.png",
 			"url": "klaus-von-nachtstein"
 		},{
-			"title":"Shiriel, the Harbinger of Endings",
-			"contentPath": "characters/shiriel",
-			"category": "characters",
-			"tags" : ["warden","sherab"],
-			"imagePath": "thumbnails/shiriel-thumbnail.png",
-			"url": "shiriel"
-		},{
-			"title":"Kyrioth, the Parasite God",
-			"contentPath": "characters/kyrioth",
-			"category": "characters",
-			"tags" : ["warden","sherab"],
-			"imagePath": "thumbnails/kyrioth-thumbnail.png",
-			"url": "kyrioth"
-		},{
-			"title":"Seprokoth, the Burden of Fate",
-			"contentPath": "characters/seprokoth",
-			"category": "characters",
-			"tags" : ["warden","sherab"],
-			"imagePath": "thumbnails/seprokoth-thumbnail.png",
-			"url": "seprokoth"
-		},{
-			"title":"Zixiroth, the Eyes in the Tower",
-			"contentPath": "characters/zixiroth",
-			"category": "characters",
-			"tags" : ["warden","sherab"],
-			"imagePath": "thumbnails/zixiroth-thumbnail.png",
-			"url": "zixiroth"
-		},{
-			"title":"Magrazar, the Vessel of Emptiness",
-			"contentPath": "characters/magrazar",
-			"category": "characters",
-			"tags" : ["warden","sherab"],
-			"imagePath": "thumbnails/magrazar-thumbnail.png",
-			"url": "magrazar"
-		},{
-			"title":"Vanarioth, the Voice of the Judgement",
-			"contentPath": "characters/vanarioth",
-			"category": "characters",
-			"tags" : ["warden","sherab"],
-			"imagePath": "thumbnails/vanarioth-thumbnail.png",
-			"url": "vanarioth"
-		},{
-			"title":"Zahastaroth, the Ravening Maw",
-			"contentPath": "characters/zahastaroth",
-			"category": "characters",
-			"tags" : ["warden","sherab","archwarden"],
-			"imagePath": "thumbnails/zahastaroth-thumbnail.png",
-			"url": "zahastaroth"
-		},{
-			"title":"Grimnas, Lord of the Dark Castle",
-			"contentPath": "characters/grimnas",
-			"category": "characters",
-			"tags" : ["warden","korhazar","archwarden"],
-			"imagePath": "thumbnails/grimnas-thumbnail.png",
-			"url": "grimnas"
-		},{
-			"title":"Sarogoth, the Rider in the Wind",
-			"contentPath": "characters/sarogoth",
-			"category": "characters",
-			"tags" : ["warden","raishabar","archwarden"],
-			"imagePath": "thumbnails/sarogoth-thumbnail.png",
-			"url": "sarogoth"
-		},{
-			"title":"Shiragazira, the Black Devourer",
-			"contentPath": "characters/shiragazira",
-			"category": "characters",
-			"tags" : ["warden","tharas","archwarden"],
-			"imagePath": "thumbnails/shiragazira-thumbnail.png",
-			"url": "shiragazira"
-		},{
-			"title":"Megakirrik, Witness of Dissolutions",
-			"contentPath": "characters/megakirrik",
-			"category": "characters",
-			"tags" : ["warden","sinra","archwarden"],
-			"imagePath": "thumbnails/megakirrik-thumbnail.png",
-			"url": "megakirrik"
-		},{
-			"title":"Shathoth, the Eater of the Dead",
-			"contentPath": "characters/shathoth",
-			"category": "characters",
-			"tags" : ["warden","hekkath","archwarden"],
-			"imagePath": "thumbnails/shathoth-thumbnail.png",
-			"url": "shathoth"
-		},{
-			"title":"Krikirrik, the Scavenger of God",
-			"contentPath": "characters/krikirrik",
-			"category": "characters",
-			"tags" : ["warden","archwarden"],
-			"imagePath": "thumbnails/krikirrik-thumbnail.png",
-			"url": "krikirrik"
-		},{
-			"title":"Azathariel, the Crimson Architect",
-			"contentPath": "characters/azathariel",
-			"category": "characters",
-			"tags" : ["warden","ahoth","archwarden"],
-			"imagePath": "thumbnails/azathariel-thumbnail.png",
-			"url": "azathariel"
-		},{
 			"title":"Sadamon the Seeker",
 			"contentPath": "characters/sadamon",
 			"category": "characters",
 			"imagePath": "thumbnails/sadamon-thumbnail.png",
 			"url": "sadamon"
+		},{
+			"title":"Shiriel, the Harbinger of Endings",
+			"contentPath": "wardens/shiriel",
+			"category": "wardens",
+			"tags" : ["warden","greater warden","sherab","character"],
+			"imagePath": "thumbnails/shiriel-thumbnail.png",
+			"url": "shiriel"
+		},{
+			"title":"Kyrioth, the Parasite God",
+			"contentPath": "wardens/kyrioth",
+			"category": "wardens",
+			"tags" : ["warden","greater warden","sherab","character"],
+			"imagePath": "thumbnails/kyrioth-thumbnail.png",
+			"url": "kyrioth"
+		},{
+			"title":"Seprokoth, the Burden of Fate",
+			"contentPath": "wardens/seprokoth",
+			"category": "wardens",
+			"tags" : ["warden","greater warden","sherab"],
+			"imagePath": "thumbnails/seprokoth-thumbnail.png",
+			"url": "seprokoth"
+		},{
+			"title":"Zixiroth, the Eyes in the Tower",
+			"contentPath": "wardens/zixiroth",
+			"category": "wardens",
+			"tags" : ["warden","greater warden","sherab"],
+			"imagePath": "thumbnails/zixiroth-thumbnail.png",
+			"url": "zixiroth"
+		},{
+			"title":"Magrazar, the Vessel of Emptiness",
+			"contentPath": "wardens/magrazar",
+			"category": "wardens",
+			"tags" : ["warden","greater warden","sherab"],
+			"imagePath": "thumbnails/magrazar-thumbnail.png",
+			"url": "magrazar"
+		},{
+			"title":"Vanarioth, the Voice of the Judgement",
+			"contentPath": "wardens/vanarioth",
+			"category": "wardens",
+			"tags" : ["warden","greater warden","sherab"],
+			"imagePath": "thumbnails/vanarioth-thumbnail.png",
+			"url": "vanarioth"
+		},{
+			"title":"Zahastaroth, the Ravening Maw",
+			"contentPath": "wardens/zahastaroth",
+			"category": "wardens",
+			"tags" : ["warden","sherab","archwarden"],
+			"imagePath": "thumbnails/zahastaroth-thumbnail.png",
+			"url": "zahastaroth"
+		},{
+			"title":"Grimnas, Lord of the Dark Castle",
+			"contentPath": "wardens/grimnas",
+			"category": "wardens",
+			"tags" : ["warden","korhazar","archwarden"],
+			"imagePath": "thumbnails/grimnas-thumbnail.png",
+			"url": "grimnas"
+		},{
+			"title":"Sarogoth, the Rider in the Wind",
+			"contentPath": "wardens/sarogoth",
+			"category": "wardens",
+			"tags" : ["warden","raishabar","archwarden"],
+			"imagePath": "thumbnails/sarogoth-thumbnail.png",
+			"url": "sarogoth"
+		},{
+			"title":"Shiragazira, the Black Devourer",
+			"contentPath": "wardens/shiragazira",
+			"category": "wardens",
+			"tags" : ["warden","tharas","archwarden"],
+			"imagePath": "thumbnails/shiragazira-thumbnail.png",
+			"url": "shiragazira"
+		},{
+			"title":"Megakirrik, Witness of Dissolutions",
+			"contentPath": "wardens/megakirrik",
+			"category": "wardens",
+			"tags" : ["warden","sinra","archwarden"],
+			"imagePath": "thumbnails/megakirrik-thumbnail.png",
+			"url": "megakirrik"
+		},{
+			"title":"Shathoth, the Eater of the Dead",
+			"contentPath": "wardens/shathoth",
+			"category": "wardens",
+			"tags" : ["warden","hekkath","archwarden"],
+			"imagePath": "thumbnails/shathoth-thumbnail.png",
+			"url": "shathoth"
+		},{
+			"title":"Krikirrik, the Scavenger of God",
+			"contentPath": "wardens/krikirrik",
+			"category": "wardens",
+			"tags" : ["warden","archwarden"],
+			"imagePath": "thumbnails/krikirrik-thumbnail.png",
+			"url": "krikirrik"
+		},{
+			"title":"Azathariel, the Crimson Architect",
+			"contentPath": "wardens/azathariel",
+			"category": "wardens",
+			"tags" : ["warden","ahoth","archwarden"],
+			"imagePath": "thumbnails/azathariel-thumbnail.png",
+			"url": "azathariel"
 		},{
 			"title":"The Blight",
 			"contentPath": "mechanics/blight",
@@ -946,10 +940,9 @@
 			"url": "incandescent-cores"
 		},{
 			"title" : "The Forsaken",
-			"category": "races",
-			"tags" : ["race", "human", "major race"],
+			"category": "factions",
 			"imagePath": "thumbnails/forsaken-thumbnail.png",
-			"contentPath" : "races/forsaken",
+			"contentPath" : "factions/forsaken",
 			"url": "the-forsaken",
 			"navigation-footers": [
 				{
@@ -965,10 +958,9 @@
 			]
 		},{
 			"title" : "The Gremlins",
-			"category": "races",
-			"tags" : ["race", "gremlin", "major race"],
+			"category": "factions",
 			"imagePath": "thumbnails/gremlin-thumbnail.png",
-			"contentPath" : "races/gremlins",
+			"contentPath" : "factions/gremlins",
 			"url": "gremlins",
 			"navigation-footers": [
 				{
@@ -984,10 +976,9 @@
 			]
 		},{
 			"title" : "The Wardens",
-			"category": "races",
-			"tags" : ["race", "warden", "major race"],
+			"category": "factions",
 			"imagePath": "thumbnails/warden-thumbnail.png",
-			"contentPath" : "races/wardens",
+			"contentPath" : "factions/wardens",
 			"url": "wardens",
 			"navigation-footers": [
 				{
@@ -995,53 +986,58 @@
 					"categories": [
 						{
 							"title": "Warden Characters",
-							"category": "characters",
-							"requiredTags": ["warden"]
+							"category": "wardens",
+							"requiredTags": []
 						}
 					]
 				}
 			]
 		},{
 			"title" : "The Gravekeepers",
-			"category": "races",
-			"tags" : ["race", "seshek, primordial", "major race"],
+			"category": "factions",
 			"imagePath": "thumbnails/seshek-thumbnail.png",
-			"contentPath" : "races/seshek",
+			"contentPath" : "factions/seshek",
 			"url": "gravekeepers"
 		},{
+			"title" : "The Monsters",
+			"category": "factions",
+			"imagePath": "thumbnails/the-krizzle-thumbnail.png",
+			"contentPath" : "factions/monsters",
+			"url": "the-monsters"
+		},{
 			"title" : "The Sorrow Worms",
-			"category": "races",
-			"tags" : ["race", "primordial", "minor race"],
+			"category": "monsters",
+			"tags" : ["primordial"],
 			"imagePath": "thumbnails/sorrow-worm-thumbnail.png",
-			"contentPath" : "races/sorrow-worms",
+			"contentPath" : "monsters/sorrow-worms",
 			"url": "sorrow-worms"
 		},{
 			"title" : "The Phoenix Moths",
-			"category": "races",
-			"tags" : ["race", "primordial", "minor race"],
+			"category": "monsters",
+			"tags" : ["primordial"],
 			"imagePath": "thumbnails/phoenix-moth-thumbnail.png",
-			"contentPath" : "races/phoenix-moths",
+			"contentPath" : "monsters/phoenix-moths",
 			"url": "phoenix-moths"
 		},{
 			"title" : "The Shades",
-			"category": "races",
-			"tags" : ["races", "undead", "minor race"],
+			"category": "monsters",
+			"tags" : ["undead"],
 			"imagePath": "thumbnails/shade-thumbnail.png",
-			"contentPath" : "races/shades",
+			"contentPath" : "monsters/shades",
 			"url": "shades"
 		},{
 			"title" : "The Ghouls",
-			"category": "races",
-			"tags" : ["races", "undead", "minor race"],
+			"category": "monsters",
+			"tags" : ["undead"],
 			"imagePath": "thumbnails/ghoul-thumbnail.png",
-			"contentPath" : "races/ghouls",
+			"contentPath" : "monsters/ghouls",
 			"url": "ghouls"
 		},{
 			"title" : "The Shamblers",
-			"category": "races",
-			"tags" : ["races", "undead", "minor race"],
+			"category": "monsters",
+			"tags" : ["undead"],
 			"imagePath": "thumbnails/shambler-thumbnail.png",
-			"contentPath" : "races/shamblers",
+			"contentPath" : "monsters/shamblers",
 			"url": "shamblers"
 		},{
 			"title" : "Blind Crawlers",
@@ -1156,9 +1152,16 @@
 			"contentPath" : "monsters/bloodsuckers",
 			"url": "bloodsuckers"
 		},{
+			"title":"Frajalis",
+			"contentPath": "monsters/frajalis",
+			"category": "monsters",
+			"tags" : ["monster", "character"],
+			"imagePath": "thumbnails/frajalis-thumbnail.png",
+			"url": "frajalis"
+		},{
 			"title" : "The Krizzle",
 			"category": "monsters",
-			"tags" : ["monster"],
+			"tags" : ["monster", "character"],
 			"imagePath": "thumbnails/the-krizzle-thumbnail.png",
 			"contentPath" : "monsters/the-krizzle",
 			"url": "the-krizzle"

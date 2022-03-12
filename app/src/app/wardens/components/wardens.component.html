@@ -1,0 +1,27 @@
+<div class="main" id="main">
+	<div class="content-container">
+		<div class="content">
+			<div class="content-header">
+				<h1 class="content-title">Wardens</h1>
+			</div>
+			<div class="content-body">
+				<p>
+				We have been waiting so very, very long...
+				</p>
+
+				<br>
+				<div class="card-holder">
+					<div class="card" *ngFor="let page of pages">
+						<a  routerLink="../{{page.url}}">
+							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
+							<span class="title">{{page.title}}</span>
+						</a>
+						<p>{{page.description}}</p>
+					</div>
+
+					<div style="clear:both"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

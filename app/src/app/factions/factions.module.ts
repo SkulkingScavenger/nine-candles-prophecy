@@ -1,20 +1,20 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { RacesRoutingModule } from './races-routing.module';
+import { FactionsRoutingModule } from './factions-routing.module';
 import { NavigationModule } from './../navigation/navigation.module';
 
-import { RacesComponent } from './components/races.component';
+import { FactionsComponent } from './components/factions.component';
 
 @NgModule({
   declarations: [
-    RacesComponent
+    FactionsComponent
   ],
   imports: [
     CommonModule,
-    RacesRoutingModule,
+    FactionsRoutingModule,
     NavigationModule
   ],
   providers: [],
-  bootstrap: [RacesComponent]
+  bootstrap: [FactionsComponent]
 })
-export class RacesModule { }
+export class FactionsModule { }
