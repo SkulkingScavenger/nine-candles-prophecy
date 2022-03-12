@@ -1,1 +1,22 @@
-@import "src/assets/styles/common.scss"
+@import "src/assets/styles/common.scss";
+
+.main{
+	background-image: url("../../../assets/images/locations/division-background-00.png");
+	color: $burning-red;
+	font-family: schreibmaschine;
+	.card-holder{
+		background: rgba(0,0,0,0);
+	}
+	a{
+		color: $burning-red;
+		font-family: schreibmaschine;
+		&:hover{
+			color: $dark-red;
+			font-family: schreibmaschine;
+		}
+		&:active{
+			color: $darkest-red;
+			font-family: schreibmaschine !important;
+		}
+	}
+}

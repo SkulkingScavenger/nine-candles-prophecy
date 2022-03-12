@@ -24,11 +24,15 @@ export class CharactersComponent {
 			for(var i=0;i<this.allPages.length;i++){
 				if(this.allPages[i].category == "characters"){
 					this.pages.push(this.allPages[i]);
+				}else if(this.allPages[i].category == "wardens"){
+					this.pages.push(this.allPages[i]);
 				}else if(this.allPages[i].category == "monsters" && this.HasTag(this.allPages[i], "character")){
+					this.pages.push(this.allPages[i]);
+				}/*else if(this.allPages[i].category == "monsters" && this.HasTag(this.allPages[i], "character")){
 					this.monsterPages.push(this.allPages[i]);
 				}else if(this.allPages[i].category == "wardens" && this.HasTag(this.allPages[i], "character")){
 					this.wardenPages.push(this.allPages[i]);
-				}
+				}*/
 			}
 		});
 	}

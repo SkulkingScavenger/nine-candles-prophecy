@@ -18,7 +18,8 @@ const routes: Routes = [
 			path: ':page',
 			component: MainComponent
 		},{
-			path: 'disambiguation/:page'
+			path: 'disambiguation/:page',
+			component: DisambiguationComponent
 		}
 ];
 

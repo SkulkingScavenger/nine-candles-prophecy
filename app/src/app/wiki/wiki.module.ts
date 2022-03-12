@@ -16,6 +16,8 @@ import { SearchComponent } from './search/search.component';
 import { ImageViewerComponent } from './image-viewer/image-viewer.component';
 import { SubcategoryComponent } from './subcategory/subcategory.component';
 
+//import { WikiService } from './services/wiki.service';
+
 @NgModule({
 	declarations: [
 		WikiComponent,

@@ -24,10 +24,6 @@
 			"link": "/monsters",
 			"title": "Creatures"
 		},{
-			"id": "wardens",
-			"link": "/wardens",
-			"title": "Wardens"
-		},{
 			"id": "resources",
 			"link": "/resources",
 			"title": "Resources"
