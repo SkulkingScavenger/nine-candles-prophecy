@@ -16,9 +16,9 @@
 			"link": "/characters",
 			"title": "Characters"
 		},{
-			"id": "factions",
-			"link": "/factions",
-			"title": "Factions"
+			"id": "races",
+			"link": "/races",
+			"title": "Races"
 		},{
 			"id": "monsters",
 			"link": "/monsters",
@@ -36,9 +36,9 @@
 			"link": "/stories",
 			"title": "Stories"
 		},{
-			"id": "games",
-			"link": "/games/gravekeeper-quest",
-			"title": "Gravekeeper Quest"
+			"id": "wiki",
+			"link": "/wiki",
+			"title": "Wiki"
 		}
 	]
 }

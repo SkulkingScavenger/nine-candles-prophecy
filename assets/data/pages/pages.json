@@ -29,48 +29,6 @@
 			"imagePath": "thumbnails/ragshak-thumbnail.png",
 			"url": "ragshak"
 		},{
-			"title":"Reinhard von Finsterwald",
-			"contentPath": "characters/reinhard",
-			"category": "characters",
-			"tags" : ["human","knight"],
-			"imagePath": "thumbnails/reinhard-thumbnail.png",
-			"url": "reinhard"
-		},{
-			"title":"Gray-eyes the Seer",
-			"contentPath": "characters/grayeyes",
-			"category": "characters",
-			"tags" : ["gremlin"],
-			"imagePath": "thumbnails/gray-eyes-thumbnail.png",
-			"url": "gray-eyes"
-		},{
-			"title":"Throatbiter, the Warchief",
-			"contentPath": "characters/throatbiter",
-			"category": "characters",
-			"tags" : ["gremlin"],
-			"imagePath": "thumbnails/throatbiter-thumbnail.png",
-			"url": "throatbiter"
-		},{
-			"title":"Xavier Phineas Alladocius, M.D.",
-			"contentPath": "characters/hazirak",
-			"category": "characters",
-			"tags" : ["gremlin"],
-			"imagePath": "thumbnails/hazirak-thumbnail.png",
-			"url": "hazirak"
-		},{
-			"title":"Frajalis",
-			"contentPath": "monsters/frajalis",
-			"category": "monsters",
-			"tags" : ["monster", "character"],
-			"imagePath": "thumbnails/frajalis-thumbnail.png",
-			"url": "frajalis"
-		},{
-			"title":"Moosie",
-			"contentPath": "characters/moosie",
-			"category": "characters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/moosie-thumbnail.png",
-			"url": "moosie"
-		},{
 			"title":"Rotfang the Exile",
 			"contentPath": "characters/rotfang",
 			"category": "characters",
@@ -113,34 +71,6 @@
 			"imagePath": "thumbnails/shiza-thumbnail.png",
 			"url": "shiza"
 		},{
-			"title":"Kermit \"Shacklefoot\" the Crafty",
-			"contentPath": "characters/shacklefoot",
-			"category": "characters",
-			"tags" : ["human","shademarked"],
-			"imagePath": "thumbnails/navigator-thumbnail.png",
-			"url": "shacklefoot"
-		},{
-			"title":"Mervyn \"Fishbones\" Illfate",
-			"contentPath": "characters/fishbones",
-			"category": "characters",
-			"tags" : ["human","shademarked"],
-			"imagePath": "thumbnails/fishbones-thumbnail.png",
-			"url": "fishbones"
-		},{
-			"title":"Sir Athelstein",
-			"contentPath": "characters/sir-athelstein",
-			"category": "characters",
-			"tags" : ["human","knight"],
-			"imagePath": "thumbnails/sir-athelstein.png",
-			"url": "athelstein"
-		},{
-			"title":"Alfred Fletcher",
-			"contentPath": "characters/fletcher",
-			"category": "characters",
-			"tags" : ["human","shademarked"],
-			"imagePath": "thumbnails/fletcher-thumbnail.png",
-			"url": "fletcher"
-		},{
 			"title":"The Peddler",
 			"contentPath": "characters/the-peddler",
 			"category": "characters",
@@ -155,47 +85,39 @@
 			"imagePath": "thumbnails/akat-thumbnail.png",
 			"url": "akat"
 		},{
-			"title":"Vespyr",
-			"contentPath": "characters/vespyr",
-			"category": "characters",
-			"tags" : ["human","shademarked"],
-			"imagePath": "thumbnails/vespyr-thumbnail.png",
-			"url": "vespyr"
-		},{
-			"title":"Sathe The Mortician",
-			"contentPath": "characters/sathe",
-			"category": "characters",
-			"tags" : ["human","witch"],
-			"imagePath": "thumbnails/sathe-thumbnail.png",
-			"url": "sathe"
-		},{
-			"title":"Guildlord Hazareth",
-			"contentPath": "characters/guildlord-hazareth",
-			"category": "characters",
-			"tags" : ["human","shademarked"],
-			"imagePath": "thumbnails/guildlord-hazareth-thumbnail.png",
-			"url": "guildlord-hazareth"
-		},{
-			"title":"Marlok",
-			"contentPath": "characters/marlok",
-			"category": "characters",
-			"tags" : ["human","shademarked"],
-			"imagePath": "thumbnails/marlok-thumbnail.png",
-			"url": "marlok"
-		},{
-			"title":"Mortimer the Magnificent",
-			"contentPath": "characters/mortimer",
-			"category": "characters",
-			"tags" : ["human","undead","wizard"],
-			"imagePath": "thumbnails/mortimer-thumbnail.png",
-			"url": "mortimer"
-		},{
-			"title":"Dietrich von Winterhof",
-			"contentPath": "characters/hochmeister-dietrich",
+			"title":"Reinhard von Finsterwald",
+			"contentPath": "characters/reinhard",
 			"category": "characters",
 			"tags" : ["human","knight"],
-			"imagePath": "thumbnails/hochmeister-dietrich-thumbnail.png",
-			"url": "hochmeister-dietrich"
+			"imagePath": "thumbnails/reinhard-thumbnail.png",
+			"url": "reinhard"
+		},{
+			"title":"Gray-eyes the Seer",
+			"contentPath": "characters/grayeyes",
+			"category": "characters",
+			"tags" : ["gremlin"],
+			"imagePath": "thumbnails/gray-eyes-thumbnail.png",
+			"url": "gray-eyes"
+		},{
+			"title":"Throatbiter, the Warchief",
+			"contentPath": "characters/throatbiter",
+			"category": "characters",
+			"tags" : ["gremlin"],
+			"imagePath": "thumbnails/throatbiter-thumbnail.png",
+			"url": "throatbiter"
+		},{
+			"title":"Xavier Phineas Alladocius, M.D.",
+			"contentPath": "characters/hazirak",
+			"category": "characters",
+			"tags" : ["gremlin"],
+			"imagePath": "thumbnails/hazirak-thumbnail.png",
+			"url": "hazirak"
+		},{
+			"title":"Frajalis",
+			"contentPath": "characters/frajalis",
+			"category": "characters",
+			"imagePath": "thumbnails/frajalis-thumbnail.png",
+			"url": "frajalis"
 		},{
 			"title":"Klaus von Nachtstein, Count Westcavern",
 			"contentPath": "characters/klaus-von-nachtstein",
@@ -204,354 +126,109 @@
 			"imagePath": "thumbnails/von-nachtstein-thumbnail.png",
 			"url": "klaus-von-nachtstein"
 		},{
-			"title":"Sadamon the Seeker",
-			"contentPath": "characters/sadamon",
-			"category": "characters",
-			"imagePath": "thumbnails/sadamon-thumbnail.png",
-			"url": "sadamon"
-		},{
-			"title" : "The Sorrow Worms",
-			"category": "monsters",
-			"tags" : ["primordial"],
-			"imagePath": "thumbnails/sorrow-worm-thumbnail.png",
-			"contentPath" : "monsters/sorrow-worms",
-			"url": "sorrow-worms"
-		},{
-			"title" : "The Phoenix Moths",
-			"category": "monsters",
-			"tags" : ["primordial"],
-			"imagePath": "thumbnails/phoenix-moth-thumbnail.png",
-			"contentPath" : "monsters/phoenix-moths",
-			"url": "phoenix-moths"
-		},{
-			"title" : "The Shades",
-			"category": "monsters",
-			"tags" : ["undead"],
-			"imagePath": "thumbnails/shade-thumbnail.png",
-			"contentPath" : "monsters/shades",
-			"url": "shades"
-		},{
-			"title" : "The Ghouls",
-			"category": "monsters",
-			"tags" : ["undead"],
-			"imagePath": "thumbnails/ghoul-thumbnail.png",
-			"contentPath" : "monsters/ghouls",
-			"url": "ghouls"
-		},{
-			"title" : "The Shamblers",
-			"category": "monsters",
-			"tags" : ["undead"],
-			"imagePath": "thumbnails/shambler-thumbnail.png",
-			"contentPath" : "monsters/shamblers",
-			"url": "shamblers"
-		},{
-			"title" : "Blind Crawlers",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
-			"contentPath" : "monsters/blind-crawlers",
-			"url": "blind-crawlers"
-		},{
-			"title" : "Finger Spiders",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
-			"contentPath" : "monsters/finger-spiders",
-			"url": "finger-spiders"
-		},{
-			"title" : "Bleakworms",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
-			"contentPath" : "monsters/bleakworms",
-			"url": "bleakworms"
-		},{
-			"title" : "Caveleapers",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
-			"contentPath" : "monsters/caveleapers",
-			"url": "caveleapers"
-		},{
-			"title" : "Palewalkers",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
-			"contentPath" : "monsters/palewalkers",
-			"url": "palewalkers"
-		},{
-			"title" : "Murkweavers",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
-			"contentPath" : "monsters/murkweavers",
-			"url": "murkweavers"
-		},{
-			"title" : "Tittermice",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
-			"contentPath" : "monsters/tittermice",
-			"url": "tittermice"
-		},{
-			"title" : "Blackwings",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/blackwing-thumbnail.png",
-			"contentPath" : "monsters/blackwings",
-			"url": "blackwings"
-		},{
-			"title" : "Veilbats",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
-			"contentPath" : "monsters/veilbats",
-			"url": "veilbats"
-		},{
-			"title" : "Horses",
-			"category": "monsters",
-			"tags" : ["animal", "domesticated"],
-			"imagePath": "thumbnails/horse-thumbnail.png",
-			"contentPath" : "monsters/horses",
-			"url": "horses"
-		},{
-			"title" : "Howlers",
-			"category": "monsters",
-			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
-			"contentPath" : "monsters/howlers",
-			"url": "howlers"
-		},{
-			"title" : "Shriekhounds",
-			"category": "monsters",
-			"tags" : ["animal", "domesticated"],
-			"imagePath": "thumbnails/shriekhound-thumbnail.png",
-			"contentPath" : "monsters/shriekhounds",
-			"url": "shriekhounds"
-		},{
-			"title" : "Snufflers",
-			"category": "monsters",
-			"tags" : ["animal", "domesticated"],
-			"imagePath": "thumbnails/snuffler-thumbnail.png",
-			"contentPath" : "monsters/snufflers",
-			"url": "snufflers"
-		},{
-			"title" : "Silkspinners",
-			"category": "monsters",
-			"tags" : ["animal", "domesticated"],
-			"imagePath": "thumbnails/silkspinner-thumbnail.png",
-			"contentPath" : "monsters/silkspinners",
-			"url": "silkspinners"
-		},{
-			"title" : "Blindpigs",
-			"category": "monsters",
-			"tags" : ["animal", "domesticated"],
-			"imagePath": "thumbnails/blindpig-thumbnail.png",
-			"contentPath" : "monsters/blindpigs",
-			"url": "blindpigs"
-		},{
-			"title" : "Bloodsuckers",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/bloodsucker-thumbnail.png",
-			"contentPath" : "monsters/bloodsuckers",
-			"url": "bloodsuckers"
-		},{
-			"title" : "The Krizzle",
-			"category": "monsters",
-			"tags" : ["monster", "character"],
-			"imagePath": "thumbnails/the-krizzle-thumbnail.png",
-			"contentPath" : "monsters/the-krizzle",
-			"url": "the-krizzle"
-		},{
-			"title" : "The Krakanak",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/the-krakanak-thumbnail.png",
-			"contentPath" : "monsters/the-krakanak",
-			"url": "the-krakanak"
-		},{
-			"title" : "Skaga the Cruel",
-			"category": "monsters",
-			"tags" : ["monster", "character"],
-			"imagePath": "thumbnails/skaga-thumbnail.png",
-			"contentPath" : "monsters/skaga",
-			"url": "skaga"
-		},{
-			"title" : "The Shigarga",
-			"category": "monsters",
-			"tags" : ["monster", "character"],
-			"imagePath": "thumbnails/the-shigarga-thumbnail.png",
-			"contentPath" : "monsters/the-shigarga",
-			"url": "the-shigarga"
-		},{
-			"title" : "Wailing Wisps",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/wailing-wisps-thumbnail.png",
-			"contentPath" : "monsters/wailing-wisps",
-			"url": "wailing-wisps"
-		},{
-			"title" : "Winding Whisperghasts",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/winding-whisperghasts-thumbnail.png",
-			"contentPath" : "monsters/winding-whisperghasts",
-			"url": "winding-whisperghasts"
-		},{
-			"title" : "The Horrible Harrowhist",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/the-horrible-harrowhist-thumbnail.png",
-			"contentPath" : "monsters/the-horrible-harrowhist",
-			"url": "the-horrible-harrowhist"
-		},{
-			"title" : "Kreekawoors",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/kreekawoors-thumbnail.png",
-			"contentPath" : "monsters/kreekawoors",
-			"url": "kreekawoors"
-		},{
-			"title" : "Reaching Rikkitikky",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/reaching-rikkitikky-thumbnail.png",
-			"contentPath" : "monsters/reaching-rikkitikky",
-			"url": "reaching-rikkitikky"
-		},{
-			"title" : "The Gogohra",
-			"category": "monsters",
-			"tags" : ["monster", "character"],
-			"imagePath": "thumbnails/the-gogohra-thumbnail.png",
-			"contentPath" : "monsters/the-gogohra",
-			"url": "the-gogohra"
-		},{
-			"title" : "The Snakkering Beast",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/the-snakkering-beast-thumbnail.png",
-			"contentPath" : "monsters/the-snakkering-beast",
-			"url": "the-snakkering-beast"
-		},{
-			"title" : "The Spibbitysnits",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/the-spibbitysnits-thumbnail.png",
-			"contentPath" : "monsters/the-spibbitysnits",
-			"url": "the-spibbitysnits"
-		},{
-			"title" : "The Rikkisnik",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/the-rikkisnik-thumbnail.png",
-			"contentPath" : "monsters/the-rikkisnik",
-			"url": "the-rikkisnik"
-		},{
-			"title" : "The Skincrawler",
-			"category": "monsters",
-			"tags" : ["monster"],
-			"imagePath": "thumbnails/skincrawler-thumbnail.png",
-			"contentPath" : "monsters/the-skincrawler",
-			"url": "the-skincrawler"
-		},{
 			"title":"Shiriel, the Harbinger of Endings",
-			"contentPath": "wardens/shiriel",
-			"category": "wardens",
-			"tags" : ["warden","greater warden","sherab","character"],
+			"contentPath": "characters/shiriel",
+			"category": "characters",
+			"tags" : ["warden","sherab"],
 			"imagePath": "thumbnails/shiriel-thumbnail.png",
 			"url": "shiriel"
 		},{
-			"title":"Kyrioth, the Whisperer in the Crypts",
-			"contentPath": "wardens/kyrioth",
-			"category": "wardens",
-			"tags" : ["warden","greater warden","sherab","character"],
+			"title":"Kyrioth, the Parasite God",
+			"contentPath": "characters/kyrioth",
+			"category": "characters",
+			"tags" : ["warden","sherab"],
 			"imagePath": "thumbnails/kyrioth-thumbnail.png",
 			"url": "kyrioth"
 		},{
 			"title":"Seprokoth, the Burden of Fate",
-			"contentPath": "wardens/seprokoth",
-			"category": "wardens",
-			"tags" : ["warden","greater warden","sherab"],
+			"contentPath": "characters/seprokoth",
+			"category": "characters",
+			"tags" : ["warden","sherab"],
 			"imagePath": "thumbnails/seprokoth-thumbnail.png",
 			"url": "seprokoth"
 		},{
 			"title":"Zixiroth, the Eyes in the Tower",
-			"contentPath": "wardens/zixiroth",
-			"category": "wardens",
-			"tags" : ["warden","greater warden","sherab"],
+			"contentPath": "characters/zixiroth",
+			"category": "characters",
+			"tags" : ["warden","sherab"],
 			"imagePath": "thumbnails/zixiroth-thumbnail.png",
 			"url": "zixiroth"
 		},{
 			"title":"Magrazar, the Vessel of Emptiness",
-			"contentPath": "wardens/magrazar",
-			"category": "wardens",
-			"tags" : ["warden","greater warden","sherab"],
+			"contentPath": "characters/magrazar",
+			"category": "characters",
+			"tags" : ["warden","sherab"],
 			"imagePath": "thumbnails/magrazar-thumbnail.png",
 			"url": "magrazar"
 		},{
 			"title":"Vanarioth, the Voice of the Judgement",
-			"contentPath": "wardens/vanarioth",
-			"category": "wardens",
-			"tags" : ["warden","greater warden","sherab"],
+			"contentPath": "characters/vanarioth",
+			"category": "characters",
+			"tags" : ["warden","sherab"],
 			"imagePath": "thumbnails/vanarioth-thumbnail.png",
 			"url": "vanarioth"
 		},{
 			"title":"Zahastaroth, the Ravening Maw",
-			"contentPath": "wardens/zahastaroth",
-			"category": "wardens",
+			"contentPath": "characters/zahastaroth",
+			"category": "characters",
 			"tags" : ["warden","sherab","archwarden"],
 			"imagePath": "thumbnails/zahastaroth-thumbnail.png",
 			"url": "zahastaroth"
 		},{
 			"title":"Grimnas, Lord of the Dark Castle",
-			"contentPath": "wardens/grimnas",
-			"category": "wardens",
+			"contentPath": "characters/grimnas",
+			"category": "characters",
 			"tags" : ["warden","korhazar","archwarden"],
 			"imagePath": "thumbnails/grimnas-thumbnail.png",
 			"url": "grimnas"
 		},{
 			"title":"Sarogoth, the Rider in the Wind",
-			"contentPath": "wardens/sarogoth",
-			"category": "wardens",
+			"contentPath": "characters/sarogoth",
+			"category": "characters",
 			"tags" : ["warden","raishabar","archwarden"],
 			"imagePath": "thumbnails/sarogoth-thumbnail.png",
 			"url": "sarogoth"
 		},{
 			"title":"Shiragazira, the Black Devourer",
-			"contentPath": "wardens/shiragazira",
-			"category": "wardens",
+			"contentPath": "characters/shiragazira",
+			"category": "characters",
 			"tags" : ["warden","tharas","archwarden"],
 			"imagePath": "thumbnails/shiragazira-thumbnail.png",
 			"url": "shiragazira"
 		},{
 			"title":"Megakirrik, Witness of Dissolutions",
-			"contentPath": "wardens/megakirrik",
-			"category": "wardens",
+			"contentPath": "characters/megakirrik",
+			"category": "characters",
 			"tags" : ["warden","sinra","archwarden"],
 			"imagePath": "thumbnails/megakirrik-thumbnail.png",
 			"url": "megakirrik"
 		},{
 			"title":"Shathoth, the Eater of the Dead",
-			"contentPath": "wardens/shathoth",
-			"category": "wardens",
+			"contentPath": "characters/shathoth",
+			"category": "characters",
 			"tags" : ["warden","hekkath","archwarden"],
 			"imagePath": "thumbnails/shathoth-thumbnail.png",
 			"url": "shathoth"
 		},{
 			"title":"Krikirrik, the Scavenger of God",
-			"contentPath": "wardens/krikirrik",
-			"category": "wardens",
+			"contentPath": "characters/krikirrik",
+			"category": "characters",
 			"tags" : ["warden","archwarden"],
 			"imagePath": "thumbnails/krikirrik-thumbnail.png",
 			"url": "krikirrik"
 		},{
 			"title":"Azathariel, the Crimson Architect",
-			"contentPath": "wardens/azathariel",
-			"category": "wardens",
+			"contentPath": "characters/azathariel",
+			"category": "characters",
 			"tags" : ["warden","ahoth","archwarden"],
 			"imagePath": "thumbnails/azathariel-thumbnail.png",
 			"url": "azathariel"
+		},{
+			"title":"Sadamon the Seeker",
+			"contentPath": "characters/sadamon",
+			"category": "characters",
+			"imagePath": "thumbnails/sadamon-thumbnail.png",
+			"url": "sadamon"
 		},{
 			"title":"The Blight",
 			"contentPath": "mechanics/blight",
@@ -640,100 +317,296 @@
 			"title" : "Vastcavern",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/vastcavern-thumbnail.png",
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/vastcavern",
-			"url": "vastcavern"
+			"url": "vastcavern",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Ruins",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/korhazar-thumbnail.png",
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/ruins",
-			"url": "ruins"
+			"url": "ruins",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Fungal Forest",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/fungal-forest-thumbnail.png",
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/fungal-forest",
-			"url": "fungal-forest"
+			"url": "fungal-forest",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Darkroot Grove",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
 			"imagePath": "thumbnails/zaramon-thumbnail.png",
 			"contentPath" : "biomes/darkroot-grove",
-			"url": "darkroot-grove"
+			"url": "darkroot-grove",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Underground Rivers and Lakes",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
 			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/underground-water",
-			"url": "underground-water"
+			"url": "underground-water",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Spider Hollow",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/spider-hollow-thumbnail.png",
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/spider-hollow",
-			"url": "spider-hollow"
+			"url": "spider-hollow",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Stalactite Forest",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/stalactites-thumbnail.png",
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/stalactite-forest",
-			"url": "stalactitie-forest"
+			"url": "stalactitie-forest",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Chasms",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
 			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/chasms",
-			"url": "chasms"
+			"url": "chasms",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Glowing Mushroom Cavern",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/glowing-mushroom-thumbnail.png",
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/glowing-mushroom-cavern",
-			"url": "glowing-mushroom-cavern"
+			"url": "glowing-mushroom-cavern",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Monster Graveyard",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
 			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/monster-graveyard",
-			"url": "monster-graveyard"
+			"url": "monster-graveyard",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Candle Cave",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
 			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/candle-cave",
-			"url": "candle-cave"
+			"url": "candle-cave",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Skyfall Crater",
 			"category": "biomes",
 			"tags" : ["biome","rare biome"],
-			"imagePath": "thumbnails/skyfall-crater-thumbnail.png",
+			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/skyfall-crater",
-			"url": "skyfall-crater"
+			"url": "skyfall-crater",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Candlerest",
 			"category": "biomes",
 			"tags" : ["biome","rare biome"],
 			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/candlerest",
-			"url": "candlerest"
+			"url": "candlerest",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Silvermist Cavern",
 			"category": "biomes",
 			"tags" : ["biome","rare biome"],
 			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
 			"contentPath" : "biomes/silvermist-cavern",
-			"url": "silvermist-cavern"
+			"url": "silvermist-cavern",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Upper Oubliette",
 			"category": "locations",
@@ -901,93 +774,92 @@
 			"title" : "Giants' Courtyard",
 			"category": "locations",
 			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/giants-courtyard-thumbnail.png",
+			"imagePath": "thumbnails/rosewall-thumbnail.png",
 			"contentPath" : "locations/giants-courtyard",
-			"url": "giants-courtyard"
-		},{
-			"title" : "Shatterstone Cavern",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/shatterstone-cavern-thumbnail.png",
-			"contentPath" : "locations/shatterstone-cavern",
-			"url": "shatterstone-cavern"
-		},{
-			"title" : "Hangmans' Hill",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/hangmans-hill-thumbnail.png",
-			"contentPath" : "locations/hangmans-hill",
-			"url": "hangmans-hill"
-		},{
-			"title" : "The Jumble",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/the-jumble-thumbnail.png",
-			"contentPath" : "locations/the-jumble",
-			"url": "the-jumble"
-		},{
-			"title" : "The Old City",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/the-old-city-thumbnail.png",
-			"contentPath" : "locations/the-old-city",
-			"url": "the-old-city"
-		},{
-			"title" : "The Ragshack",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/the-ragshack-thumbnail.png",
-			"contentPath" : "locations/the-ragshack",
-			"url": "the-ragshack"
-		},{
-			"title" : "Gulf of Spires",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/stalactites-thumbnail.png",
-			"contentPath" : "locations/gulf-of-spires",
-			"url": "gulf-of-spires"
-		},{
-			"title" : "Bloodlake Castle",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/bloodlake-castle-thumbnail.png",
-			"contentPath" : "locations/bloodlake-castle",
-			"url": "bloodlake-castle"
+			"url": "giants-courtyard",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Locations",
+					"categories": [
+						{
+							"title": "Upper Oubliette",
+							"category": "locations",
+							"requiredTags": ["upper-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Middle Oubliette",
+							"category": "locations",
+							"requiredTags": ["middle-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Lower Oubliette",
+							"category": "locations",
+							"requiredTags": ["lower-oubliette"],
+							"excludeTags": ["dominion"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Forest of Lights",
 			"category": "locations",
 			"tags" : ["middle-oubliette"],
-			"imagePath": "thumbnails/forest-of-lights-thumbnail.png",
+			"imagePath": "thumbnails/rosewall-thumbnail.png",
 			"contentPath" : "locations/forest-of-lights",
-			"url": "forest-of-lights"
-		},{
-			"title" : "Sea of Stars",
-			"category": "locations",
-			"tags" : ["middle-oubliette"],
-			"imagePath": "thumbnails/sea-of-stars-thumbnail.png",
-			"contentPath" : "locations/sea-of-stars",
-			"url": "sea-of-stars"
-		},{
-			"title" : "Deadwood Forest",
-			"category": "locations",
-			"tags" : ["middle-oubliette", "zaramon"],
-			"imagePath": "thumbnails/deadwood-forest-thumbnail.png",
-			"contentPath" : "locations/deadwood-forest",
-			"url": "deadwood-forest"
-		},{
-			"title" : "Labyrinth of Roots",
-			"category": "locations",
-			"tags" : ["middle-oubliette", "zaramon"],
-			"imagePath": "thumbnails/zaramon-thumbnail.png",
-			"contentPath" : "locations/labyrinth-of-roots",
-			"url": "labyrinth-of-roots"
+			"url": "forest-of-lights",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Locations",
+					"categories": [
+						{
+							"title": "Upper Oubliette",
+							"category": "locations",
+							"requiredTags": ["upper-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Middle Oubliette",
+							"category": "locations",
+							"requiredTags": ["middle-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Lower Oubliette",
+							"category": "locations",
+							"requiredTags": ["lower-oubliette"],
+							"excludeTags": ["dominion"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Lake of the Krakanak",
 			"category": "locations",
 			"tags" : ["lower-oubliette"],
-			"imagePath": "thumbnails/lake-of-the-krakanak-thumbnail.png",
+			"imagePath": "thumbnails/rosewall-thumbnail.png",
 			"contentPath" : "locations/lake-of-the-krakanak",
-			"url": "lake-of-the-krakanak"
+			"url": "lake-of-the-krakanak",
+			"navigation-footers": [
+				{
+					"title": "Oubliette Locations",
+					"categories": [
+						{
+							"title": "Upper Oubliette",
+							"category": "locations",
+							"requiredTags": ["upper-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Middle Oubliette",
+							"category": "locations",
+							"requiredTags": ["middle-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Lower Oubliette",
+							"category": "locations",
+							"requiredTags": ["lower-oubliette"],
+							"excludeTags": ["dominion"]
+						}
+					]
+				}
+			]
 		},{
 			"title" : "Fungus",
 			"category": "resources",
@@ -1073,18 +945,11 @@
 			"contentPath" : "artifacts/incandescentcores",
 			"url": "incandescent-cores"
 		},{
-			"title" : "The Gremlin War of 1545",
-			"category": "history",
-			"tags" : ["event", "war"],
-			"imagePath": "thumbnails/grayhaven-thumbnail.png",
-			"contentPath" : "history/gremlin-war-1545",
-			"url": "gremlin-war-1545"
-		},{
 			"title" : "The Forsaken",
-			"category": "factions",
-			"tags": ["major faction"],
+			"category": "races",
+			"tags" : ["race", "human", "major race"],
 			"imagePath": "thumbnails/forsaken-thumbnail.png",
-			"contentPath" : "factions/forsaken",
+			"contentPath" : "races/forsaken",
 			"url": "the-forsaken",
 			"navigation-footers": [
 				{
@@ -1100,10 +965,10 @@
 			]
 		},{
 			"title" : "The Gremlins",
-			"category": "factions",
-			"tags": ["major faction"],
+			"category": "races",
+			"tags" : ["race", "gremlin", "major race"],
 			"imagePath": "thumbnails/gremlin-thumbnail.png",
-			"contentPath" : "factions/gremlins",
+			"contentPath" : "races/gremlins",
 			"url": "gremlins",
 			"navigation-footers": [
 				{
@@ -1119,10 +984,10 @@
 			]
 		},{
 			"title" : "The Wardens",
-			"category": "factions",
-			"tags": ["major faction"],
+			"category": "races",
+			"tags" : ["race", "warden", "major race"],
 			"imagePath": "thumbnails/warden-thumbnail.png",
-			"contentPath" : "factions/wardens",
+			"contentPath" : "races/wardens",
 			"url": "wardens",
 			"navigation-footers": [
 				{
@@ -1130,68 +995,208 @@
 					"categories": [
 						{
 							"title": "Warden Characters",
-							"category": "wardens",
-							"requiredTags": []
+							"category": "characters",
+							"requiredTags": ["warden"]
 						}
 					]
 				}
 			]
 		},{
 			"title" : "The Gravekeepers",
-			"category": "factions",
-			"tags": ["major faction"],
+			"category": "races",
+			"tags" : ["race", "seshek, primordial", "major race"],
 			"imagePath": "thumbnails/seshek-thumbnail.png",
-			"contentPath" : "factions/seshek",
+			"contentPath" : "races/seshek",
 			"url": "gravekeepers"
 		},{
-			"title" : "The Lost",
-			"category": "factions",
-			"tags": ["major faction"],
-			"imagePath": "thumbnails/shade-big-thumbnail.png",
-			"contentPath" : "factions/lost",
-			"url": "the-lost",
-			"navigation-footers": [
-				{
-					"title": "Undead Characters",
-					"categories": [
-						{
-							"title": "Undead Characters",
-							"category": "characters",
-							"requiredTags": ["undead"]
-						}
-					]
-				},{
-					
-					"title": "The Lost",
-					"categories": [
-						{
-							"title": "The Lost",
-							"category": "monsters",
-							"requiredTags": ["undead"]
-						}
-					]
-				}
-			]
+			"title" : "The Sorrow Worms",
+			"category": "races",
+			"tags" : ["race", "primordial", "minor race"],
+			"imagePath": "thumbnails/sorrow-worm-thumbnail.png",
+			"contentPath" : "races/sorrow-worms",
+			"url": "sorrow-worms"
 		},{
-			"title" : "The Monsters",
-			"category": "factions",
-			"tags": ["major faction"],
-			"imagePath": "thumbnails/monster-thumbnail.png",
-			"contentPath" : "factions/monsters",
-			"url": "the-monsters",
-			"navigation-footers": [
-				{
-					"mainCategory": "monsters",
-					"title": "Monsters",
-					"categories": [
-						{
-							"title": "Monsters",
-							"category": "monsters",
-							"requiredTags": ["monster"]
-						}
-					]
-				}
-			]
+			"title" : "The Phoenix Moths",
+			"category": "races",
+			"tags" : ["race", "primordial", "minor race"],
+			"imagePath": "thumbnails/phoenix-moth-thumbnail.png",
+			"contentPath" : "races/phoenix-moths",
+			"url": "phoenix-moths"
+		},{
+			"title" : "The Shades",
+			"category": "races",
+			"tags" : ["races", "undead", "minor race"],
+			"imagePath": "thumbnails/shade-thumbnail.png",
+			"contentPath" : "races/shades",
+			"url": "shades"
+		},{
+			"title" : "The Ghouls",
+			"category": "races",
+			"tags" : ["races", "undead", "minor race"],
+			"imagePath": "thumbnails/ghoul-thumbnail.png",
+			"contentPath" : "races/ghouls",
+			"url": "ghouls"
+		},{
+			"title" : "The Shamblers",
+			"category": "races",
+			"tags" : ["races", "undead", "minor race"],
+			"imagePath": "thumbnails/shambler-thumbnail.png",
+			"contentPath" : "races/shamblers",
+			"url": "shamblers"
+		},{
+			"title" : "Blind Crawlers",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/blind-crawlers",
+			"url": "blind-crawlers"
+		},{
+			"title" : "Finger Spiders",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/finger-spiders",
+			"url": "finger-spiders"
+		},{
+			"title" : "Bleakworms",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/bleakworms",
+			"url": "bleakworms"
+		},{
+			"title" : "Caveleapers",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/caveleapers",
+			"url": "caveleapers"
+		},{
+			"title" : "Palewalkers",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/palewalkers",
+			"url": "palewalkers"
+		},{
+			"title" : "Murkweavers",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/murkweavers",
+			"url": "murkweavers"
+		},{
+			"title" : "Tittermice",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/tittermice",
+			"url": "tittermice"
+		},{
+			"title" : "Blackwings",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/blackwing-thumbnail.png",
+			"contentPath" : "monsters/blackwings",
+			"url": "blackwings"
+		},{
+			"title" : "Veilbats",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/veilbats",
+			"url": "veilbats"
+		},{
+			"title" : "Horses",
+			"category": "monsters",
+			"tags" : ["animal", "domesticated"],
+			"imagePath": "thumbnails/horse-thumbnail.png",
+			"contentPath" : "monsters/horses",
+			"url": "horses"
+		},{
+			"title" : "Howlers",
+			"category": "monsters",
+			"tags" : ["animal"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/howlers",
+			"url": "howlers"
+		},{
+			"title" : "Shriekhounds",
+			"category": "monsters",
+			"tags" : ["animal", "domesticated"],
+			"imagePath": "thumbnails/shriekhound-thumbnail.png",
+			"contentPath" : "monsters/shriekhounds",
+			"url": "shriekhounds"
+		},{
+			"title" : "Snufflers",
+			"category": "monsters",
+			"tags" : ["animal", "domesticated"],
+			"imagePath": "thumbnails/snuffler-thumbnail.png",
+			"contentPath" : "monsters/snufflers",
+			"url": "snufflers"
+		},{
+			"title" : "Silkspinners",
+			"category": "monsters",
+			"tags" : ["animal", "domesticated"],
+			"imagePath": "thumbnails/silkspinner-thumbnail.png",
+			"contentPath" : "monsters/silkspinners",
+			"url": "silkspinners"
+		},{
+			"title" : "Blindpigs",
+			"category": "monsters",
+			"tags" : ["animal", "domesticated"],
+			"imagePath": "thumbnails/blindpig-thumbnail.png",
+			"contentPath" : "monsters/blindpigs",
+			"url": "blindpigs"
+		},{
+			"title" : "Bloodsuckers",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/bloodsuckers",
+			"url": "bloodsuckers"
+		},{
+			"title" : "The Krizzle",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/the-krizzle-thumbnail.png",
+			"contentPath" : "monsters/the-krizzle",
+			"url": "the-krizzle"
+		},{
+			"title" : "The Gogohra",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/the-gogohra",
+			"url": "the-gogohra"
+		},{
+			"title" : "The Snakkering Beast",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/the-snakkering-beast",
+			"url": "the-snakkering-beast"
+		},{
+			"title" : "The Spibbitysnits",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/candle-thumbnail.png",
+			"contentPath" : "monsters/the-spibbitysnits",
+			"url": "the-spibbitysnits"
+		},{
+			"title" : "The Rikkisnik",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/the-rikkisnik-thumbnail.png",
+			"contentPath" : "monsters/the-rikkisnik",
+			"url": "the-rikkisnik"
+		},{
+			"title" : "The Skincrawler",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/skincrawler-thumbnail.png",
+			"contentPath" : "monsters/the-skincrawler",
+			"url": "the-skincrawler"
 		}
 	]
 }
