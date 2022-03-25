@@ -55,6 +55,11 @@ export class PageComponent {
 	PreprocessHTML(){
 		this.data.content = this.InjectHyperlinkPrefixes(this.data.content);
 		var arr;
+		if(this.data.content.indexOf("#EPIGRAPH_END") > 0){
+			arr = this.data.content.split("#EPIGRAPH_END");
+			this.data.epigraph = arr[0];
+			this.data.content = arr[1];
+		}
 		if(this.data.content.indexOf("#INFOBOX_END") > 0){
 			arr = this.data.content.split("#INFOBOX_END");
 			this.data.infoboxContent = arr[0];

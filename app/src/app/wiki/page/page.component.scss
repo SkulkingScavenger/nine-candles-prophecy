@@ -1,13 +1,13 @@
 @import "src/assets/styles/common.scss";
 @import "src/assets/styles/wiki.scss";
 
-@media(min-width:501px){
+@media(min-width:561px){
 	.hidden-when-big{
 		display: none;
 	}
 }
 
-@media(max-width:500px){
+@media(max-width:560px){
 	.hidden-when-small{
 		display: none;
 	}

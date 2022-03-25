@@ -1,0 +1,272 @@
+{
+	"categories": [
+		{
+			"id": "mechanics",
+			"navtab": "mechanics",
+			"title": "Concepts",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "mechanics",
+					"title": "Concepts",
+					"categories": [
+						{
+							"title": "Concepts",
+							"category": "mechanics"
+						}
+					]
+				}
+			]
+		},{
+			"id": "locations",
+			"navtab": "locations",
+			"title": "Geography",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "locations",
+					"title": "Oubliette Geography",
+					"categories": [
+						{
+							"title": "Divisions of the Oubliette",
+							"category": "locations",
+							"requiredTags": ["region"]
+						},{
+							"title": "The Nine Dominions",
+							"category": "locations",
+							"requiredTags": ["dominion"],
+							"url": "dominion"
+						},{
+							"title": "Forsaken Villages",
+							"category": "locations",
+							"requiredTags": ["village"],
+							"url": "village"
+						}
+					]
+				}
+			]
+		},{
+			"id": "biomes",
+			"navtab": "wiki",
+			"title": "Biomes",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "locations",
+					"title": "Oubliette Geography",
+					"categories": [
+						{
+							"title": "Divisions of the Oubliette",
+							"category": "locations",
+							"requiredTags": ["region"]
+						},{
+							"title": "The Nine Dominions",
+							"category": "locations",
+							"requiredTags": ["dominion"],
+							"url": "dominion"
+						},{
+							"title": "Forsaken Villages",
+							"category": "locations",
+							"requiredTags": ["village"],
+							"url": "village"
+						}
+					]
+				}
+			]
+		},{
+			"id": "characters",
+			"navtab": "characters",
+			"title": "characters",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "characters",
+					"title": "Characters",
+					"categories": [
+						{
+							"title": "Human Characters",
+							"category": "characters",
+							"requiredTags": ["human"]
+						},{
+							"title": "Gremlin Characters",
+							"category": "characters",
+							"requiredTags": ["gremlin"]
+						},{
+							"title": "Warden Characters",
+							"category": "characters",
+							"requiredTags": ["warden"]
+						},{
+							"title": "Seshek Characters",
+							"category": "characters",
+							"requiredTags": ["seshek"]
+						},{
+							"title": "Other Characters",
+							"category": "characters",
+							"excludeTags": ["human", "gremlin", "warden", "seshek"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "races",
+			"navtab": "races",
+			"title": "Races",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "races",
+					"title": "Races of the Oubliette",
+					"categories": [
+						{
+							"title": "Major Races",
+							"category": "races",
+							"requiredTags": ["major race"]
+						},{
+							"title": "Minor Races",
+							"category": "races",
+							"requiredTags": ["minor race"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "monsters",
+			"navtab": "monsters",
+			"title": "Monsters",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "monsters",
+					"title": "Creatures of the Oubliette",
+					"categories": [
+						{
+							"title": "Monsters",
+							"category": "monsters",
+							"requiredTags": ["monster"]
+						},{
+							"title": "Animals",
+							"category": "monsters",
+							"requiredTags": ["animal"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "resources",
+			"navtab": "resources",
+			"title": "Resources",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "resources",
+					"title": "Resources of the Oubliette",
+					"categories": [
+						{
+							"title": "Resources",
+							"category": "resources"
+						}
+					]
+				}
+			]
+		},{
+			"id": "artifacts",
+			"navtab": "artifacts",
+			"title": "Artifacts",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "artifacts",
+					"title": "Artifacts of the Oubliette",
+					"categories": [
+						{
+							"title": "Artifacts",
+							"category": "artifacts"
+						}
+					]
+				}
+			]
+		},{
+			"id": "dominion",
+			"navtab": "wiki",
+			"title": "Dominions",
+			"selector" : "tag",
+			"navigation-footers": [
+			]
+		},{
+			"id": "village",
+			"navtab": "wiki",
+			"title": "Villages of the Forsaken",
+			"selector" : "tag",
+			"navigation-footers": [
+			]
+		},{
+			"id": "knight",
+			"navtab": "wiki",
+			"title": "Knights",
+			"selector" : "tag",
+			"navigation-footers": [
+				{
+					"title": "Knights of the Oubliette",
+					"categories": [
+						{
+							"title": "Knight Characters",
+							"category": "characters",
+							"requiredTags": ["knight"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "witch",
+			"navtab": "wiki",
+			"title": "Witches",
+			"selector" : "tag",
+			"navigation-footers": [
+				{
+					"title": "Witches of the Oubliette",
+					"categories": [
+						{
+							"title": "Witch Characters",
+							"category": "characters",
+							"requiredTags": ["witch"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "shademarked",
+			"navtab": "wiki",
+			"title": "Shademarked",
+			"selector" : "tag",
+			"navigation-footers": [
+				{
+					"title": "Shademarked Navigators",
+					"categories": [
+						{
+							"title": "Shademarked Characters",
+							"category": "characters",
+							"requiredTags": ["shademarked"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "undead",
+			"navtab": "wiki",
+			"title": "Undead",
+			"selector" : "tag",
+			"navigation-footers": [
+				{
+					"title": "Undead Characters",
+					"categories": [
+						{
+							"title": "Undead Characters",
+							"category": "characters",
+							"requiredTags": ["undead"]
+						}
+					]
+				}
+			]
+		}
+	]
+}

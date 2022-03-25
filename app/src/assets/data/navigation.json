@@ -36,9 +36,9 @@
 			"link": "/stories",
 			"title": "Stories"
 		},{
-			"id": "wiki",
-			"link": "/wiki",
-			"title": "Wiki"
+			"id": "games",
+			"link": "/games/gravekeeper-quest",
+			"title": "Gravekeeper Quest"
 		}
 	]
 }

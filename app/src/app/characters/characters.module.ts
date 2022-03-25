@@ -6,15 +6,15 @@ import { NavigationModule } from './../navigation/navigation.module';
 import { CharactersComponent } from './components/characters.component';
 
 @NgModule({
-  declarations: [
-    CharactersComponent
-  ],
-  imports: [
-    CommonModule,
-    CharactersRoutingModule,
-    NavigationModule
-  ],
-  providers: [],
-  bootstrap: [CharactersComponent]
+	declarations: [
+		CharactersComponent
+	],
+	imports: [
+		CommonModule,
+		CharactersRoutingModule,
+		NavigationModule
+	],
+	providers: [],
+	bootstrap: [CharactersComponent]
 })
 export class CharactersModule { }

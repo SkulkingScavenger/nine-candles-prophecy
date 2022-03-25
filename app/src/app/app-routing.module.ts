@@ -39,6 +39,9 @@ const routes: Routes = [
 		path: 'artifacts',
 		loadChildren: () => import('./artifacts/artifacts.module').then(m => m.ArtifactsModule)
 	},{
+		path: 'games',
+		loadChildren: () => import('./games/games.module').then(m => m.GamesModule)
+	},{
 		path: 'comics',
 		loadChildren: () => import('./comics/comics.module').then(m => m.ComicsModule)
 	},{
@@ -50,6 +53,9 @@ const routes: Routes = [
 	},{
 		path: 'wiki',
 		loadChildren: () => import('./wiki/wiki.module').then(m => m.WikiModule)
+	},{
+		path: 'history',
+		loadChildren: () => import('./history/history.module').then(m => m.HistoryModule)
 	}
 
 ];

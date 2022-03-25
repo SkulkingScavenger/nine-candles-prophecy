@@ -1,0 +1,49 @@
+<div class="main" id="main">
+	<div class="content-container">
+		<div class="content">
+			<div class="content-header">
+				<h1 class="content-title">NOW LISTEN UP</h1><br>
+				
+			</div>
+			<div class="content-body"  style="text-align:center">
+				<h3>HERE'S HISTORY</h3>
+				<p>
+				About a little guy who lived in a blue world<br>
+				And all day and all night and everything he sees<br>
+				is just <i>blue</i><br>
+				Like him<br> 
+				and himself<br> 
+				and everybody around<br>
+				Because he aint got<br>
+				nobody<br>
+				To listen
+				<br><br>
+				*Inhales*
+				</p>
+
+				[<a href="javascript:void(0)" (click)="showSpoilers=true">Click To Reveal Spoilers</a>]
+
+				<div *ngIf="showSpoilers">
+					Ha! you actually thought I was gonna sing the whole thing, didn't you?
+					<br><br>
+					Ahahahahahaha.... never gets old...
+					<br><br>
+					Enjoy your history lesson, kid
+				</div>
+
+				<br>
+				<div class="card-holder">
+					<div class="card" *ngFor="let page of pages">
+						<a  routerLink="../{{page.url}}">
+							<img src="assets/images/{{page.imagePath}}" class="thumbnail">
+							<span class="title">{{page.title}}</span>
+						</a>
+						<p>{{page.description}}</p>
+					</div>
+
+					<div style="clear:both"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

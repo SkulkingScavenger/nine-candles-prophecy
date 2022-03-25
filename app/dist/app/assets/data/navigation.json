@@ -1,0 +1,44 @@
+{"tabs": [
+		{
+			"id": "home",
+			"link": "/home",
+			"title": "Home"
+		},{
+			"id": "mechanics",
+			"link": "/mechanics",
+			"title": "Concepts"
+		},{
+			"id": "locations",
+			"link": "/locations",
+			"title": "World"
+		},{
+			"id": "characters",
+			"link": "/characters",
+			"title": "Characters"
+		},{
+			"id": "races",
+			"link": "/races",
+			"title": "Races"
+		},{
+			"id": "monsters",
+			"link": "/monsters",
+			"title": "Creatures"
+		},{
+			"id": "resources",
+			"link": "/resources",
+			"title": "Resources"
+		},{
+			"id": "artifacts",
+			"link": "/artifacts",
+			"title": "Artifacts"
+		},{
+			"id": "stories",
+			"link": "/stories",
+			"title": "Stories"
+		},{
+			"id": "wiki",
+			"link": "/wiki",
+			"title": "Wiki"
+		}
+	]
+}
