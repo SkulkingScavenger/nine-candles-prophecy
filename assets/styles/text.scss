@@ -1,0 +1,45 @@
+@import "./variables";
+
+.text-secret{
+	color: $black;
+}
+
+a.text-secret{
+	color: $black!important;
+	&:link{
+		color: $black!important;
+		text-decoration-color: $black;
+	}
+	&:visited{
+		color: $black!important;
+		text-decoration-color: $black;
+	}
+	&:hover{
+		color: $black!important;
+		text-decoration-color: $black;
+	}
+	&:active{
+		color: $black!important;
+		text-decoration-color: $black;
+	}
+}
+
+a {
+	color: $bright-orange;
+	&:link{
+			color: $bright-orange;
+			text-decoration-color: transparent;
+		}
+		&:visited{
+			color: $bright-orange;
+			text-decoration-color: transparent;
+		}
+		&:hover{
+			color: $orange;
+			text-decoration-color: transparent;
+		}
+		&:active{
+			color: $orange;
+			text-decoration-color: transparent;
+		}
+}
