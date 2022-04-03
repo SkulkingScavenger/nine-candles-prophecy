@@ -197,7 +197,7 @@
 			"imagePath": "thumbnails/hochmeister-dietrich-thumbnail.png",
 			"url": "hochmeister-dietrich"
 		},{
-			"title":"Klaus von Nachtstein, Count Westcavern",
+			"title":"Klaus von Nachtstein",
 			"contentPath": "characters/klaus-von-nachtstein",
 			"category": "characters",
 			"tags" : ["human","knight"],
@@ -210,19 +210,19 @@
 			"imagePath": "thumbnails/sadamon-thumbnail.png",
 			"url": "sadamon"
 		},{
+			"title":"Seket, the Last Guardian",
+			"contentPath": "characters/seket",
+			"category": "characters",
+			"tags" : ["seshek","knight"],
+			"imagePath": "thumbnails/seket-thumbnail.png",
+			"url": "seket"
+		},{
 			"title" : "The Sorrow Worms",
 			"category": "monsters",
 			"tags" : ["primordial"],
 			"imagePath": "thumbnails/sorrow-worm-thumbnail.png",
 			"contentPath" : "monsters/sorrow-worms",
 			"url": "sorrow-worms"
-		},{
-			"title" : "The Phoenix Moths",
-			"category": "monsters",
-			"tags" : ["primordial"],
-			"imagePath": "thumbnails/phoenix-moth-thumbnail.png",
-			"contentPath" : "monsters/phoenix-moths",
-			"url": "phoenix-moths"
 		},{
 			"title" : "The Shades",
 			"category": "monsters",
@@ -248,49 +248,49 @@
 			"title" : "Blind Crawlers",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/blind-crawler-thumbnail.png",
 			"contentPath" : "monsters/blind-crawlers",
 			"url": "blind-crawlers"
 		},{
 			"title" : "Finger Spiders",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/finger-spider-thumbnail.png",
 			"contentPath" : "monsters/finger-spiders",
 			"url": "finger-spiders"
 		},{
 			"title" : "Bleakworms",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/bleakworm-thumbnail.png",
 			"contentPath" : "monsters/bleakworms",
 			"url": "bleakworms"
 		},{
 			"title" : "Caveleapers",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/caveleaper-thumbnail.png",
 			"contentPath" : "monsters/caveleapers",
 			"url": "caveleapers"
 		},{
 			"title" : "Palewalkers",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/palewalker-thumbnail.png",
 			"contentPath" : "monsters/palewalkers",
 			"url": "palewalkers"
 		},{
 			"title" : "Murkweavers",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/murkweaver-thumbnail.png",
 			"contentPath" : "monsters/murkweavers",
 			"url": "murkweavers"
 		},{
 			"title" : "Tittermice",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/tittermice-thumbnail.png",
 			"contentPath" : "monsters/tittermice",
 			"url": "tittermice"
 		},{
@@ -304,7 +304,7 @@
 			"title" : "Veilbats",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/veilbat-thumbnail.png",
 			"contentPath" : "monsters/veilbats",
 			"url": "veilbats"
 		},{
@@ -318,7 +318,7 @@
 			"title" : "Howlers",
 			"category": "monsters",
 			"tags" : ["animal"],
-			"imagePath": "thumbnails/candle-thumbnail.png",
+			"imagePath": "thumbnails/howler-thumbnail.png",
 			"contentPath" : "monsters/howlers",
 			"url": "howlers"
 		},{
@@ -412,6 +412,20 @@
 			"imagePath": "thumbnails/kreekawoors-thumbnail.png",
 			"contentPath" : "monsters/kreekawoors",
 			"url": "kreekawoors"
+		},{
+			"title" : "Gibbering Jakilaunts",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/gibbering-jakilaunts-thumbnail.png",
+			"contentPath" : "monsters/gibbering-jakilaunts",
+			"url": "gibbering-jakilaunts"
+		},{
+			"title" : "The Brambleghast",
+			"category": "monsters",
+			"tags" : ["monster"],
+			"imagePath": "thumbnails/roots-of-evil-thumbnail.png",
+			"contentPath" : "monsters/the-brambleghast",
+			"url": "the-brambleghast"
 		},{
 			"title" : "Reaching Rikkitikky",
 			"category": "monsters",
@@ -507,28 +521,28 @@
 			"title":"Grimnas, Lord of the Dark Castle",
 			"contentPath": "wardens/grimnas",
 			"category": "wardens",
-			"tags" : ["warden","korhazar","archwarden"],
+			"tags" : ["warden", "character","korhazar","archwarden"],
 			"imagePath": "thumbnails/grimnas-thumbnail.png",
 			"url": "grimnas"
 		},{
 			"title":"Sarogoth, the Rider in the Wind",
 			"contentPath": "wardens/sarogoth",
 			"category": "wardens",
-			"tags" : ["warden","raishabar","archwarden"],
+			"tags" : ["warden", "character","raishabar","archwarden"],
 			"imagePath": "thumbnails/sarogoth-thumbnail.png",
 			"url": "sarogoth"
 		},{
 			"title":"Shiragazira, the Black Devourer",
 			"contentPath": "wardens/shiragazira",
 			"category": "wardens",
-			"tags" : ["warden","tharas","archwarden"],
+			"tags" : ["warden", "character","tharas","archwarden"],
 			"imagePath": "thumbnails/shiragazira-thumbnail.png",
 			"url": "shiragazira"
 		},{
 			"title":"Megakirrik, Witness of Dissolutions",
 			"contentPath": "wardens/megakirrik",
 			"category": "wardens",
-			"tags" : ["warden","sinra","archwarden"],
+			"tags" : ["warden", "character","sinra","greater warden"],
 			"imagePath": "thumbnails/megakirrik-thumbnail.png",
 			"url": "megakirrik"
 		},{
@@ -668,7 +682,7 @@
 			"title" : "Underground Rivers and Lakes",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"imagePath": "thumbnails/underground-river-thumbnail.png",
 			"contentPath" : "biomes/underground-water",
 			"url": "underground-water"
 		},{
@@ -684,12 +698,12 @@
 			"tags" : ["biome","common biome"],
 			"imagePath": "thumbnails/stalactites-thumbnail.png",
 			"contentPath" : "biomes/stalactite-forest",
-			"url": "stalactitie-forest"
+			"url": "stalactite-forest"
 		},{
 			"title" : "Chasms",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"imagePath": "thumbnails/chasms-thumbnail.png",
 			"contentPath" : "biomes/chasms",
 			"url": "chasms"
 		},{
@@ -700,17 +714,24 @@
 			"contentPath" : "biomes/glowing-mushroom-cavern",
 			"url": "glowing-mushroom-cavern"
 		},{
+			"title" : "Maze of Stairs",
+			"category": "biomes",
+			"tags" : ["biome", "common biome"],
+			"imagePath": "thumbnails/maze-of-stairs-thumbnail.png",
+			"contentPath" : "biomes/maze-of-stairs",
+			"url": "maze-of-stairs"
+		},{
 			"title" : "Monster Graveyard",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"imagePath": "thumbnails/monster-graveyard-thumbnail.png",
 			"contentPath" : "biomes/monster-graveyard",
 			"url": "monster-graveyard"
 		},{
 			"title" : "Candle Cave",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"imagePath": "thumbnails/candle-cave-thumbnail.png",
 			"contentPath" : "biomes/candle-cave",
 			"url": "candle-cave"
 		},{
@@ -724,14 +745,14 @@
 			"title" : "Candlerest",
 			"category": "biomes",
 			"tags" : ["biome","rare biome"],
-			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"imagePath": "thumbnails/candlerest-thumbnail.png",
 			"contentPath" : "biomes/candlerest",
 			"url": "candlerest"
 		},{
 			"title" : "Silvermist Cavern",
 			"category": "biomes",
 			"tags" : ["biome","rare biome"],
-			"imagePath": "thumbnails/lower-oubliette-thumbnail.png",
+			"imagePath": "thumbnails/silvermist-cavern-thumbnail.png",
 			"contentPath" : "biomes/silvermist-cavern",
 			"url": "silvermist-cavern"
 		},{
@@ -777,123 +798,177 @@
 			"tags" : ["sherab", "dominion"],
 			"imagePath": "thumbnails/sherab-thumbnail.png",
 			"contentPath" : "locations/sherab",
-			"url": "sherab"
+			"url": "sherab",
+			"subcategories": [{
+				"title": "Locations in Sherab",
+				"category": "locations",
+				"requiredTags": ["sherab"],
+				"excludeTags": ["dominion"]
+			}]
 		},{
 			"title" : "Korhazar, Dominion of Dust",
 			"category": "locations",
 			"tags" : ["korhazar", "dominion"],
 			"imagePath": "thumbnails/korhazar-thumbnail.png",
 			"contentPath" : "locations/korhazar",
-			"url": "korhazar"
+			"url": "korhazar",
+			"subcategories": [{
+				"title": "Locations in Korhazar",
+				"category": "locations",
+				"requiredTags": ["korhazar"],
+				"excludeTags": ["dominion"]
+			}]
 		},{
 			"title" : "Raishabar, Dominion of Ash",
 			"category": "locations",
 			"tags" : ["raishabar", "dominion"],
 			"imagePath": "thumbnails/raishabar-thumbnail.png",
 			"contentPath" : "locations/raishabar",
-			"url": "raishabar"
+			"url": "raishabar",
+			"subcategories": [{
+				"title": "Locations in Raishabar",
+				"category": "locations",
+				"requiredTags": ["raishabar"],
+				"excludeTags": ["dominion"]
+			}]
 		},{
 			"title" : "Maelech, Dominion of Chains",
 			"category": "locations",
 			"tags" : ["maelech", "dominion"],
 			"imagePath": "thumbnails/maelech-thumbnail.png",
 			"contentPath" : "locations/maelech",
-			"url": "maelech"
+			"url": "maelech",
+			"subcategories": [{
+				"title": "Locations in Maelech",
+				"category": "locations",
+				"requiredTags": ["maelech"],
+				"excludeTags": ["dominion"]
+			}]
 		},{
 			"title" : "Zaramon, Dominion of Thorns",
 			"category": "locations",
 			"tags" : ["zaramon", "dominion"],
 			"imagePath": "thumbnails/zaramon-thumbnail.png",
 			"contentPath" : "locations/zaramon",
-			"url": "zaramon"
+			"url": "zaramon",
+			"subcategories": [{
+				"title": "Locations in Zaramon",
+				"category": "locations",
+				"requiredTags": ["zaramon"],
+				"excludeTags": ["dominion"]
+			}]
 		},{
 			"title" : "Tharas, Dominion of Dregs",
 			"category": "locations",
 			"tags" : ["tharas", "dominion"],
 			"imagePath": "thumbnails/tharas-thumbnail.png",
 			"contentPath" : "locations/tharas",
-			"url": "tharas"
+			"url": "tharas",
+			"subcategories": [{
+				"title": "Locations in Tharas",
+				"category": "locations",
+				"requiredTags": ["tharas"],
+				"excludeTags": ["dominion"]
+			}]
 		},{
 			"title" : "Sinra, Dominion of Glass",
 			"category": "locations",
 			"tags" : ["sinra", "dominion"],
 			"imagePath": "thumbnails/sinra-thumbnail.png",
 			"contentPath" : "locations/sinra",
-			"url": "sinra"
+			"url": "sinra",
+			"subcategories": [{
+				"title": "Locations in Sinra",
+				"category": "locations",
+				"requiredTags": ["sinra"],
+				"excludeTags": ["dominion"]
+			}]
 		},{
 			"title" : "Hekkath, Dominion of Tombs",
 			"category": "locations",
 			"tags" : ["hekkath", "dominion"],
 			"imagePath": "thumbnails/hekkath-thumbnail.png",
 			"contentPath" : "locations/hekkath",
-			"url": "hekkath"
+			"url": "hekkath",
+			"subcategories": [{
+				"title": "Locations in Hekkath",
+				"category": "locations",
+				"requiredTags": ["hekkath"],
+				"excludeTags": ["dominion"]
+			}]
 		},{
 			"title" : "Ahoth, Dominion of Sacrifice",
 			"category": "locations",
 			"tags" : ["ahoth", "dominion"],
 			"imagePath": "thumbnails/ahoth-thumbnail.png",
 			"contentPath" : "locations/ahoth",
-			"url": "ahoth"
+			"url": "ahoth",
+			"subcategories": [{
+				"title": "Locations in Ahoth",
+				"category": "locations",
+				"requiredTags": ["ahoth"],
+				"excludeTags": ["dominion"]
+			}]
 		},{
 			"title" : "Lanternvale",
 			"category": "locations",
-			"tags" : ["village"],
+			"tags" : ["village", "upper-oubliette"],
 			"imagePath": "thumbnails/lanternvale-thumbnail.png",
 			"contentPath" : "locations/lanternvale",
 			"url": "lanternvale"
 		},{
 			"title" : "Frieberg",
 			"category": "locations",
-			"tags" : ["village"],
+			"tags" : ["village", "upper-oubliette"],
 			"imagePath": "thumbnails/frieberg-thumbnail.png",
 			"contentPath" : "locations/frieberg",
 			"url": "frieberg"
 		},{
 			"title" : "Ravensburg",
 			"category": "locations",
-			"tags" : ["village"],
+			"tags" : ["village", "zaramon", "middle-oubliette"],
 			"imagePath": "thumbnails/ravensburg-thumbnail.png",
 			"contentPath" : "locations/ravensburg",
 			"url": "ravensburg"
 		},{
 			"title" : "Bleaklight",
 			"category": "locations",
-			"tags" : ["village"],
+			"tags" : ["village", "upper-oubliette", "korhazar"],
 			"imagePath": "thumbnails/bleaklight-thumbnail.png",
 			"contentPath" : "locations/bleaklight",
 			"url": "bleaklight"
 		},{
 			"title" : "Grayhaven",
 			"category": "locations",
-			"tags" : ["village"],
+			"tags" : ["village", "upper-oubliette", "sherab"],
 			"imagePath": "thumbnails/grayhaven-thumbnail.png",
 			"contentPath" : "locations/grayhaven",
 			"url": "grayhaven"
 		},{
 			"title" : "Hearthfire",
 			"category": "locations",
-			"tags" : ["village"],
+			"tags" : ["village", "middle-oubliette"],
 			"imagePath": "thumbnails/hearthfire-thumbnail.png",
 			"contentPath" : "locations/hearthfire",
 			"url": "hearthfire"
 		},{
 			"title" : "New Tharas",
 			"category": "locations",
-			"tags" : ["village"],
+			"tags" : ["village", "middle-oubliette", "tharas"],
 			"imagePath": "thumbnails/new-tharas-thumbnail.png",
 			"contentPath" : "locations/new-tharas",
 			"url": "new-tharas"
 		},{
 			"title" : "Citadel of Candles",
 			"category": "locations",
-			"tags" : ["village"],
+			"tags" : ["village", "upper-oubliette"],
 			"imagePath": "thumbnails/citadel-of-candles-thumbnail.png",
 			"contentPath" : "locations/citadel-of-candles",
 			"url": "citadel-of-candles"
 		},{
 			"title" : "Rosewall",
 			"category": "locations",
-			"tags" : ["village"],
+			"tags" : ["village", "upper-oubliette", "raishabar"],
 			"imagePath": "thumbnails/rosewall-thumbnail.png",
 			"contentPath" : "locations/rosewall",
 			"url": "rosewall"
@@ -912,33 +987,61 @@
 			"contentPath" : "locations/shatterstone-cavern",
 			"url": "shatterstone-cavern"
 		},{
+			"title" : "Irongate Castle",
+			"category": "locations",
+			"tags" : ["upper-oubliette", "sherab"],
+			"imagePath": "thumbnails/irongate-castle-thumbnail.png",
+			"contentPath" : "locations/irongate-castle",
+			"url": "irongate-castle"
+		},{
+			"title" : "Stonetower Cavern",
+			"category": "locations",
+			"tags" : ["upper-oubliette", "sherab"],
+			"imagePath": "thumbnails/bloodlake-castle-thumbnail.png",
+			"contentPath" : "locations/stonetower-cavern",
+			"url": "stonetower-cavern"
+		},{
+			"title" : "Malivol Castle",
+			"category": "locations",
+			"tags" : ["upper-oubliette", "korhazar"],
+			"imagePath": "thumbnails/malivol-castle-thumbnail.png",
+			"contentPath" : "locations/malivol-castle",
+			"url": "malivol-castle"
+		},{
+			"title" : "The Jumble",
+			"category": "locations",
+			"tags" : ["upper-oubliette", "korhazar"],
+			"imagePath": "thumbnails/the-jumble-thumbnail.png",
+			"contentPath" : "locations/the-jumble",
+			"url": "the-jumble"
+		},{
+			"title" : "Cathedral of the Seven Kings",
+			"category": "locations",
+			"tags" : ["upper-oubliette", "korhazar"],
+			"imagePath": "thumbnails/cathedral-of-the-seven-kings-thumbnail.png",
+			"contentPath" : "locations/cathedral-of-the-seven-kings",
+			"url": "cathedral-of-the-seven-kings"
+		},{
+			"title" : "The Ragshack",
+			"category": "locations",
+			"tags" : ["upper-oubliette", "korhazar"],
+			"imagePath": "thumbnails/the-ragshack-thumbnail.png",
+			"contentPath" : "locations/the-ragshack",
+			"url": "the-ragshack"
+		},{
+			"title" : "The Old City",
+			"category": "locations",
+			"tags" : ["upper-oubliette", "raishabar"],
+			"imagePath": "thumbnails/the-old-city-thumbnail.png",
+			"contentPath" : "locations/the-old-city",
+			"url": "the-old-city"
+		},{
 			"title" : "Hangmans' Hill",
 			"category": "locations",
 			"tags" : ["upper-oubliette"],
 			"imagePath": "thumbnails/hangmans-hill-thumbnail.png",
 			"contentPath" : "locations/hangmans-hill",
 			"url": "hangmans-hill"
-		},{
-			"title" : "The Jumble",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/the-jumble-thumbnail.png",
-			"contentPath" : "locations/the-jumble",
-			"url": "the-jumble"
-		},{
-			"title" : "The Old City",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/the-old-city-thumbnail.png",
-			"contentPath" : "locations/the-old-city",
-			"url": "the-old-city"
-		},{
-			"title" : "The Ragshack",
-			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/the-ragshack-thumbnail.png",
-			"contentPath" : "locations/the-ragshack",
-			"url": "the-ragshack"
 		},{
 			"title" : "Gulf of Spires",
 			"category": "locations",
@@ -949,8 +1052,8 @@
 		},{
 			"title" : "Bloodlake Castle",
 			"category": "locations",
-			"tags" : ["upper-oubliette"],
-			"imagePath": "thumbnails/bloodlake-castle-thumbnail.png",
+			"tags" : ["upper-oubliette", "raishabar"],
+			"imagePath": "thumbnails/stonetower-cavern-thumbnail.png",
 			"contentPath" : "locations/bloodlake-castle",
 			"url": "bloodlake-castle"
 		},{
@@ -982,12 +1085,96 @@
 			"contentPath" : "locations/labyrinth-of-roots",
 			"url": "labyrinth-of-roots"
 		},{
+			"title" : "Dungeons of Desolation",
+			"category": "locations",
+			"tags" : ["middle-oubliette", "maelech"],
+			"imagePath": "thumbnails/dungeons-of-desolation-thumbnail.png",
+			"contentPath" : "locations/dungeons-of-desolation",
+			"url": "dungeons-of-desolation"
+		},{
+			"title" : "The Tree at the World's Edge",
+			"category": "locations",
+			"tags" : ["middle-oubliette"],
+			"imagePath": "thumbnails/tree-of-sorrows-thumbnail.png",
+			"contentPath" : "locations/tree-of-sorrows",
+			"url": "tree-of-sorrows"
+		},{
+			"title" : "Spiregard",
+			"category": "locations",
+			"tags" : ["middle-oubliette", "tharas"],
+			"imagePath": "thumbnails/spiregard-thumbnail.png",
+			"contentPath" : "locations/spiregard",
+			"url": "spiregard"
+		},{
+			"title" : "The Southern Gateway",
+			"category": "locations",
+			"tags" : ["middle-oubliette", "tharas"],
+			"imagePath": "thumbnails/the-southern-gateway-thumbnail.png",
+			"contentPath" : "locations/the-southern-gate",
+			"url": "the-southern-gateway"
+		},{
+			"title" : "Deathpits of Tharas",
+			"category": "locations",
+			"tags" : ["middle-oubliette", "tharas"],
+			"imagePath": "thumbnails/tharas-deathpits-thumbnail.png",
+			"contentPath" : "locations/tharas-deathpits",
+			"url": "tharas-deathpits"
+		},{
+			"title" : "The Sunken Tower",
+			"category": "locations",
+			"tags" : ["middle-oubliette", "tharas"],
+			"imagePath": "thumbnails/the-sunken-tower-thumbnail.png",
+			"contentPath" : "locations/the-sunken-tower",
+			"url": "the-sunken-tower"
+		},{
+			"title" : "The Broken Circle",
+			"category": "locations",
+			"tags" : ["middle-oubliette"],
+			"imagePath": "thumbnails/the-broken-circle-thumbnail.png",
+			"contentPath" : "locations/the-broken-circle",
+			"url": "the-broken-circle"
+		},{
+			"title" : "Moraj Castle",
+			"category": "locations",
+			"tags" : ["middle-oubliette"],
+			"imagePath": "thumbnails/moraj-castle-thumbnail.png",
+			"contentPath" : "locations/moraj-castle",
+			"url": "moraj-castle"
+		},{
+			"title" : "Brackenmere Estate",
+			"category": "locations",
+			"tags" : ["middle-oubliette"],
+			"imagePath": "thumbnails/brackenmere-estate-thumbnail.png",
+			"contentPath" : "locations/brackenmere-estate",
+			"url": "brackenmere-estate"
+		},{
+			"title" : "The Shattered Stairs",
+			"category": "locations",
+			"tags" : ["lower-oubliette", "sinra"],
+			"imagePath": "thumbnails/the-shattered-stairs-thumbnail.png",
+			"contentPath" : "locations/the-shattered-stairs",
+			"url": "the-shattered-stairs"
+		},{
+			"title" : "Katharim, Tomb Palace",
+			"category": "locations",
+			"tags" : ["lower-oubliette", "hekkath"],
+			"imagePath": "thumbnails/katharim-thumbnail.png",
+			"contentPath" : "locations/katharim",
+			"url": "katharim"
+		},{
 			"title" : "Lake of the Krakanak",
 			"category": "locations",
 			"tags" : ["lower-oubliette"],
 			"imagePath": "thumbnails/lake-of-the-krakanak-thumbnail.png",
 			"contentPath" : "locations/lake-of-the-krakanak",
 			"url": "lake-of-the-krakanak"
+		},{
+			"title" : "Twelve Thrones",
+			"category": "locations",
+			"tags" : ["lower-oubliette", "ahoth"],
+			"imagePath": "thumbnails/twelve-thrones-thumbnail.png",
+			"contentPath" : "locations/twelve-thrones",
+			"url": "twelve-thrones"
 		},{
 			"title" : "Fungus",
 			"category": "resources",

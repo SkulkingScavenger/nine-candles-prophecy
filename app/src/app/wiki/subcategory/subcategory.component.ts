@@ -27,7 +27,7 @@ export class SubcategoryComponent {
 		for(var i=0;i<this.allPages.length;i++){
 			hasAllRequiredTags = this.HasAllRequiredTags(this.allPages[i], subcategory.requiredTags);
 			hasNoExcludedTags = this.HasNoExcludedTags(this.allPages[i], subcategory.excludeTags);
-			hasRequiredCategory = this.HasRequiredCategory(this.allPages[i], subcategory.requiredTags);
+			hasRequiredCategory = this.HasRequiredCategory(this.allPages[i], subcategory.category);
 			if(hasAllRequiredTags && hasNoExcludedTags && hasRequiredCategory){
 				matches.push(this.allPages[i]);
 			}
