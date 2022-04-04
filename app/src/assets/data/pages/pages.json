@@ -675,7 +675,7 @@
 			"title" : "Darkroot Grove",
 			"category": "biomes",
 			"tags" : ["biome","common biome"],
-			"imagePath": "thumbnails/zaramon-thumbnail.png",
+			"imagePath": "thumbnails/darkroot-grove-thumbnail.png",
 			"contentPath" : "biomes/darkroot-grove",
 			"url": "darkroot-grove"
 		},{
@@ -835,7 +835,7 @@
 			"title" : "Maelech, Dominion of Chains",
 			"category": "locations",
 			"tags" : ["maelech", "dominion"],
-			"imagePath": "thumbnails/maelech-thumbnail.png",
+			"imagePath": "thumbnails/dungeons-of-desolation-thumbnail.png",
 			"contentPath" : "locations/maelech",
 			"url": "maelech",
 			"subcategories": [{
@@ -1004,7 +1004,7 @@
 			"title" : "Malivol Castle",
 			"category": "locations",
 			"tags" : ["upper-oubliette", "korhazar"],
-			"imagePath": "thumbnails/malivol-castle-thumbnail.png",
+			"imagePath": "thumbnails/maelech-thumbnail.png",
 			"contentPath" : "locations/malivol-castle",
 			"url": "malivol-castle"
 		},{

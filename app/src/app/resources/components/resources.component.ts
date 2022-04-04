@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Subscription, EMPTY, forkJoin } from 'rxjs';
 import { switchMap, map, catchError } from 'rxjs/operators';
-
+import { environment } from '../../../environments/environment';
 
 @Component({
 	selector: 'app-root',
@@ -34,9 +34,16 @@ export class ResourcesComponent {
 			}
 			forkJoin(pageRequests).subscribe(results => {
 				for(var i=0; i<results.length;i++){
+					results[i] = this.InjectHyperlinkPrefixes(results[i]);
 					this.pages[i].content = results[i];
 				}
 			});
 		});
+	}
+
+	InjectHyperlinkPrefixes(str){
+		var prefix;
+		prefix = environment.base_url;
+		return str.replace(/HYPERLINK_PREFIX/g,prefix);
 	}
 }
