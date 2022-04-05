@@ -8,6 +8,7 @@
 			"navigation-footers": [
 				{
 					"mainCategory": "mechanics",
+					"url": "mechanics",
 					"title": "Concepts",
 					"categories": [
 						{
@@ -25,6 +26,7 @@
 			"navigation-footers": [
 				{
 					"mainCategory": "locations",
+					"url": "locations",
 					"title": "Oubliette Geography",
 					"categories": [
 						{
@@ -53,6 +55,7 @@
 			"navigation-footers": [
 				{
 					"mainCategory": "locations",
+					"url": "locations",
 					"title": "Oubliette Geography",
 					"categories": [
 						{
@@ -74,6 +77,32 @@
 				}
 			]
 		},{
+			"id": "biomes2",
+			"navtab": "wiki",
+			"title": "Biomes",
+			"selector" : "tag",
+			"appliesTo": [
+				{
+					"category": "biomes",
+					"tag": "biome"
+				}
+			],
+			"navigation-footers": [
+				{
+					"title": "Oubliette Biomes",
+					"url": "biomes",
+					"categories": [
+						{
+							"title": "Common Biomes",
+							"requiredTags": ["biome", "common biome"]
+						},{
+							"title": "Rare Biomes",
+							"requiredTags": ["biome", "rare biome"]
+						}
+					]
+				}
+			]
+		},{
 			"id": "characters",
 			"navtab": "characters",
 			"title": "characters",
@@ -81,6 +110,7 @@
 			"navigation-footers": [
 				{
 					"mainCategory": "characters",
+					"url": "characters",
 					"title": "Characters",
 					"categories": [
 						{
@@ -93,12 +123,16 @@
 							"requiredTags": ["gremlin"]
 						},{
 							"title": "Warden Characters",
-							"category": "characters",
-							"requiredTags": ["warden"]
+							"category": "wardens",
+							"requiredTags": ["character"]
 						},{
 							"title": "Seshek Characters",
 							"category": "characters",
 							"requiredTags": ["seshek"]
+						},{
+							"title": "Monster Characters",
+							"category": "monsters",
+							"requiredTags": ["character"]
 						},{
 							"title": "Other Characters",
 							"category": "characters",
@@ -108,23 +142,20 @@
 				}
 			]
 		},{
-			"id": "races",
-			"navtab": "races",
-			"title": "Races",
+			"id": "factions",
+			"navtab": "factions",
+			"title": "Factions",
 			"selector" : "category",
 			"navigation-footers": [
 				{
-					"mainCategory": "races",
-					"title": "Races of the Oubliette",
+					"mainCategory": "factions",
+					"url": "factions",
+					"title": "Factions of the Oubliette",
 					"categories": [
 						{
-							"title": "Major Races",
-							"category": "races",
-							"requiredTags": ["major race"]
-						},{
-							"title": "Minor Races",
-							"category": "races",
-							"requiredTags": ["minor race"]
+							"title": "Major Factions",
+							"category": "factions",
+							"requiredTags": []
 						}
 					]
 				}
@@ -137,6 +168,7 @@
 			"navigation-footers": [
 				{
 					"mainCategory": "monsters",
+					"url": "monsters",
 					"title": "Creatures of the Oubliette",
 					"categories": [
 						{
@@ -144,9 +176,44 @@
 							"category": "monsters",
 							"requiredTags": ["monster"]
 						},{
+							"title": "Undead",
+							"category": "monsters",
+							"requiredTags": ["undead"]
+						},{
 							"title": "Animals",
 							"category": "monsters",
 							"requiredTags": ["animal"]
+						},{
+							"title": "Legendary Creatures",
+							"category": "monsters",
+							"requiredTags": ["primordial"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "wardens",
+			"navtab": "wardens",
+			"title": "Wardens",
+			"selector" : "category",
+			"navigation-footers": [
+				{
+					"mainCategory": "wardens",
+					"url": "wardens",
+					"title": "Wardens",
+					"categories": [
+						{
+							"title": "Archwardens",
+							"category": "wardens",
+							"requiredTags": ["archwarden"]
+						},{
+							"title": "Greater Wardens",
+							"category": "wardens",
+							"requiredTags": ["greater warden"]
+						},{
+							"title": "Lesser Wardens",
+							"category": "wardens",
+							"requiredTags": ["lesser warden"]
 						}
 					]
 				}
@@ -159,6 +226,7 @@
 			"navigation-footers": [
 				{
 					"mainCategory": "resources",
+					"url": "resources",
 					"title": "Resources of the Oubliette",
 					"categories": [
 						{
@@ -176,6 +244,7 @@
 			"navigation-footers": [
 				{
 					"mainCategory": "artifacts",
+					"url": "artifacts",
 					"title": "Artifacts of the Oubliette",
 					"categories": [
 						{
@@ -263,6 +332,90 @@
 							"title": "Undead Characters",
 							"category": "characters",
 							"requiredTags": ["undead"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "location",
+			"navtab": "wiki",
+			"title": "Oubliette Locations",
+			"selector": "tag",
+			"appliesTo": [
+				{
+					"category": "locations",
+					"excludeTags": ["dominion", "biome"]
+				}
+			],
+			"navigation-footers": [
+				{
+					"title": "Oubliette Locations",
+					"url": "locations/home",
+					"urlFragment": "locations",
+					"categories": [
+						{
+							"title": "Upper Oubliette",
+							"url": "locations/upper-oubliette",
+							"category": "locations",
+							"requiredTags": ["upper-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Middle Oubliette",
+							"url": "locations/middle-oubliette",
+							"category": "locations",
+							"requiredTags": ["middle-oubliette"],
+							"excludeTags": ["dominion"]
+						},{
+							"title": "Lower Oubliette",
+							"url": "locations/lower-oubliette",
+							"category": "locations",
+							"requiredTags": ["lower-oubliette"],
+							"excludeTags": ["dominion"]
+						}
+					]
+				}
+			]
+		},{
+			"id": "warden-characters",
+			"navtab": "characters",
+			"title": "characters",
+			"selector" : "category",
+			"appliesTo": [
+				{
+					"category": "wardens",
+					"requiredTags": ["character"]
+				}
+			],
+			"navigation-footers": [
+				{
+					"mainCategory": "characters",
+					"url": "characters",
+					"title": "Characters",
+					"categories": [
+						{
+							"title": "Human Characters",
+							"category": "characters",
+							"requiredTags": ["human"]
+						},{
+							"title": "Gremlin Characters",
+							"category": "characters",
+							"requiredTags": ["gremlin"]
+						},{
+							"title": "Warden Characters",
+							"category": "wardens",
+							"requiredTags": ["character"]
+						},{
+							"title": "Seshek Characters",
+							"category": "characters",
+							"requiredTags": ["seshek"]
+						},{
+							"title": "Monster Characters",
+							"category": "monsters",
+							"requiredTags": ["character"]
+						},{
+							"title": "Other Characters",
+							"category": "characters",
+							"excludeTags": ["human", "gremlin", "warden", "seshek"]
 						}
 					]
 				}
